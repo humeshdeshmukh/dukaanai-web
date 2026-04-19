@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Manrope:wght@400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --page-bg: #f6f4ec;
+  --page-ink: #10281b;
+  --page-panel: rgba(255, 250, 236, 0.78);
+  --page-border: rgba(16, 40, 27, 0.1);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    linear-gradient(180deg, rgba(255, 246, 219, 0.82), rgba(246, 244, 236, 1) 28%, rgba(230, 241, 233, 0.95) 100%),
+    var(--page-bg);
+  color: var(--page-ink);
+  font-family: "Manrope", system-ui, sans-serif;
+}
+
+.section-shell {
+  @apply mx-auto w-full max-w-[1440px] px-5 sm:px-8 lg:px-12;
+}
+
+.panel {
+  @apply rounded-[28px] border border-white/40 bg-white/70 backdrop-blur;
+  box-shadow: 0 24px 80px rgba(13, 41, 26, 0.08);
+}
+
+.eyebrow {
+  @apply inline-flex items-center gap-2 rounded-full border border-gold-300/70 bg-gold-100/80 px-4 py-2 text-xs font-semibold uppercase tracking-[0.18em] text-forest-800;
+}
+
+.feature-image {
+  @apply h-full w-full object-cover object-top transition duration-500 ease-out group-hover:scale-[1.02];
+}
+
+.grid-overlay {
+  background-image:
+    linear-gradient(rgba(16, 40, 27, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(16, 40, 27, 0.06) 1px, transparent 1px);
+  background-size: 44px 44px;
+}

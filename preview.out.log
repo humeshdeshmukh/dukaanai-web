@@ -1,0 +1,10 @@
+
+> dukaan-ai-site@1.0.0 preview
+> astro preview --host 0.0.0.0 --port 4321
+
+
+[42m[1m astro [22m[49m [32mv5.18.1[39m [2mready in[22m 41 [2mms[22m
+
+[2m┃[22m Local    [36mhttp://localhost:4321/[39m
+[2m┃[22m Network  [36mhttp://192.168.101.74:4321/[39m
+

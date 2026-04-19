@@ -1,0 +1,64 @@
+---
+import { site } from "../data/site";
+import "../styles/global.css";
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {
+  title = site.title,
+  description = site.description
+} = Astro.props;
+const canonical = new URL(Astro.url.pathname, site.url).toString();
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="theme-color" content="#195534" />
+    <link rel="canonical" href={canonical} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={`${site.url}/images/hero-premium.jpeg`} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={`${site.url}/images/hero-premium.jpeg`} />
+    <script is:inline type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      name: site.name,
+      applicationCategory: "BusinessApplication",
+      operatingSystem: "Android",
+      description: site.description,
+      applicationId: site.playStoreId,
+      offers: {
+        "@type": "Offer",
+        price: "0",
+        priceCurrency: "INR"
+      },
+      url: site.url,
+      downloadUrl: site.playStoreUrl,
+      publisher: {
+        "@type": "Organization",
+        name: site.name,
+        email: site.businessEmail,
+        url: site.url
+      }
+    })} />
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
