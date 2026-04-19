@@ -7,20 +7,24 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
-    "preview": "astro preview",
-    "check": "astro check"
+    "preview": "npm run build && wrangler dev",
+    "check": "astro check",
+    "deploy": "npm run build && wrangler deploy",
+    "cf-typegen": "wrangler types"
   },
   "dependencies": {
-    "astro": "^5.7.2",
+    "@astrojs/cloudflare": "12",
     "@astrojs/sitemap": "^3.2.1",
     "@astrojs/tailwind": "^6.0.2",
     "@lucide/astro": "^0.542.0",
+    "astro": "^5.7.2",
     "tailwindcss": "^3.4.17"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.4",
     "autoprefixer": "^10.4.20",
     "postcss": "^8.5.3",
-    "typescript": "^5.8.3"
+    "typescript": "^5.8.3",
+    "wrangler": "^4.83.0"
   }
 }
