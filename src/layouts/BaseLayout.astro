@@ -1,6 +1,8 @@
 ---
 import { site } from "../data/site";
 import "../styles/global.css";
+import { getImage } from "astro:assets";
+import heroPremium from "../assets/images/hero-premium.jpeg";
 
 interface Props {
   title?: string;
@@ -13,6 +15,15 @@ const {
   description = site.description,
   noindex = false
 } = Astro.props;
+
+// Preload the optimized hero image
+const optimizedHero = await getImage({
+  src: heroPremium,
+  format: "webp",
+  width: 428,
+  height: 770
+});
+
 const canonical = new URL(Astro.url.pathname, site.url).toString();
 const robotsContent = noindex
   ? "noindex, nofollow"
@@ -88,6 +99,19 @@ const pageSchemas = [
     <link rel="manifest" href="/site.webmanifest" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      />
+    </noscript>
+    <link rel="preload" as="image" href={optimizedHero.src} />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content={site.name} />
     <meta property="og:locale" content={site.locale} />
