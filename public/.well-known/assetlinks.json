@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.dukaan.ai",
+      "sha256_cert_fingerprints": [
+        "A5:B8:16:D7:AF:9A:E8:37:D5:9B:07:38:CE:81:35:52:AE:4E:6C:9C:28:33:79:E4:14:F9:6E:E1:7F:AD:14:FE"
+      ]
+    }
+  }
+]
