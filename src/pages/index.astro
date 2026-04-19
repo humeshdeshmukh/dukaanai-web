@@ -6,6 +6,7 @@ import FeatureGrid from "../components/FeatureGrid.astro";
 import TechStackSection from "../components/TechStackSection.astro";
 import PerformanceSection from "../components/PerformanceSection.astro";
 import DeploySection from "../components/DeploySection.astro";
+import FaqSection from "../components/FaqSection.astro";
 import { features, highlights, site } from "../data/site";
 ---
 
@@ -16,6 +17,7 @@ import { features, highlights, site } from "../data/site";
     <FeatureGrid items={features} />
     <TechStackSection items={highlights} />
     <PerformanceSection />
+    <FaqSection />
     <DeploySection />
 
     <section class="section-shell pb-16 pt-4 sm:pb-24">
