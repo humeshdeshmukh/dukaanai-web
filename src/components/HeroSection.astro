@@ -1,0 +1,114 @@
+---
+import {
+  ArrowUpRight,
+  Languages,
+  Mic,
+  ShieldCheck,
+  Smartphone,
+  Sparkles
+} from "@lucide/astro";
+import { site } from "../data/site";
+---
+
+<section id="top" class="section-shell pb-16 pt-8 sm:pb-24 sm:pt-10">
+  <div class="relative overflow-hidden rounded-[42px] border border-white/55 bg-[radial-gradient(circle_at_top_left,_rgba(245,219,148,0.34),_transparent_26%),linear-gradient(135deg,_#fffdf7_0%,_#f1f5ec_46%,_#e5efe5_100%)] px-5 py-6 shadow-[0_34px_120px_rgba(13,41,26,0.14)] sm:px-7 sm:py-8 lg:px-10 lg:py-10">
+    <div class="pointer-events-none absolute -left-24 -top-20 h-80 w-80 rounded-full bg-gold-200/45 blur-3xl"></div>
+    <div class="pointer-events-none absolute -bottom-24 -right-20 h-96 w-96 rounded-full bg-forest-200/35 blur-3xl"></div>
+    <div class="pointer-events-none absolute inset-y-0 right-0 hidden w-[42%] bg-[linear-gradient(180deg,rgba(12,39,27,0.08),rgba(12,39,27,0))] lg:block"></div>
+
+    <div class="relative grid gap-8 lg:grid-cols-12 lg:gap-10">
+      <div class="lg:col-span-7">
+        <div class="inline-flex items-center gap-2 rounded-full border border-gold-300/70 bg-white/80 px-4 py-2 text-xs font-semibold uppercase tracking-[0.22em] text-forest-800 shadow-[0_12px_28px_rgba(13,41,26,0.08)]">
+          <Sparkles size={14} />
+          Business software for retail stores
+        </div>
+
+        <h1 class="mt-6 max-w-4xl font-display text-[clamp(3rem,6.2vw,5.9rem)] font-bold leading-[0.9] tracking-[-0.04em] text-forest-950">
+          Complete retail management
+          <span class="block text-gold-600">for modern Indian businesses</span>
+          with Dukaan AI.
+        </h1>
+
+        <p class="mt-5 max-w-2xl text-base leading-8 text-forest-800 sm:text-lg">
+          Dukaan AI helps stores manage billing, bookkeeping, bill verification, customer credit, and order workflows from one mobile app.
+        </p>
+
+        <div class="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
+          <a
+            href={site.playStoreUrl}
+            target="_blank"
+            rel="noreferrer"
+            class="inline-flex min-w-[230px] items-center justify-center gap-2 rounded-full bg-forest-800 px-6 py-3.5 text-sm font-bold text-white shadow-[0_18px_46px_rgba(25,85,52,0.35)] transition hover:-translate-y-0.5 hover:bg-forest-700"
+          >
+            Download on Play Store
+            <ArrowUpRight size={16} />
+          </a>
+          <a
+            href="#features"
+            class="inline-flex min-w-[215px] items-center justify-center rounded-full border border-forest-900/12 bg-white/90 px-6 py-3.5 text-sm font-bold text-forest-900 transition hover:border-gold-400 hover:text-gold-700"
+          >
+            Explore Features
+          </a>
+        </div>
+
+        <div class="mt-8 grid gap-3 sm:grid-cols-3">
+          <div class="rounded-[22px] border border-forest-900/12 bg-white/85 px-4 py-4 shadow-[0_18px_40px_rgba(13,41,26,0.08)]">
+            <Mic size={18} class="text-gold-600" />
+            <p class="mt-2 text-sm font-bold text-forest-950">Voice Billing</p>
+            <p class="mt-1 text-sm leading-6 text-forest-700">Speak items and generate bills in seconds.</p>
+          </div>
+          <div class="rounded-[22px] border border-forest-900/12 bg-white/85 px-4 py-4 shadow-[0_18px_40px_rgba(13,41,26,0.08)]">
+            <Languages size={18} class="text-gold-600" />
+            <p class="mt-2 text-sm font-bold text-forest-950">24 Languages</p>
+            <p class="mt-1 text-sm leading-6 text-forest-700">Use Hindi, Hinglish, Marathi, Tamil and more.</p>
+          </div>
+          <div class="rounded-[22px] border border-forest-900/12 bg-white/85 px-4 py-4 shadow-[0_18px_40px_rgba(13,41,26,0.08)]">
+            <ShieldCheck size={18} class="text-gold-600" />
+            <p class="mt-2 text-sm font-bold text-forest-950">Smart Shop Control</p>
+            <p class="mt-1 text-sm leading-6 text-forest-700">Track dues, bills, orders, and records in one place.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="lg:col-span-5">
+        <div class="relative rounded-[34px] border border-forest-900/10 bg-gradient-to-br from-forest-950 via-forest-900 to-forest-800 p-3 shadow-[0_28px_82px_rgba(13,41,26,0.28)] sm:p-4">
+          <div class="mb-3 flex items-center justify-between rounded-[20px] border border-white/12 bg-white/10 px-4 py-3 text-white">
+            <div class="flex min-w-0 items-center gap-3">
+              <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-white/15">
+                <Smartphone size={18} />
+              </div>
+              <div class="min-w-0">
+                <p class="truncate text-sm font-semibold">Dukaan AI</p>
+                <p class="truncate text-xs uppercase tracking-[0.15em] text-gold-200">Smart Khata & Bills</p>
+              </div>
+            </div>
+            <span class="rounded-full border border-gold-300/30 bg-gold-300/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.13em] text-gold-100">
+              Android App
+            </span>
+          </div>
+
+          <img
+            src="/images/hero-premium.jpeg"
+            alt="Dukaan AI premium hero poster showing kirana shop management features"
+            width="428"
+            height="770"
+            class="h-[430px] w-full rounded-[24px] object-cover object-top sm:h-[520px] lg:h-[640px]"
+            loading="eager"
+            fetchpriority="high"
+          />
+
+          <div class="mt-3 grid gap-2 sm:grid-cols-2">
+            <div class="rounded-[16px] border border-white/12 bg-white/10 px-3 py-3 text-white">
+              <p class="text-xs font-semibold uppercase tracking-[0.16em] text-gold-200">Multi-Language</p>
+              <p class="mt-1 text-sm">Supports business workflows across 24 Indian languages.</p>
+            </div>
+            <div class="rounded-[16px] border border-white/12 bg-white/10 px-3 py-3 text-white">
+              <p class="text-xs font-semibold uppercase tracking-[0.16em] text-gold-200">Business Ready</p>
+              <p class="mt-1 text-sm">Built for billing, credit tracking, bill checks, and ordering.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

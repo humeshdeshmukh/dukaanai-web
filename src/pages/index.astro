@@ -1,0 +1,52 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import SiteHeader from "../components/SiteHeader.astro";
+import HeroSection from "../components/HeroSection.astro";
+import FeatureGrid from "../components/FeatureGrid.astro";
+import TechStackSection from "../components/TechStackSection.astro";
+import PerformanceSection from "../components/PerformanceSection.astro";
+import DeploySection from "../components/DeploySection.astro";
+import { features, highlights, site } from "../data/site";
+---
+
+<BaseLayout>
+  <SiteHeader />
+  <main>
+    <HeroSection />
+    <FeatureGrid items={features} />
+    <TechStackSection items={highlights} />
+    <PerformanceSection />
+    <DeploySection />
+
+    <section class="section-shell pb-16 pt-4 sm:pb-24">
+      <div class="panel overflow-hidden bg-gradient-to-r from-forest-900 via-forest-800 to-forest-700 px-5 py-8 text-white sm:px-8 sm:py-10">
+        <div class="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
+          <div class="max-w-2xl">
+            <p class="text-sm font-bold uppercase tracking-[0.2em] text-gold-200">Dukaan AI</p>
+            <h2 class="mt-3 font-display text-3xl font-bold sm:text-4xl">
+              Business tools for billing, credit management, and store operations.
+            </h2>
+            <p class="mt-4 text-base leading-8 text-white/85">
+              Contact our team or visit the Play Store to learn more about Dukaan AI.
+            </p>
+          </div>
+
+          <div class="flex flex-col gap-3 sm:min-w-[220px]">
+            <a
+              href={`mailto:${site.businessEmail}`}
+              class="inline-flex items-center justify-center rounded-full bg-gold-300 px-6 py-3 text-sm font-bold text-forest-950 transition hover:bg-gold-200"
+            >
+              Contact Dukaan AI
+            </a>
+            <a
+              href={site.playStoreUrl}
+              class="inline-flex items-center justify-center rounded-full border border-white/20 bg-white/10 px-6 py-3 text-sm font-bold text-white transition hover:bg-white/20"
+            >
+              View Play Store App
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</BaseLayout>

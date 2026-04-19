@@ -1,0 +1,47 @@
+---
+import type { FeatureItem } from "../data/site";
+
+interface Props {
+  items: FeatureItem[];
+}
+
+const { items } = Astro.props;
+---
+
+<section id="features" class="section-shell py-14 sm:py-20">
+  <div class="mb-8 max-w-3xl space-y-4">
+    <span class="eyebrow">Core features</span>
+    <h2 class="font-display text-3xl font-bold text-forest-950 sm:text-4xl">
+      Everything your business needs in one Dukaan AI app
+    </h2>
+    <p class="text-base leading-8 text-forest-800">
+      From voice billing to smart khata and AI bill scanning, Dukaan AI helps shop owners save time, reduce manual work, and run their business better.
+    </p>
+  </div>
+
+  <div class="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+    {
+      items.map((item, index) => (
+        <article class="group panel overflow-hidden">
+          <div class="aspect-[4/5] overflow-hidden bg-forest-950/5">
+            <img
+              src={item.image}
+              alt={item.title}
+              width="430"
+              height="768"
+              class="feature-image"
+              loading={index < 2 ? "eager" : "lazy"}
+            />
+          </div>
+          <div class="space-y-3 px-5 py-5 sm:px-6">
+            <span class="inline-flex rounded-full bg-forest-100 px-3 py-1 text-xs font-bold uppercase tracking-[0.18em] text-forest-700">
+              {item.badge}
+            </span>
+            <h3 class="font-display text-2xl font-bold text-forest-950">{item.title}</h3>
+            <p class="text-sm leading-7 text-forest-800">{item.description}</p>
+          </div>
+        </article>
+      ))
+    }
+  </div>
+</section>

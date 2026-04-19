@@ -1,0 +1,115 @@
+---
+import { Menu, Smartphone, X } from "@lucide/astro";
+import { site } from "../data/site";
+---
+
+<header class="section-shell pt-5 sm:pt-7">
+  <div class="panel px-4 py-3 sm:px-6">
+    <div class="flex items-center justify-between">
+      <a href="#top" class="flex items-center gap-3">
+        <img
+          src="/images/dukaan-logo.jpeg"
+          alt="Dukaan AI logo"
+          width="56"
+          height="56"
+          class="h-12 w-12 rounded-2xl object-cover ring-1 ring-forest-900/10"
+        />
+        <div>
+          <p class="font-display text-lg font-bold text-forest-900">Dukaan AI</p>
+          <p class="text-sm text-forest-700">Smart khata, billing and business insights</p>
+        </div>
+      </a>
+
+      <nav class="hidden items-center gap-6 text-sm font-semibold text-forest-800 md:flex">
+        <a href="#features" class="transition hover:text-gold-600">Features</a>
+        <a href="#about" class="transition hover:text-gold-600">About</a>
+        <a href="#benefits" class="transition hover:text-gold-600">Benefits</a>
+        <a href="#download" class="transition hover:text-gold-600">Download</a>
+      </nav>
+
+      <div class="flex items-center gap-2">
+        <a
+          href={site.playStoreUrl}
+          target="_blank"
+          rel="noreferrer"
+          class="hidden items-center gap-2 rounded-full bg-forest-800 px-4 py-2 text-sm font-semibold text-white shadow-glow transition hover:bg-forest-700 sm:inline-flex"
+        >
+          <Smartphone size={16} />
+          Get on Play Store
+        </a>
+        <button
+          type="button"
+          class="inline-flex h-11 w-11 items-center justify-center rounded-full border border-forest-900/10 bg-white/80 text-forest-900 md:hidden"
+          aria-label="Open menu"
+          aria-expanded="false"
+          aria-controls="mobile-nav"
+          data-menu-toggle
+        >
+          <Menu size={18} data-menu-icon="open" />
+          <X size={18} class="hidden" data-menu-icon="close" />
+        </button>
+      </div>
+    </div>
+
+    <div
+      id="mobile-nav"
+      class="hidden border-t border-forest-900/10 pt-4 md:hidden"
+      data-mobile-menu
+    >
+      <nav class="flex flex-col gap-2 text-sm font-semibold text-forest-800">
+        <a href="#features" class="rounded-2xl px-3 py-3 transition hover:bg-forest-50" data-mobile-link>Features</a>
+        <a href="#about" class="rounded-2xl px-3 py-3 transition hover:bg-forest-50" data-mobile-link>About</a>
+        <a href="#benefits" class="rounded-2xl px-3 py-3 transition hover:bg-forest-50" data-mobile-link>Benefits</a>
+        <a href="#download" class="rounded-2xl px-3 py-3 transition hover:bg-forest-50" data-mobile-link>Download</a>
+      </nav>
+
+      <a
+        href={site.playStoreUrl}
+        target="_blank"
+        rel="noreferrer"
+        class="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-full bg-forest-800 px-5 py-3 text-sm font-semibold text-white shadow-glow transition hover:bg-forest-700"
+        data-mobile-link
+      >
+        <Smartphone size={16} />
+        Get on Play Store
+      </a>
+    </div>
+  </div>
+</header>
+
+<script>
+  const initMobileMenu = () => {
+    const toggle = document.querySelector("[data-menu-toggle]");
+    const menu = document.querySelector("[data-mobile-menu]");
+    if (!(toggle instanceof HTMLButtonElement) || !(menu instanceof HTMLElement)) return;
+
+    const openIcon = toggle.querySelector('[data-menu-icon="open"]');
+    const closeIcon = toggle.querySelector('[data-menu-icon="close"]');
+    const links = menu.querySelectorAll("[data-mobile-link]");
+
+    const setOpen = (isOpen) => {
+      menu.classList.toggle("hidden", !isOpen);
+      toggle.setAttribute("aria-expanded", String(isOpen));
+      openIcon?.classList.toggle("hidden", isOpen);
+      closeIcon?.classList.toggle("hidden", !isOpen);
+    };
+
+    setOpen(false);
+
+    toggle.addEventListener("click", () => {
+      const isOpen = toggle.getAttribute("aria-expanded") === "true";
+      setOpen(!isOpen);
+    });
+
+    links.forEach((link) => {
+      link.addEventListener("click", () => setOpen(false));
+    });
+
+    window.addEventListener("resize", () => {
+      if (window.innerWidth >= 768) setOpen(false);
+    });
+  };
+
+  initMobileMenu();
+  document.addEventListener("astro:page-load", initMobileMenu);
+</script>
