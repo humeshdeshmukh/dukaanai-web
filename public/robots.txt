@@ -1,4 +1,4 @@
+Sitemap: https://dukaanai.co.in/sitemap-index.xml
+
 User-agent: *
 Allow: /
-
-Sitemap: https://dukaanai.co.in/sitemap-index.xml
