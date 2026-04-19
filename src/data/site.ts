@@ -2,9 +2,9 @@ export const site = {
   name: "Dukaan AI",
   shortName: "Dukaan AI",
   alternateName: "Dukaan AI App",
-  title: "Dukaan AI | Smart Khata, Voice Billing & Bill Scanner for Indian Businesses",
+  title: "Dukaan AI | Smart Khata & Voice Billing for Indian Shops",
   description:
-    "Dukaan AI is an AI-powered business assistant for kirana stores, wholesalers, and small businesses with voice billing, smart khata, bill scanning, order management, and business insights.",
+    "Dukaan AI is an AI business assistant for kirana stores. Manage smart khata, voice billing, bill scanning, and orders with ease in 24 Indian languages.",
   keywords: [
     "Dukaan AI",
     "kirana store management app",
