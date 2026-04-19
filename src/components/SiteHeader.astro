@@ -1,18 +1,21 @@
 ---
 import { Menu, Smartphone, X } from "@lucide/astro";
 import { site } from "../data/site";
+import { Image } from "astro:assets";
+import dukaanLogo from "../assets/images/dukaan-logo.jpeg";
 ---
 
 <header class="section-shell pt-5 sm:pt-7">
   <div class="panel px-4 py-3 sm:px-6">
     <div class="flex items-center justify-between">
       <a href="#top" class="flex items-center gap-3">
-        <img
-          src="/images/dukaan-logo.jpeg"
+        <Image
+          src={dukaanLogo}
           alt="Dukaan AI logo"
-          width="56"
-          height="56"
+          width={56}
+          height={56}
           class="h-12 w-12 rounded-2xl object-cover ring-1 ring-forest-900/10"
+          loading="eager"
         />
         <div>
           <p class="font-display text-lg font-bold text-forest-900">Dukaan AI</p>
