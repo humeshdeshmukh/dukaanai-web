@@ -111,6 +111,18 @@ const pageSchemas = [
         href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
       />
     </noscript>
+    <style is:inline>
+      :root {
+        --page-bg: #f6f4ec;
+        --page-ink: #10281b;
+      }
+      body {
+        margin: 0;
+        background-color: var(--page-bg);
+        color: var(--page-ink);
+        font-family: system-ui, -apple-system, sans-serif;
+      }
+    </style>
     <link rel="preload" as="image" href={optimizedHero.src} />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content={site.name} />
