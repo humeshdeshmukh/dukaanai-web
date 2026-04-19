@@ -110,8 +110,9 @@ import dukaanLogo from "../assets/images/dukaan-logo.jpeg";
       link.addEventListener("click", () => setOpen(false));
     });
 
-    window.addEventListener("resize", () => {
-      if (window.innerWidth >= 768) setOpen(false);
+    const mql = window.matchMedia("(min-width: 768px)");
+    mql.addEventListener("change", (e) => {
+      if (e.matches) setOpen(false);
     });
   };
 
