@@ -1,0 +1,3 @@
+# Example Redirects
+# /old-page /new-page 301
+# /contact-us /contact 302
