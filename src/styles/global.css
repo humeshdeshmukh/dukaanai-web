@@ -29,7 +29,7 @@ body {
 }
 
 .panel {
-  @apply rounded-[28px] border border-white/40 bg-white/70 backdrop-blur;
+  @apply rounded-[28px] border border-white/40 bg-white/80;
   box-shadow: 0 24px 80px rgba(13, 41, 26, 0.08);
 }
 
@@ -49,6 +49,7 @@ body {
 }
 
 .reveal-up {
+  will-change: transform, opacity;
   animation: reveal-up 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
   animation-delay: var(--reveal-delay, 0s);
 }
