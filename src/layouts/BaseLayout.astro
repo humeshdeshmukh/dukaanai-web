@@ -5,58 +5,100 @@ import "../styles/global.css";
 interface Props {
   title?: string;
   description?: string;
+  noindex?: boolean;
 }
 
 const {
   title = site.title,
-  description = site.description
+  description = site.description,
+  noindex = false
 } = Astro.props;
 const canonical = new URL(Astro.url.pathname, site.url).toString();
+const robotsContent = noindex
+  ? "noindex, nofollow"
+  : "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1";
+const pageSchemas = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: site.name,
+    alternateName: site.alternateName,
+    url: site.url,
+    logo: `${site.url}/images/dukaan-logo.jpeg`,
+    email: site.businessEmail,
+    sameAs: [site.playStoreUrl]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: site.name,
+    url: site.url,
+    inLanguage: site.language,
+    description: site.description
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    name: site.name,
+    alternateName: site.alternateName,
+    applicationCategory: site.category,
+    operatingSystem: "Android",
+    description: site.description,
+    applicationId: site.playStoreId,
+    offers: {
+      "@type": "Offer",
+      price: "0",
+      priceCurrency: "INR"
+    },
+    url: site.url,
+    image: `${site.url}${site.socialImage}`,
+    downloadUrl: site.playStoreUrl,
+    publisher: {
+      "@type": "Organization",
+      name: site.name,
+      email: site.businessEmail,
+      url: site.url
+    }
+  }
+];
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang={site.language}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     <meta name="description" content={description} />
+    <meta name="keywords" content={site.keywords.join(", ")} />
+    <meta name="robots" content={robotsContent} />
+    <meta name="googlebot" content={robotsContent} />
+    <meta name="application-name" content={site.name} />
+    <meta name="apple-mobile-web-app-title" content={site.shortName} />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="format-detection" content="telephone=no" />
     <meta name="generator" content={Astro.generator} />
-    <meta name="theme-color" content="#195534" />
+    <meta name="theme-color" content={site.themeColor} />
     <link rel="canonical" href={canonical} />
+    <link rel="icon" href="/images/dukaan-logo.jpeg" />
+    <link rel="apple-touch-icon" href="/images/dukaan-logo.jpeg" />
+    <link rel="manifest" href="/site.webmanifest" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={site.name} />
+    <meta property="og:locale" content={site.locale} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
-    <meta property="og:image" content={`${site.url}/images/hero-premium.jpeg`} />
+    <meta property="og:image" content={`${site.url}${site.socialImage}`} />
+    <meta property="og:image:alt" content="Dukaan AI retail management app preview" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
-    <meta name="twitter:image" content={`${site.url}/images/hero-premium.jpeg`} />
-    <script is:inline type="application/ld+json" set:html={JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      name: site.name,
-      applicationCategory: "BusinessApplication",
-      operatingSystem: "Android",
-      description: site.description,
-      applicationId: site.playStoreId,
-      offers: {
-        "@type": "Offer",
-        price: "0",
-        priceCurrency: "INR"
-      },
-      url: site.url,
-      downloadUrl: site.playStoreUrl,
-      publisher: {
-        "@type": "Organization",
-        name: site.name,
-        email: site.businessEmail,
-        url: site.url
-      }
-    })} />
+    <meta name="twitter:image" content={`${site.url}${site.socialImage}`} />
+    <script is:inline type="application/ld+json" set:html={JSON.stringify(pageSchemas)} />
   </head>
   <body>
     <slot />

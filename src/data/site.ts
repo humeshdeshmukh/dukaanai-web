@@ -1,10 +1,29 @@
 export const site = {
   name: "Dukaan AI",
+  shortName: "Dukaan AI",
+  alternateName: "Dukaan AI App",
   title: "Dukaan AI | Smart Khata, Voice Billing & Bill Scanner for Indian Businesses",
   description:
     "Dukaan AI is an AI-powered business assistant for kirana stores, wholesalers, and small businesses with voice billing, smart khata, bill scanning, order management, and business insights.",
+  keywords: [
+    "Dukaan AI",
+    "kirana store management app",
+    "smart khata app",
+    "voice billing app",
+    "bill scanner app",
+    "udhaar management app",
+    "retail management software India",
+    "shop billing app",
+    "inventory and order management app",
+    "small business app India"
+  ],
   url: "https://dukaanai.co.in",
   domain: "dukaanai.co.in",
+  locale: "en_IN",
+  language: "en-IN",
+  themeColor: "#195534",
+  socialImage: "/images/hero-premium.jpeg",
+  category: "BusinessApplication",
   playStoreId: "com.dukaan.ai",
   playStoreUrl:
     "https://play.google.com/store/apps/details?id=com.dukaan.ai",
@@ -115,5 +134,28 @@ export const benefits = [
   {
     title: "Professional order management",
     text: "Prepare supplier orders faster, share them on WhatsApp, and reduce ordering mistakes."
+  }
+];
+
+export const faqs = [
+  {
+    question: "What is Dukaan AI used for?",
+    answer:
+      "Dukaan AI helps kirana stores, wholesalers, and small businesses handle billing, smart khata, bill verification, bookkeeping, and order management from one Android app."
+  },
+  {
+    question: "Does Dukaan AI support Indian languages?",
+    answer:
+      "Yes. Dukaan AI supports workflows across 24 Indian languages, including Hindi, English, Hinglish, and other regional languages for everyday shop use."
+  },
+  {
+    question: "Can Dukaan AI help with customer credit and udhaar tracking?",
+    answer:
+      "Yes. Dukaan AI includes smart khata features to record udhaar, track payments, and manage customer credit in a digital ledger."
+  },
+  {
+    question: "Is Dukaan AI available on Google Play Store?",
+    answer:
+      "Yes. Dukaan AI is available as an Android app on the Google Play Store through the official listing for com.dukaan.ai."
   }
 ];

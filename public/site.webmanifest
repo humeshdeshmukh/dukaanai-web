@@ -1,0 +1,25 @@
+{
+  "name": "Dukaan AI",
+  "short_name": "Dukaan AI",
+  "description": "Dukaan AI helps Indian businesses manage billing, smart khata, bill verification, and store operations.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f6f4ec",
+  "theme_color": "#195534",
+  "lang": "en-IN",
+  "icons": [
+    {
+      "src": "/images/dukaan-logo.jpeg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/dukaan-logo.jpeg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ]
+}
