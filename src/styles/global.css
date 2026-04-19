@@ -49,3 +49,96 @@ body {
     linear-gradient(90deg, rgba(16, 40, 27, 0.06) 1px, transparent 1px);
   background-size: 44px 44px;
 }
+
+.reveal-up {
+  animation: reveal-up 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation-delay: var(--reveal-delay, 0s);
+}
+
+.accordion-card {
+  border: 1px solid rgba(16, 40, 27, 0.08);
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.82);
+  overflow: hidden;
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease,
+    border-color 180ms ease;
+}
+
+.accordion-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 18px 40px rgba(13, 41, 26, 0.08);
+  border-color: rgba(16, 40, 27, 0.14);
+}
+
+.accordion-summary {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  cursor: pointer;
+  padding: 1.25rem;
+}
+
+.accordion-summary::-webkit-details-marker {
+  display: none;
+}
+
+.accordion-plus {
+  position: relative;
+  width: 1rem;
+  height: 1rem;
+  flex: 0 0 auto;
+}
+
+.accordion-plus::before,
+.accordion-plus::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  height: 2px;
+  border-radius: 999px;
+  background: #195534;
+  transform: translate(-50%, -50%);
+  transition: transform 180ms ease, opacity 180ms ease;
+}
+
+.accordion-plus::after {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.accordion-card[open] .accordion-plus::after {
+  opacity: 0;
+  transform: translate(-50%, -50%) rotate(90deg) scaleX(0.2);
+}
+
+.accordion-body {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 220ms ease;
+}
+
+.accordion-card[open] .accordion-body {
+  grid-template-rows: 1fr;
+}
+
+.accordion-body-inner {
+  overflow: hidden;
+  padding: 0 1.25rem 1.25rem;
+}
+
+@keyframes reveal-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
