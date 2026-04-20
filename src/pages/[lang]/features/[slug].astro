@@ -30,6 +30,7 @@ const description = feature.description;
 import { getBenefits, getFaqs } from "../../../data/site";
 const featureBenefits = feature.benefits || getBenefits(lang);
 const featureFaqs = feature.faqs || getFaqs(lang);
+const featureSteps = (feature as any).steps || [];
 ---
 
 <FeatureLayout
@@ -41,4 +42,5 @@ const featureFaqs = feature.faqs || getFaqs(lang);
   badge={feature.badge}
   benefits={featureBenefits}
   faqs={featureFaqs}
+  steps={featureSteps}
 />

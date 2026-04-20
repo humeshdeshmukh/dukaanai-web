@@ -1,4 +1,29 @@
-export const languages = {
+import { en } from "./locales/en";
+import { hi } from "./locales/hi";
+import { mr } from "./locales/mr";
+import { bn } from "./locales/bn";
+import { ta } from "./locales/ta";
+import { te } from "./locales/te";
+import { gu } from "./locales/gu";
+import { kn } from "./locales/kn";
+import { pa } from "./locales/pa";
+import { ml } from "./locales/ml";
+import { ur } from "./locales/ur";
+import { or } from "./locales/or";
+import { as } from "./locales/as";
+import { mai } from "./locales/mai";
+import { sat } from "./locales/sat";
+import { ks } from "./locales/ks";
+import { doi } from "./locales/doi";
+import { sd } from "./locales/sd";
+import { kok } from "./locales/kok";
+import { mni } from "./locales/mni";
+import { ne } from "./locales/ne";
+import { sa } from "./locales/sa";
+import { brx } from "./locales/brx";
+import { hinglish } from "./locales/hinglish";
+
+export const languages: Record<string, string> = {
   en: "English",
   hi: "हिन्दी",
   mr: "मराठी",
@@ -11,196 +36,41 @@ export const languages = {
   pa: "ਪੰਜਾਬੀ",
   ml: "മലയാളം",
   ur: "اردو",
-  or: "ଓڈિଆ",
+  or: "ଓଡ଼ିଆ",
   as: "অসমীয়",
   mai: "मैथिली",
-  sat: "সংতালী",
+  sat: "संताली",
   ks: "کٲشُر",
   doi: "डोगरी",
-  sd: "سنڌي",
+  sd: "سنڌि",
   kok: "कोंकणी",
-  mni: "মণিপুরি",
+  mni: "মণिपুরি",
   ne: "नेपाली",
   sa: "संस्कृतम्",
   brx: "बोडो",
 };
 
+export const languageCodes = Object.keys(languages);
 export const defaultLang = "en";
 
-const baseUI = {
-  "nav.features": "Features",
-  "nav.blog": "Blog",
-  "nav.about": "About",
-  "nav.benefits": "Benefits",
-  "nav.faq": "FAQ",
-  "nav.download": "Download",
-  "nav.tagline": "Smart khata, billing and business insights",
-  "cta.getApp": "Get the App",
-  "cta.downloadAndroid": "Download on Android",
-  "cta.learnMore": "Learn how it works",
-  "footer.madeForBharat": "Made for Bharat",
-  "footer.tagline": "AI-powered business assistant for Indian shopkeepers. Manage billing, khata, and inventory with ease.",
-  "footer.resources": "Resources",
-  "footer.company": "Company",
-  "footer.getApp": "Get the App",
-  "footer.playstore": "View Play Store App",
-  "footer.contact": "Contact Dukaan AI",
-  "footer.privacy": "Privacy Policy",
-  "footer.terms": "Terms of Service",
-  "footer.kiranaGuide": "Kirana Guide",
-  "hero.badge": "Business software for retail stores",
-  "hero.title1": "Smart Khata, Voice Billing",
-  "hero.title2": "and Business AI",
-  "hero.title3": "for Indian shops.",
-  "hero.description": "Dukaan AI helps stores manage billing, bookkeeping, bill verification, customer credit, and order workflows from one mobile app.",
-  "hero.cta.playstore": "Download on Play Store",
-  "hero.cta.features": "Explore Features",
-  "hero.f1.title": "Voice Billing",
-  "hero.f1.desc": "Speak items and generate bills in seconds.",
-  "hero.f2.title": "24 Languages",
-  "hero.f2.desc": "Use Hindi, Hinglish, Marathi, Tamil and more.",
-  "hero.f3.title": "Smart Shop Control",
-  "hero.f3.desc": "Track dues, bills, orders, and records in one place.",
-  "hero.mockup.title": "Smart Khata & Bills",
-  "hero.mockup.badge": "Android App",
-  "hero.extra.lang": "Multi-Language",
-  "hero.extra.langDesc": "Supports business workflows across 24 Indian languages.",
-  "hero.extra.business": "Business Ready",
-  "hero.extra.businessDesc": "Built for billing, credit tracking, bill checks, and ordering.",
-  "features.eyebrow": "Core features",
-  "features.title": "Everything your business needs in one Dukaan AI app",
-  "features.description": "From voice billing to smart khata and AI bill scanning, Dukaan AI helps shop owners save time, reduce manual work, and run their business better.",
-  "features.learnMore": "Learn how it works",
-  "feature.howItHelps": "How it helps",
-  "feature.faqTitle": "Frequently asked questions",
-  "feature.faqEyebrow": "Expert answers",
-  "feature.ctaEyebrow": "Start today",
-  "feature.ctaTitle": "Ready to simplify your shop management?",
-  "feature.ctaDesc": "Join thousands of Indian shopkeepers using Dukaan AI to manage their business smarter.",
-  "about.eyebrow": "About Dukaan AI",
-  "about.title": "Built for Indian retailers who want a smarter way to manage their shop",
-  "about.description": "Dukaan AI is more than a digital register. It is a business assistant designed to help local stores handle billing, udhaar, purchase records, orders, and decision-making through simple voice-first workflows.",
-  "about.f1.title": "For kirana and wholesale",
-  "about.f1.desc": "Built around real daily store workflows, not generic accounting screens.",
-  "about.f2.title": "Secure records",
-  "about.f2.desc": "Business data is handled with privacy and trust in mind.",
-  "about.f3.title": "Regional language support",
-  "about.f3.desc": "Designed for Indian business owners who want to work in their own language.",
-  "about.f4.title": "Faster collections and billing",
-  "about.f4.desc": "Save time on credit follow-up, bills, and supplier orders every day.",
-  "deploy.eyebrow": "Download and contact",
-  "deploy.title": "Start using Dukaan AI for smarter billing, khata, and store management",
-  "deploy.description": "Dukaan AI helps local businesses digitize records, manage customer credit, scan bills, and work faster with voice-powered tools designed for India.",
-  "deploy.cta.playstore": "Download on Google Play",
-  "deploy.cta.contact": "Contact Dukaan AI",
-  "deploy.f1.title": "Works the way shop owners work",
-  "deploy.f1.desc": "Speak items, record dues, scan purchase bills, and manage supplier orders without complex software training.",
-  "deploy.f2.title": "Made for India",
-  "deploy.f2.desc": "Voice support in 24 Indian languages, offline-ready usage, and WhatsApp-friendly workflows make Dukaan AI practical for real businesses.",
-  "alt.logo": "Dukaan AI pocket logo",
-  "alt.heroPoster": "Dukaan AI premium hero poster showing kirana shop management features",
-  "alt.featureCard": "Dukaan AI feature showcase showing mobile management",
-  "alt.menu": "Open menu",
-};
-
 export const ui: Record<string, any> = {
-  en: baseUI,
-  hi: {
-    ...baseUI,
-    "nav.features": "विशेषताएं",
-    "nav.blog": "ब्लॉग",
-    "nav.about": "हमारे बारे में",
-    "nav.benefits": "लाभ",
-    "nav.faq": "सवाल-जवाब",
-    "nav.download": "डाउनलोड",
-    "nav.tagline": "स्मार्ट खाता, बिलिंग और बिज़नेस अंतर्दृष्टि",
-    "cta.getApp": "ऐप प्राप्त करें",
-    "cta.downloadAndroid": "एंड्रॉयड पर डाउनलोड करें",
-    "cta.learnMore": "जानें कैसे काम करता है",
-    "footer.madeForBharat": "भारत के लिए निर्मित",
-    "footer.tagline": "भारतीय दुकानदारों के लिए AI-संचालित बिज़नेस सहायक। बिलिंग, खाता और इन्वेंट्री को आसानी से मैनेज करें।",
-    "footer.resources": "संसाधन",
-    "footer.company": "कंपनी",
-    "footer.getApp": "ऐप प्राप्त करें",
-    "footer.playstore": "प्ले स्टोर ऐप देखें",
-    "footer.contact": "Dukaan AI से संपर्क करें",
-    "footer.privacy": "गोपनीयता नीति",
-    "footer.terms": "सेवा की शर्तें",
-    "footer.kiranaGuide": "किराना गाइड",
-    "hero.badge": "रिटेल स्टोर्स के लिए बिज़नेस सॉफ्टवेयर",
-    "hero.title1": "स्मार्ट खाता, वॉयस बिलिंग",
-    "hero.title2": "और बिज़नेस AI",
-    "hero.title3": "भारतीय दुकानों के लिए।",
-    "hero.description": "Dukaan AI दुकानों को एक ही मोबाइल ऐप से बिलिंग, बुककीपिंग, बिल सत्यापन, कस्टमर क्रेडिट और ऑर्डर वर्कफ़्लो मैनेज करने में मदद करता है।",
-    "hero.cta.playstore": "प्ले स्टोर से डाउनलोड करें",
-    "hero.cta.features": "विशेषताएं देखें",
-    "hero.f1.title": "वॉयस बिलिंग",
-    "hero.f1.desc": "आइटम बोलें और सेकंडों में बिल बनाएं।",
-    "hero.f2.title": "24 भाषाएँ",
-    "hero.f2.desc": "हिंदी, हिंग्लिश, मराठी, तमिल और अन्य का उपयोग करें।",
-    "hero.f3.title": "स्मार्ट शॉप कंट्रोल",
-    "hero.f3.desc": "एक ही जगह बकाया, बिल, ऑर्डर और रिकॉर्ड ट्रैक करें।",
-    "hero.mockup.title": "स्मार्ट खाता और बिल",
-    "hero.mockup.badge": "एंड्रॉयड ऐप",
-    "hero.extra.lang": "बहुभाषी",
-    "hero.extra.langDesc": "24 भारतीय भाषाओं में बिज़नेस वर्कफ़्लो का समर्थन करता है।",
-    "hero.extra.business": "बिज़नेस के लिए तैयार",
-    "hero.extra.businessDesc": "बिलिंग, क्रेडिट ट्रैकिंग और ऑर्डर के लिए बनाया गया है।",
-    "features.eyebrow": "मुख्य विशेषताएं",
-    "features.title": "आपके बिज़नेस की हर ज़रूरत, एक ही Dukaan AI ऐप में",
-    "features.description": "वॉयस बिलिंग से लेकर स्मार्ट खाता और AI बिल स्कैनिंग तक, Dukaan AI दुकानदारों को समय बचाने और बिज़नेस को बेहतर ढंग से चलाने में मदद करता है।",
-    "features.learnMore": "जानें यह कैसे काम करता है",
-    "feature.howItHelps": "यह कैसे मदद करता है",
-    "feature.faqTitle": "सामान्य प्रश्न",
-    "feature.faqEyebrow": "विशेषज्ञों के उत्तर",
-    "feature.ctaEyebrow": "आज ही शुरू करें",
-    "feature.ctaTitle": "क्या आप अपनी दुकान का मैनेजमेंट आसान बनाना चाहते हैं?",
-    "feature.ctaDesc": "उन हजारों भारतीय दुकानदारों से जुड़ें जो अपने व्यवसाय को स्मार्ट बनाने के लिए Dukaan AI का उपयोग कर रहे हैं।",
-    "about.eyebrow": "Dukaan AI के बारे में",
-    "about.title": "उन भारतीय खुदरा विक्रेताओं के लिए निर्मित जो अपनी दुकान को मैनेज करने का स्मार्ट तरीका चाहते हैं",
-    "about.description": "Dukaan AI सिर्फ एक डिजिटल रजिस्टर नहीं है। यह एक बिज़नेस सहायक है जिसे स्थानीय दुकानों की बिलिंग, उधार, खरीद रिकॉर्ड, ऑर्डर और निर्णय लेने में मदद करने के लिए सरल वॉयस-फर्स्ट वर्कफ़्लो के माध्यम से डिज़ाइन किया गया है।",
-    "about.f1.title": "किराना और होलसेल के लिए",
-    "about.f1.desc": "वास्तविक दैनिक स्टोर वर्कफ़्लो के आसपास बनाया गया है, न कि जेनेरिक अकाउंटिंग स्क्रीन पर।",
-    "about.f2.title": "सुरक्षित रिकॉर्ड",
-    "about.f2.desc": "बिज़नेस डेटा को गोपनीयता और भरोसे को ध्यान में रखकर हैंडल किया जाता है।",
-    "about.f3.title": "क्षेत्रीय भाषा समर्थन",
-    "about.f3.desc": "उन भारतीय बिज़नेस मालिकों के लिए डिज़ाइन किया गया है जो अपनी भाषा में काम करना चाहते हैं।",
-    "about.f4.title": "तेज़ कलेक्शन और बिलिंग",
-    "about.f4.desc": "क्रेडिट फॉलो-अप, बिल और सप्लायर ऑर्डर पर हर दिन समय बचाएं।",
-    "deploy.eyebrow": "डाउनलोड और संपर्क",
-    "deploy.title": "स्मार्ट बिलिंग और खाता मैनेजमेंट के लिए आज ही Dukaan AI शुरू करें",
-    "deploy.description": "Dukaan AI स्थानीय बिज़नेस को रिकॉर्ड डिजिटाइज़ करने, कस्टमर क्रेडिट मैनेज करने, बिल स्कैन करने और भारत के लिए डिज़ाइन किए गए वॉयस-पावर्ड टूल्स के साथ तेज़ी से काम करने में मदद करता है।",
-    "deploy.cta.playstore": "गूगल प्ले पर डाउनलोड करें",
-    "deploy.cta.contact": "Dukaan AI से संपर्क करें",
-    "deploy.f1.title": "दुकान मालिकों के काम करने के तरीके पर आधारित",
-    "deploy.f1.desc": "बिना किसी जटिल सॉफ्टवेयर ट्रेनिंग के आइटम बोलें, बकाया रिकॉर्ड करें, खरीद बिल स्कैन करें और सप्लायर ऑर्डर मैनेज करें।",
-    "deploy.f2.title": "भारत के लिए निर्मित",
-    "deploy.f2.desc": "24 भारतीय भाषाओं में वॉयस सपोर्ट, ऑफ़लाइन उपयोग और व्हाट्सएप-फ्रेंडली वर्कफ़्लो Dukaan AI को वास्तविक बिज़नेस के लिए व्यावहारिक बनाते हैं।",
-    "alt.logo": "Dukaan AI पॉकेट लोगो",
-    "alt.heroPoster": "किराना दुकान प्रबंधन सुविधाओं को दिखाते हुए Dukaan AI प्रीमियम हीरो पोस्टर",
-    "alt.featureCard": "मोबाइल प्रबंधन दिखाते हुए Dukaan AI फीचर शोकेस",
-    "alt.menu": "मेन्यू खोलें",
-  }
+  en, hi, mr, bn, ta, te, gu, kn, pa, ml, ur, or, as, mai, sat, ks, doi, sd, kok, mni, ne, sa, brx, hinglish
 };
 
-// Populate remaining empty languages with baseline Hindi structure but in their native context (to be refined)
-const remainingLangs = ["as", "or", "mai", "sat", "ks", "doi", "sd", "kok", "mni", "ne", "sa", "brx", "mr", "bn", "ta", "te", "gu", "kn", "pa", "ml", "ur", "hinglish"];
-remainingLangs.forEach(lang => {
-  if (!ui[lang]) {
-    ui[lang] = { ...ui.hi }; 
-  }
-});
+// Unified Translation Registry for Site and Features
+export const siteTranslations: Record<string, any> = {};
+export const featureTranslations: Record<string, any> = {};
 
-export const languageCodes = Object.keys(languages);
-
-export function getLangFromUrl(url: URL) {
-  const [, lang] = url.pathname.split("/");
-  if (lang in languages) return lang as keyof typeof languages;
-  return defaultLang;
-}
-
-export function useTranslations(lang: keyof typeof languages) {
-  return function t(key: string) {
-    return ui[lang][key] || ui[defaultLang][key];
+languageCodes.forEach(lang => {
+  const locale = ui[lang] || ui.en;
+  
+  // Map feature-specific content
+  featureTranslations[lang] = locale.features_data;
+  
+  // Map site-wide global content back to the engine
+  siteTranslations[lang] = {
+    highlights: locale.site_highlights || ui.hi.site_highlights,
+    benefits: locale.site_benefits || ui.hi.site_benefits,
+    faqs: locale.site_faqs || ui.hi.site_faqs
   };
-}
+});
