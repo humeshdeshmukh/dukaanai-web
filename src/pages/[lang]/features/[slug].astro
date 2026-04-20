@@ -1,21 +1,14 @@
 ---
 import FeatureLayout from "../../../layouts/FeatureLayout.astro";
 import { getFeatures, site } from "../../../data/site";
-import { ui } from "../../../i18n/ui";
+import { languageCodes } from "../../../i18n/ui";
 
 export function getStaticPaths() {
-  const supportedLangs = ["en", "hi", "mr", "bn", "pa", "gu", "ta", "te", "kn", "ml", "or", "as", "mai", "sat", "ks", "doi", "sd", "kok", "mni", "ne", "sa", "ur", "hinglish"];
   const slugs = ["bookkeeping", "smart-khata", "voice-billing", "bill-verification", "orders-management", "scan-list"];
   
-  const paths = [];
-  
-  supportedLangs.forEach(lang => {
-    slugs.forEach(slug => {
-      paths.push({ params: { lang, slug } });
-    });
-  });
-  
-  return paths;
+  return languageCodes.flatMap(lang => 
+    slugs.map(slug => ({ params: { lang, slug } }))
+  );
 }
 
 const { lang, slug } = Astro.params;

@@ -9,35 +9,11 @@ import DeploySection from "../../components/DeploySection.astro";
 import FaqSection from "../../components/FaqSection.astro";
 import SiteFooter from "../../components/SiteFooter.astro";
 import { getFeatures, getHighlights, getFaqs, getBenefits, site } from "../../data/site";
-import { ui } from "../../i18n/ui";
+import { ui, languageCodes } from "../../i18n/ui";
 import { useTranslations } from "../../i18n/utils";
 
 export function getStaticPaths() {
-  return [
-    { params: { lang: "en" } },
-    { params: { lang: "hi" } },
-    { params: { lang: "mr" } },
-    { params: { lang: "bn" } },
-    { params: { lang: "pa" } },
-    { params: { lang: "gu" } },
-    { params: { lang: "ta" } },
-    { params: { lang: "te" } },
-    { params: { lang: "kn" } },
-    { params: { lang: "ml" } },
-    { params: { lang: "or" } },
-    { params: { lang: "as" } },
-    { params: { lang: "mai" } },
-    { params: { lang: "sat" } },
-    { params: { lang: "ks" } },
-    { params: { lang: "doi" } },
-    { params: { lang: "sd" } },
-    { params: { lang: "kok" } },
-    { params: { lang: "mni" } },
-    { params: { lang: "ne" } },
-    { params: { lang: "sa" } },
-    { params: { lang: "ur" } },
-    { params: { lang: "hinglish" } },
-  ];
+  return languageCodes.map(lang => ({ params: { lang } }));
 }
 
 const { lang } = Astro.params;

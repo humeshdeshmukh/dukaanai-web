@@ -11,42 +11,56 @@ export const languages = {
   pa: "ਪੰਜਾਬੀ",
   ml: "മലയാളം",
   ur: "اردو",
+  or: "ଓଡ଼ିଆ",
+  as: "অসমীয়",
+  mai: "मैथिली",
+  sat: "संताली",
+  ks: "کٲشُر",
+  doi: "डोगरी",
+  sd: "سنڌي",
+  kok: "कोंकणी",
+  mni: "মণিপুরি",
+  ne: "नेपाली",
+  sa: "संस्कृतम्",
+  brx: "बोडो",
 };
 
 export const defaultLang = "en";
 
-export const ui = {
-  en: {
-    "nav.features": "Features",
-    "nav.blog": "Blog",
-    "nav.about": "About",
-    "nav.benefits": "Benefits",
-    "nav.faq": "FAQ",
-    "nav.download": "Download",
-    "cta.getApp": "Get the App",
-    "cta.downloadAndroid": "Download on Android",
-    "cta.learnMore": "Learn how it works",
-    "footer.madeForBharat": "Made for Bharat",
-    "hero.badge": "Business software for retail stores",
-    "hero.title1": "Smart Khata, Voice Billing",
-    "hero.title2": "and Business AI",
-    "hero.title3": "for Indian shops.",
-    "hero.description": "Dukaan AI helps stores manage billing, bookkeeping, bill verification, customer credit, and order workflows from one mobile app.",
-    "hero.cta.playstore": "Download on Play Store",
-    "hero.cta.features": "Explore Features",
-    "hero.f1.title": "Voice Billing",
-    "hero.f1.desc": "Speak items and generate bills in seconds.",
-    "hero.f2.title": "24 Languages",
-    "hero.f2.desc": "Use Hindi, Hinglish, Marathi, Tamil and more.",
-    "hero.f3.title": "Smart Shop Control",
-    "hero.f3.desc": "Track dues, bills, orders, and records in one place.",
-    "feature.howItHelps": "How it helps",
-    "feature.faqTitle": "Frequently asked questions",
-    "feature.faqEyebrow": "Expert answers",
-    "feature.ctaEyebrow": "Start today",
-    "feature.ctaTitle": "Ready to simplify your shop management?",
-    "feature.ctaDesc": "Join thousands of Indian shopkeepers using Dukaan AI to manage their business smarter.",
-  },
+const baseUI = {
+  "nav.features": "Features",
+  "nav.blog": "Blog",
+  "nav.about": "About",
+  "nav.benefits": "Benefits",
+  "nav.faq": "FAQ",
+  "nav.download": "Download",
+  "cta.getApp": "Get the App",
+  "cta.downloadAndroid": "Download on Android",
+  "cta.learnMore": "Learn how it works",
+  "footer.madeForBharat": "Made for Bharat",
+  "hero.badge": "Business software for retail stores",
+  "hero.title1": "Smart Khata, Voice Billing",
+  "hero.title2": "and Business AI",
+  "hero.title3": "for Indian shops.",
+  "hero.description": "Dukaan AI helps stores manage billing, bookkeeping, bill verification, customer credit, and order workflows from one mobile app.",
+  "hero.cta.playstore": "Download on Play Store",
+  "hero.cta.features": "Explore Features",
+  "hero.f1.title": "Voice Billing",
+  "hero.f1.desc": "Speak items and generate bills in seconds.",
+  "hero.f2.title": "24 Languages",
+  "hero.f2.desc": "Use Hindi, Hinglish, Marathi, Tamil and more.",
+  "hero.f3.title": "Smart Shop Control",
+  "hero.f3.desc": "Track dues, bills, orders, and records in one place.",
+  "feature.howItHelps": "How it helps",
+  "feature.faqTitle": "Frequently asked questions",
+  "feature.faqEyebrow": "Expert answers",
+  "feature.ctaEyebrow": "Start today",
+  "feature.ctaTitle": "Ready to simplify your shop management?",
+  "feature.ctaDesc": "Join thousands of Indian shopkeepers using Dukaan AI to manage their business smarter.",
+};
+
+export const ui: Record<string, typeof baseUI> = {
+  en: baseUI,
   hi: {
     "nav.features": "विशेषताएं",
     "nav.blog": "ब्लॉग",
@@ -140,4 +154,45 @@ export const ui = {
     "feature.ctaTitle": "Shop management easy banana hai?",
     "feature.ctaDesc": "Baki Indian shopowners ki tarah Dukaan AI use karo aur business smart banao.",
   },
-} as const;
+  bn: {
+    ...baseUI,
+    "nav.features": "বৈশিষ্ট্য",
+    "nav.blog": "ব্লগ",
+    "nav.about": "আমাদের সম্পর্কে",
+    "cta.getApp": "অ্যাপ পান",
+    "footer.madeForBharat": "ভারতের জন্য তৈরি",
+  },
+  ta: {
+    ...baseUI,
+    "nav.features": "அம்சங்கள்",
+    "nav.blog": "வலைப்பதிவு",
+    "nav.about": "எங்களைப் பற்றி",
+    "cta.getApp": "பயன்பாட்டைப் பெறுக",
+    "footer.madeForBharat": "பாரதத்திற்காக உருவாக்கப்பட்டது",
+  },
+  te: {
+    ...baseUI,
+    "nav.features": "ఫీచర్లు",
+    "nav.blog": "బ్లాగ్",
+    "nav.about": "మా గురించి",
+    "cta.getApp": "యాప్‌ను పొందండి",
+    "footer.madeForBharat": "భారత్ కోసం రూపొందించబడింది",
+  },
+  gu: {
+    ...baseUI,
+    "nav.features": "વિશેષતાઓ",
+    "nav.blog": "બ્લૉગ",
+    "nav.about": "અમારા વિશે",
+    "cta.getApp": "ઍપ મેળવો",
+    "footer.madeForBharat": "ભારત માટે નિર્મિત",
+  },
+};
+
+// Fill in the rest of the languages with baseUI to avoid undefined errors
+Object.keys(languages).forEach((lang) => {
+  if (!ui[lang]) {
+    ui[lang] = baseUI;
+  }
+});
+
+export const languageCodes = Object.keys(languages);
