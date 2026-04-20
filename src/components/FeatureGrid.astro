@@ -45,10 +45,11 @@ const images = import.meta.glob<{ default: ImageMetadata }>("/src/assets/images/
                   height={538}
                   class="feature-image"
                   loading={index < 2 ? "eager" : "lazy"}
-                  fetchpriority={index === 0 ? "high" : "auto"}
+                  fetchpriority="auto"
                   widths={[430, 800, 1200]}
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 430px"
-                  decoding={index === 0 ? "sync" : "async"}
+                  decoding="async"
+                  quality={70}
                 />
               ) : (
                 <img
