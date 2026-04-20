@@ -8,17 +8,22 @@ import PerformanceSection from "../components/PerformanceSection.astro";
 import DeploySection from "../components/DeploySection.astro";
 import FaqSection from "../components/FaqSection.astro";
 import SiteFooter from "../components/SiteFooter.astro";
-import { features, highlights, site } from "../data/site";
+import { getFeatures, getHighlights, getFaqs, getBenefits, site } from "../data/site";
+
+const items = getFeatures("en");
+const highlightsList = getHighlights("en");
+const faqsList = getFaqs("en");
+const benefitsList = getBenefits("en");
 ---
 
 <BaseLayout>
   <SiteHeader />
   <main>
     <HeroSection />
-    <FeatureGrid items={features} />
-    <TechStackSection items={highlights} />
-    <PerformanceSection />
-    <FaqSection />
+    <FeatureGrid items={items} />
+    <TechStackSection items={highlightsList} />
+    <PerformanceSection items={benefitsList} />
+    <FaqSection items={faqsList} />
     <DeploySection />
 
     <section class="section-shell pb-16 pt-4 sm:pb-24">

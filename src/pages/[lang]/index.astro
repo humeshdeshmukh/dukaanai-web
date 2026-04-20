@@ -8,7 +8,7 @@ import PerformanceSection from "../../components/PerformanceSection.astro";
 import DeploySection from "../../components/DeploySection.astro";
 import FaqSection from "../../components/FaqSection.astro";
 import SiteFooter from "../../components/SiteFooter.astro";
-import { getFeatures, getHighlights, getFaqs, site } from "../../data/site";
+import { getFeatures, getHighlights, getFaqs, getBenefits, site } from "../../data/site";
 import { ui } from "../../i18n/ui";
 import { useTranslations } from "../../i18n/utils";
 
@@ -45,6 +45,7 @@ const t = useTranslations(lang as any);
 const localizedFeatures = getFeatures(lang);
 const localizedHighlights = getHighlights(lang);
 const localizedFaqs = getFaqs(lang);
+const localizedBenefits = getBenefits(lang);
 ---
 
 <BaseLayout>
@@ -53,7 +54,7 @@ const localizedFaqs = getFaqs(lang);
     <HeroSection />
     <FeatureGrid items={localizedFeatures} />
     <TechStackSection items={localizedHighlights} />
-    <PerformanceSection />
+    <PerformanceSection items={localizedBenefits} />
     <FaqSection items={localizedFaqs} />
     <DeploySection />
 

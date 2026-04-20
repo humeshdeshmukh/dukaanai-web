@@ -32,7 +32,6 @@ const {
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
----
 
 // Import all images from assets for internal processing
 const allImages = import.meta.glob<{ default: ImageMetadata }>("/src/assets/images/*.{jpeg,jpg,png,gif}");
