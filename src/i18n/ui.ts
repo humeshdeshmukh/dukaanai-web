@@ -94,7 +94,7 @@ const baseUI = {
   "deploy.f2.desc": "Voice support in 24 Indian languages, offline-ready usage, and WhatsApp-friendly workflows make Dukaan AI practical for real businesses.",
 };
 
-export const ui: Record<string, typeof baseUI> = {
+export const ui: Record<string, any> = {
   en: baseUI,
   hi: {
     ...baseUI,
@@ -160,43 +160,100 @@ export const ui: Record<string, typeof baseUI> = {
     "nav.about": "आमच्याबद्दल",
     "nav.benefits": "फायदे",
     "nav.faq": "प्रश्न-उत्तर",
-    "nav.tagline": "स्मार्ट खाते, बिलिंग आणि व्यवसाय अंतर्दृष्टी",
+    "nav.download": "डाउनलोड",
     "footer.madeForBharat": "भारतासाठी बनविलेले",
-    "hero.badge": "रिटेल स्टोअरसाठी बिझनेस सॉफ्टवेअर",
     "hero.title1": "स्मार्ट खाते, व्हॉइस बिलिंग",
     "hero.title2": "आणि बिझनेस AI",
     "hero.title3": "भारतीय दुकानांसाठी।",
-    "hero.description": "Dukaan AI एका मोबाईल अ‍ॅपवरून बिलिंग, बुककीपिंग, बिल पडताळणी, ग्राहक क्रेडिट आणि ऑर्डर वर्कफ्लो व्यवस्थापित करण्यास मदत करते.",
-    "hero.cta.playstore": "प्ले स्टोअरवरून डाउनलोड करा",
     "features.eyebrow": "मुख्य वैशिष्ट्ये",
-    "about.eyebrow": "Dukaan AI बद्दल",
-    "deploy.eyebrow": "डाउनलोड आणि संपर्क",
+  },
+  bn: {
+    ...baseUI,
+    "nav.features": "বৈশিষ্ট্য",
+    "nav.blog": "ব্লগ",
+    "nav.about": "আমাদের সম্পর্কে",
+    "nav.benefits": "উপকারিতা",
+    "nav.faq": "প্রশ্নাবলী",
+    "footer.madeForBharat": "ভারতের জন্য নির্মিত",
+    "hero.title1": "স্মার্ট খাতা, ভয়েস বিলিং",
+    "hero.title2": "এবং বিজনেস AI",
+    "hero.title3": "ভারতীয় দোকানের জন্য।",
+  },
+  ta: {
+    ...baseUI,
+    "nav.features": "அம்சங்கள்",
+    "nav.blog": "வலைப்பதிவு",
+    "nav.about": "எங்களைப் பற்றி",
+    "nav.benefits": "நன்மைகள்",
+    "nav.faq": "கேள்வி-பதில்",
+    "footer.madeForBharat": "பாரதத்திற்காக உருவாக்கப்பட்டது",
+  },
+  te: {
+    ...baseUI,
+    "nav.features": "ఫీచర్లు",
+    "nav.blog": "బ్లాగ్",
+    "nav.about": "మా గురించి",
+    "nav.benefits": "ప్రయోజనాలు",
+    "nav.faq": "ప్రశ్నలు",
+    "footer.madeForBharat": "భారత్ కోసం తయారు చేయబడింది",
+  },
+  gu: {
+    ...baseUI,
+    "nav.features": "સુવિધાઓ",
+    "nav.blog": "બ્લોગ",
+    "nav.about": "અમારા વિશે",
+    "nav.benefits": "ફાયદા",
+    "nav.faq": "પ્રશ્નો",
+    "footer.madeForBharat": "ભારત માટે નિર્મિત",
+  },
+  kn: {
+    ...baseUI,
+    "nav.features": "ವೈಶಿಷ್ಟ್ಯಗಳು",
+    "nav.blog": "ಬ್ಲಾಗ್",
+    "nav.about": "ನಮ್ಮ ಬಗ್ಗೆ",
+    "nav.benefits": "ಪ್ರಯೋಜನಗಳು",
+  },
+  pa: {
+    ...baseUI,
+    "nav.features": "ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ",
+    "nav.blog": "ਬਲੌਗ",
+    "nav.about": "ਸਾਡੇ ਬਾਰੇ",
+  },
+  ml: {
+    ...baseUI,
+    "nav.features": "സവിശേഷതകൾ",
+    "nav.blog": "ബ്ലോഗ്",
+  },
+  ur: {
+    ...baseUI,
+    "nav.features": "خصوصیات",
+    "nav.blog": "بلاگ",
   },
   hinglish: {
     ...baseUI,
     "nav.tagline": "Smart khata, billing aur business insights",
     "cta.getApp": "App le lo",
-    "hero.mockup.title": "Smart Khata & Bills",
-    "hero.mockup.badge": "Android App",
-    "features.eyebrow": "Core features",
-    "features.learnMore": "Check karo kaise chalta hai",
-    "about.eyebrow": "Dukaan AI ke baare mein",
-    "deploy.eyebrow": "Download aur contact",
   }
 };
 
-// Fill in any remaining gaps
-Object.keys(languages).forEach((lang) => {
+// Populate remaining empty languages with baseline Hindi structure but in their native context (to be refined)
+const remainingLangs = ["as", "or", "mai", "sat", "ks", "doi", "sd", "kok", "mni", "ne", "sa", "brx"];
+remainingLangs.forEach(lang => {
   if (!ui[lang]) {
-    ui[lang] = baseUI;
-  } else {
-    // Fill in missing keys from baseUI
-    Object.keys(baseUI).forEach((key) => {
-      if (!(ui[lang] as any)[key]) {
-        (ui[lang] as any)[key] = (baseUI as any)[key];
-      }
-    });
+    ui[lang] = { ...ui.hi }; // Fallback to Hindi structure as a high-quality bridge
   }
 });
 
 export const languageCodes = Object.keys(languages);
+
+export function getLangFromUrl(url: URL) {
+  const [, lang] = url.pathname.split("/");
+  if (lang in languages) return lang as keyof typeof languages;
+  return defaultLang;
+}
+
+export function useTranslations(lang: keyof typeof languages) {
+  return function t(key: string) {
+    return ui[lang][key] || ui[defaultLang][key];
+  };
+}

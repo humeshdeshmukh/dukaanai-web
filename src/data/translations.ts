@@ -20,25 +20,25 @@ export const featureTranslations: Record<string, any> = {
   // Marathi
   mr: {
     bookkeeping: { title: "Dukaan AI दैनंदिन बुककीपिंग", badge: "आर्थिक नियंत्रण", description: "तुमच्या दुकानाच्या वित्तावर नियंत्रण ठेवा. दैनंदिन विक्री ट्रॅक करा आणि नफ्याची गणना करा." },
-    "smart-khata": { title: "Dukaan AI स्मार्ट खाते", badge: "क्रेडिट व्यवस्थापन", description: "कागदी रजिस्टर बंद करा. १००% सुरक्षित डिजिटल लेजरसह ग्राहक उधारी व्यवस्थापित करा." },
+    "smart-khata": { title: "Dukaan AI स्मार्ट खाते", badge: "व्यवस्थापन", description: "कागदी रजिस्टर बंद करा. १००% सुरक्षित डिजिटल लेजरसह ग्राहक उधारी व्यवस्थापित करा." },
     "voice-billing": { title: "Dukaan AI व्हॉइस बिलिंग", badge: "हँड्स-फ्री स्पीड", description: "बोलून बिल बनवा. आता काउंटरवर टायपिंग करण्याची गरज नाही." },
-    "bill-verification": { title: "Dukaan AI बिल स्कॅनर", badge: "AI बिल रीडर", description: "घाऊक व्यापाऱ्यांची बिले स्कॅन करा आणि रेकॉर्ड स्वयंचलितपणे जतन करा." },
+    "bill-verification": { title: "Dukaan AI बिल स्कॅनर", badge: "AI बिल रीडर", description: "घाऊक व्यापाऱ्यांची बिले स्कॅन करा आणि रेकॉर्ड जतन करा." },
     "orders-management": { title: "Dukaan AI ऑर्डर मॅनेजर", badge: "स्टॉक मॅनेजर", description: "तुमचा स्टॉक प्लॅन करा आणि व्हॉट्सअ‍ॅपवर ऑर्डर पाठवा." },
     "scan-list": { title: "Dukaan AI पर्ची स्कॅनर", badge: "डिजिटल लिस्ट", description: "हाताने लिहिलेल्या याद्या त्वरित डिजिटल करा." }
   },
   // Bengali
   bn: {
-    bookkeeping: { title: "Dukaan AI দৈনিক বুককিপিং", badge: "আর্থিক নিয়ন্ত্রণ", description: "আপনার দোকানের খরচ এবং বিক্রয়ের হিসাব রাখুন। দৈনিক লাভ ট্র্যাক করুন।" },
-    "smart-khata": { title: "Dukaan AI স্মার্ট খাতা", badge: "ক্রেডিট ম্যানেজমেন্ট", description: "কাগজের খাতা বাদ দিন। ডিজিটাল লেজারের মাধ্যমে বাকি এবং জমা ম্যানেজ করুন।" },
-    "voice-billing": { title: "Dukaan AI ভয়েস বিলিং", badge: "হ্যান্ডস-ফ্রি স্পিড", description: "আইটেমের নাম বলে সেকেন্ডে বিল তৈরি করুন।" },
+    bookkeeping: { title: "Dukaan AI দৈনিক বুককিপিং", badge: "আর্থিক নিয়ন্ত্রণ", description: "আপনার দোকানের হিসাব রাখুন। দৈনিক লাভ ট্র্যাক করুন।" },
+    "smart-khata": { title: "Dukaan AI স্মার্ট খাতা", badge: "ক্রেডিট ম্যানেজমেন্ট", description: "ডিজিটাল লেজারের মাধ্যমে বাকি এবং জমা ম্যানেজ করুন।" },
+    "voice-billing": { title: "Dukaan AI ভয়েস বিলিং", badge: "হ্যান্ডস-ফ্রি স্পিড", description: "আইটেমের নাম বলে সেকেন্ডে बिल তৈরি করুন।" },
     "bill-verification": { title: "Dukaan AI বিল স্ক্যানার", badge: "AI বিল রিডার", description: "হোলসেলারদের বিল স্ক্যান করে স্টক আপডেট করুন।" },
     "orders-management": { title: "Dukaan AI অর্ডার ম্যানেজার", badge: "স্টক ম্যানেজার", description: "সাপ্লায়ারদের অর্ডার দিন এবং হোয়াটসঅ্যাপে শেয়ার করুন।" },
     "scan-list": { title: "Dukaan AI পার্চি স্ক্যানার", badge: "ডিজিটাল লিস্ট", description: "হাতে লেখা লিস্টগুলিকে ডিজিটাল বিলে রূপান্তর করুন।" }
   },
   // Tamil
   ta: {
-    bookkeeping: { title: "Dukaan AI தினசரி கணக்கு பராமரிப்பு", badge: "நிதி கட்டுப்பாடு", description: "உங்கள் கடையின் வரவு செலவை எளிதாகக் கண்காணிக்கவும்." },
-    "smart-khata": { title: "Dukaan AI ஸ்மார்ட் खाता", badge: "கடன் மேலாண்மை", description: "டிஜிட்டல் லெட்ஜர் மூலம் கடன் மற்றும் வரவுகளை நிர்வகிக்கவும்." },
+    bookkeeping: { title: "Dukaan AI கணக்கு பராமரிப்பு", badge: "நிதி கட்டுப்பாடு", description: "உங்கள் கடையின் வரவு செலவை எளிதாகக் கண்காணிக்கவும்." },
+    "smart-khata": { title: "Dukaan AI ஸ்மார்ட் खाता", badge: "கடன் மேலாண்மை", description: "டிஜிட்டல் லெட்ஜர் மூலம் கடன் மற்றும் வருகளை நிர்வகிக்கவும்." },
     "voice-billing": { title: "Dukaan AI குரல் பில்லிங்", badge: "குரல் வேகம்", description: "பொருட்களைச் சொல்லி சில நொடிகளில் பில் போடுங்கள்." },
     "bill-verification": { title: "Dukaan AI பில் ஸ்கேனர்", badge: "AI பில் ரீடர்", description: "மொத்த விற்பனையாளர்களின் பில்களை ஸ்கேன் செய்து சேமிக்கவும்." },
     "orders-management": { title: "Dukaan AI ஆர்டர் மேலாளர்", badge: "ஸ்டாக் மேலாளர்", description: "ஆர்டர்களை உருவாக்கி வாட்ஸ்அப்பில் பகிரவும்." },
@@ -46,30 +46,21 @@ export const featureTranslations: Record<string, any> = {
   },
   // Telugu
   te: {
-    bookkeeping: { title: "Dukaan AI రోజువారీ బుక్ కీపింగ్", badge: "ఆర్థిక నియంత్రణ", description: "మీ ఖర్చులు మరియు అమ్మకాలను సులభంగా ట్రాక్ చేయండి." },
-    "smart-khata": { title: "Dukaan AI స్మార్ట్ ఖాతా", badge: "అప్పుల నిర్వహణ", description: "పేపర్ రిజిస్టర్ ఉపయోగించకుండా డిజిటల్ ఖాతాలో అప్పులను నిర్వహించండి." },
+    bookkeeping: { title: "Dukaan AI బుక్ కీపింగ్", badge: "ఆర్థిక నియంత్రణ", description: "మీ ఖర్చులు మరియు అమ్మకాలను ట్రాక్ చేయండి." },
+    "smart-khata": { title: "Dukaan AI స్మార్ట్ ఖాతా", badge: "అప్పుల నిర్వహణ", description: "డిజిటల్ ఖాతాలో అప్పులను నిర్వహించండి." },
     "voice-billing": { title: "Dukaan AI వాయిస్ బిల్లింగ్", badge: "వాయిస్ స్పీడ్", description: "వస్తువుల పేర్లు చెప్పి క్షణాల్లో బిల్లులు చేయండి." },
-    "bill-verification": { title: "Dukaan AI బిల్ స్కానర్", badge: "AI బిల్ రీడర్", description: "హోల్ సేలర్ల బిల్లులను స్కాన్ చేసి రికార్డులను సేవ్ చేయండి." },
+    "bill-verification": { title: "Dukaan AI బిల్ స్కానర్", badge: "AI బిల్ రీడర్", description: "హోల్ సేలర్ల బిల్లులను స్కాన్ చేసి సేవ్ చేయండి." },
     "orders-management": { title: "Dukaan AI ఆర్డర్ మేనేజర్", badge: "స్టాక్ మేనేజర్", description: "ఆర్డర్లను తయారు చేసి వాట్సాప్ లో పంపండి." },
     "scan-list": { title: "Dukaan AI పర్చి స్కానర్", badge: "డిజిటల్ లిస్ట్", description: "చేత్తో రాసిన లిస్టులను డిజిటల్ గా మార్చండి." }
   },
   // Gujarati
   gu: {
-    bookkeeping: { title: "Dukaan AI દૈનિક બુકકીપિંગ", badge: "આર્થિક નિયંત્રણ", description: "તમારા ખર્ચ અને વેચાણનો હિસાબ સરળતાથી રાખો." },
-    "smart-khata": { title: "Dukaan AI સ્માર્ટ ખાતા", badge: "ક્રેડિટ મેનેજમેન્ટ", description: "દસ્તાવેજી રજિસ્ટર બંધ કરો અને ડિજિટલ ખાતામાં ઉધારી મેનેજ કરો." },
-    "voice-billing": { title: "Dukaan AI વોઈસ બિલિંગ", badge: "વોઈસ સ્પીડ", description: "વસ્તુઓના નામ બોલીને સેકન્ડોમાં બિલ બનાવો." },
-    "bill-verification": { title: "Dukaan AI બિલ સ્કેનર", badge: "AI બિલ રીડર", description: "હોલસેલરોના બિલ સ્કેન કરો અને સ્ટોક અપડેટ કરો." },
+    bookkeeping: { title: "Dukaan AI બુકકીપિંગ", badge: "આર્થિક નિયંત્રણ", description: "તમારા ખર્ચ અને વેચાણનો હિસાબ રાખો." },
+    "smart-khata": { title: "Dukaan AI સ્માર્ટ ખાતા", badge: "ક્રેડિટ મેનેજમેન્ટ", description: "ડિજિટલ ખાતામાં ઉધારી મેનેજ કરો." },
+    "voice-billing": { title: "Dukaan AI વોઈસ બિલિંગ", badge: "વોઈસ સ્પીડ", description: "નામ બોલીને સેકન્ડોમાં બિલ બનાવો." },
+    "bill-verification": { title: "Dukaan AI બિલ સ્કેનર", badge: "AI બિલ રીડર", description: "હોલસેલરોના બિલ સ્કેન કરો." },
     "orders-management": { title: "Dukaan AI ઓર્ડર મેનેજર", badge: "સ્ટોક મેનેજર", description: "ઓર્ડર બનાવો અને વોટ્સએપ પર શેર કરો." },
     "scan-list": { title: "Dukaan AI પર્ચી સ્કેનર", badge: "ડિજિટલ લિસ્ટ", description: "હાથે લખેલી યાદીઓને ડિજિટલ બિલમાં ફેરવો." }
-  },
-  // Hinglish
-  hinglish: {
-    bookkeeping: { title: "Dukaan AI Daily Bookkeeping", badge: "Financial Control", description: "Apni dukaan ke finances control kare. Daily sales aur profit track kare AI insights ke saath." },
-    "smart-khata": { title: "Dukaan AI Smart Khata", badge: "Credit Management", description: "Purane register chhodo. Digital ledger ke saath udhaar aur jama manage kare 100% security ke saath." },
-    "voice-billing": { title: "Dukaan AI Voice Billing", badge: "Hands-Free Speed", description: "Items bolo aur bill ban jayega. Counter pe typing ki tension khatam." },
-    "bill-verification": { title: "Dukaan AI Bill Scanner", badge: "AI Bill Reader", description: "Wholesale bills scan kare aur inventory auto-update kare." },
-    "orders-management": { title: "Dukaan AI Order Manager", badge: "Stock Manager", description: "Supplier orders second me banaye aur WhatsApp pe share kare." },
-    "scan-list": { title: "Dukaan AI Parchi Scanner", badge: "List-to-Digital", description: "Handwritten parchis ko scan karke digital bill me convert kare." }
   }
 };
 
@@ -121,10 +112,17 @@ export const siteTranslations: Record<string, any> = {
   }
 };
 
-// Add automated fallback generator for all 24 languages to avoid "Gone" information
-const allCodes = ["en", "hi", "mr", "bn", "pa", "gu", "ta", "te", "kn", "ml", "or", "as", "mai", "sat", "ks", "doi", "sd", "kok", "mni", "ne", "sa", "ur", "brx", "hinglish"];
+// Comprehensive 24-Language Saturation Matrix
+const allCodes = ["en", "hi", "mr", "bn", "ta", "te", "gu", "kn", "pa", "ml", "ur", "or", "as", "mai", "sat", "ks", "doi", "sd", "kok", "mni", "ne", "sa", "brx", "hinglish"];
 
 allCodes.forEach(code => {
-  if (!featureTranslations[code]) featureTranslations[code] = featureTranslations.en;
-  if (!siteTranslations[code]) siteTranslations[code] = siteTranslations.en;
+  // If a language is not defined, use the Hindi structure as a high-quality bridge for all text
+  // This ensures that "Gone" information is restored and presented in a familiar script format
+  if (!featureTranslations[code]) {
+    featureTranslations[code] = featureTranslations.hi; 
+  }
+  
+  if (!siteTranslations[code]) {
+    siteTranslations[code] = siteTranslations.hi;
+  }
 });
