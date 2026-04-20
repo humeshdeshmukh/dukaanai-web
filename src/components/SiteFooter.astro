@@ -1,20 +1,30 @@
 ---
 import { site } from "../data/site";
+import { getLangFromUrl, useTranslations } from "../i18n/utils";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+
+const getLink = (path: string) => {
+  if (lang === 'en') return path;
+  return `/${lang}${path === '/' ? '' : path}`;
+};
+
 const currentYear = new Date().getFullYear();
 
 const footerLinks = [
-  { name: "Voice Billing", href: "/features/voice-billing" },
-  { name: "Smart Khata", href: "/features/smart-khata" },
-  { name: "Daily Bookkeeping", href: "/features/bookkeeping" },
-  { name: "Bill Verification", href: "/features/bill-verification" },
-  { name: "Orders Management", href: "/features/orders-management" },
-  { name: "Scan List", href: "/features/scan-list" }
+  { name: "Voice Billing", href: getLink("/features/voice-billing") },
+  { name: "Smart Khata", href: getLink("/features/smart-khata") },
+  { name: "Daily Bookkeeping", href: getLink("/features/bookkeeping") },
+  { name: "Bill Verification", href: getLink("/features/bill-verification") },
+  { name: "Orders Management", href: getLink("/features/orders-management") },
+  { name: "Scan List", href: getLink("/features/scan-list") }
 ];
 
 const supportLinks = [
-  { name: "Blog & Guides", href: "/blog" },
-  { name: "Kirana Guide", href: "/blog/ultimate-kirana-guide" },
-  { name: "FAQ", href: "/#faq" }
+  { name: t("nav.blog"), href: getLink("/blog") },
+  { name: "Kirana Guide", href: getLink("/blog/ultimate-kirana-guide") },
+  { name: t("nav.faq"), href: getLink("/#faq") }
 ];
 
 const legalLinks = [

@@ -2,12 +2,21 @@
 import type { ImageMetadata } from "astro";
 import { Image } from "astro:assets";
 import type { FeatureItem } from "../data/site";
+import { getLangFromUrl, useTranslations } from "../i18n/utils";
 
 interface Props {
   items: FeatureItem[];
 }
 
 const { items } = Astro.props;
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+
+const getLink = (path: string) => {
+  if (lang === 'en') return path;
+  return `/${lang}${path === '/' ? '' : path}`;
+};
 
 // Import all images from assets
 const images = import.meta.glob<{ default: ImageMetadata }>("/src/assets/images/*.{jpeg,jpg,png,gif}");
@@ -68,7 +77,7 @@ const images = import.meta.glob<{ default: ImageMetadata }>("/src/assets/images/
               
               <div class="pt-2">
                 <a 
-                  href={`/features/${item.slug}`} 
+                  href={getLink(`/features/${item.slug}`)} 
                   class="inline-flex items-center gap-2 text-sm font-bold text-forest-800 transition hover:text-gold-700"
                 >
                   Learn how it works
@@ -78,7 +87,7 @@ const images = import.meta.glob<{ default: ImageMetadata }>("/src/assets/images/
             </div>
             
             {/* Make the whole card clickable for better UX, but keeping the link for accessibility/SEO */}
-            <a href={`/features/${item.slug}`} class="absolute inset-0 z-10" aria-label={`View details about ${item.title}`}></a>
+            <a href={getLink(`/features/${item.slug}`)} class="absolute inset-0 z-10" aria-label={`View details about ${item.title}`}></a>
           </article>
         );
       })

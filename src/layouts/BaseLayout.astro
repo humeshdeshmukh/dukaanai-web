@@ -1,8 +1,8 @@
 ---
 import { site } from "../data/site";
 import "../styles/global.css";
-
 import heroPremium from "../assets/images/hero-premium.jpeg";
+import { getLangFromUrl } from "../i18n/utils";
 
 interface Props {
   title?: string;
@@ -18,6 +18,7 @@ const {
   extraSchemas = []
 } = Astro.props;
 
+const lang = getLangFromUrl(Astro.url);
 
 const canonical = new URL(Astro.url.pathname, site.url).toString();
 const robotsContent = noindex
@@ -58,7 +59,7 @@ const pageSchemas = [
     "@type": "WebSite",
     name: site.name,
     url: site.url,
-    inLanguage: site.language,
+    inLanguage: lang,
     description: site.description
   },
   {
@@ -97,7 +98,7 @@ if (breadcrumbSchema) {
 ---
 
 <!doctype html>
-<html lang={site.language}>
+<html lang={lang}>
   <head>
     <!-- Google tag (gtag.js) -->
     <script is:inline type="text/partytown" async src="https://www.googletagmanager.com/gtag/js?id=G-NML2GE0WKG"></script>
@@ -202,6 +203,25 @@ if (breadcrumbSchema) {
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={`${site.url}${site.socialImage}`} />
     <script is:inline type="application/ld+json" set:html={JSON.stringify(pageSchemas)} />
+    
+    <script is:inline>
+      // Smart Language Detection & Redirection
+      (function() {
+        // Only redirect on the root path
+        if (window.location.pathname !== '/' && window.location.pathname !== '') return;
+        
+        // Don't redirect if we've already redirected or the user manually chose a path
+        if (sessionStorage.getItem('ua-lang-redirected')) return;
+        
+        const supported = ["en", "hi", "mr", "bn", "pa", "gu", "ta", "te", "kn", "ml", "or", "as", "mai", "sat", "ks", "doi", "sd", "kok", "mni", "ne", "sa", "ur", "hinglish"];
+        const userLang = (navigator.language || navigator.userLanguage).split('-')[0].toLowerCase();
+        
+        if (userLang !== 'en' && supported.includes(userLang)) {
+          sessionStorage.setItem('ua-lang-redirected', 'true');
+          window.location.href = '/' + userLang + '/';
+        }
+      })();
+    </script>
   </head>
   <body>
     <slot />

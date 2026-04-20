@@ -1,0 +1,138 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import SiteHeader from "../../../components/SiteHeader.astro";
+import SiteFooter from "../../../components/SiteFooter.astro";
+import { site } from "../../../data/site";
+import { ArrowRight, BookOpenText, Sparkles } from "@lucide/astro";
+import { getLangFromUrl, useTranslations } from "../../../i18n/utils";
+
+export function getStaticPaths() {
+  return [
+    { params: { lang: "en" } },
+    { params: { lang: "hi" } },
+    { params: { lang: "mr" } },
+    { params: { lang: "bn" } },
+    { params: { lang: "pa" } },
+    { params: { lang: "gu" } },
+    { params: { lang: "ta" } },
+    { params: { lang: "te" } },
+    { params: { lang: "kn" } },
+    { params: { lang: "ml" } },
+    { params: { lang: "or" } },
+    { params: { lang: "as" } },
+    { params: { lang: "mai" } },
+    { params: { lang: "sat" } },
+    { params: { lang: "ks" } },
+    { params: { lang: "doi" } },
+    { params: { lang: "sd" } },
+    { params: { lang: "kok" } },
+    { params: { lang: "mni" } },
+    { params: { lang: "ne" } },
+    { params: { lang: "sa" } },
+    { params: { lang: "ur" } },
+    { params: { lang: "hinglish" } },
+  ];
+}
+
+const { lang } = Astro.params;
+const t = useTranslations(lang as any);
+
+const getLink = (path: string) => {
+  if (lang === 'en') return path;
+  return `/${lang}${path === '/' ? '' : path}`;
+};
+
+const title = `${t("nav.blog")} | ${site.name}`;
+const description = "Learn how to grow your kirana business, manage udhaar, and master digital billing with expert guides and AI insights from Dukaan AI.";
+
+const posts = [
+  {
+    title: "The Ultimate Guide to Managing your Kirana Dukaan in 2026",
+    description: "Discover how AI and digital tools are transforming traditional Indian shops and how you can stay ahead of the competition.",
+    publishDate: "2026-04-20",
+    slug: "ultimate-kirana-guide",
+    category: "Store Management",
+    image: "/images/hero-overview.png"
+  }
+];
+---
+
+<BaseLayout title={title} description={description}>
+  <SiteHeader />
+  
+  <main class="pt-24 sm:pt-32">
+    <!-- Blog Hero -->
+    <section class="section-shell pb-16 sm:pb-24">
+      <div class="max-w-3xl">
+        <div class="inline-flex items-center gap-2 rounded-full border border-gold-300/70 bg-white/80 px-4 py-2 text-[10px] font-bold uppercase tracking-[0.24em] text-forest-800 shadow-sm mb-6">
+          <span class="h-1.5 w-1.5 rounded-full bg-gold-500 animate-pulse"></span>
+          {t("nav.blog")}
+        </div>
+        <h1 class="font-display text-[clamp(2.5rem,6vw,4.5rem)] font-bold leading-[1] tracking-tight text-forest-950">
+          Knowledge for the <span class="text-gold-600">Modern Dukaan</span>
+        </h1>
+        <p class="mt-8 text-lg leading-8 text-forest-800 sm:text-xl">
+          Expert guides, business tips, and AI insights specifically designed for Indian retailers, kirana stores, and wholesalers.
+        </p>
+      </div>
+    </section>
+
+    <!-- Featured Post -->
+    <section class="section-shell pb-20">
+      <div class="grid gap-12 lg:grid-cols-2 lg:items-center">
+        <div class="relative group cursor-pointer overflow-hidden rounded-[32px] border border-forest-900/10 shadow-2xl">
+          <div class="aspect-[16/10] bg-forest-950/5">
+             <img src="/images/hero-overview.png" alt="Kirana store management guide hero" class="h-full w-full object-cover object-top transition duration-500 group-hover:scale-105" />
+          </div>
+          <a href={getLink("/blog/ultimate-kirana-guide")} class="absolute inset-0 z-10" aria-label="Read featured article"></a>
+        </div>
+
+        <div class="space-y-6">
+          <div class="flex items-center gap-3 text-[10px] font-bold uppercase tracking-widest text-gold-600">
+            <BookOpenText size={14} />
+            Featured Article
+          </div>
+          <h2 class="font-display text-3xl font-bold text-forest-950 sm:text-4xl lg:text-5xl">
+            {posts[0].title}
+          </h2>
+          <p class="text-lg leading-8 text-forest-800">
+            {posts[0].description}
+          </p>
+          <a href={getLink("/blog/ultimate-kirana-guide")} class="inline-flex items-center gap-3 rounded-full bg-forest-800 px-8 py-4 text-sm font-bold text-white transition hover:bg-forest-700">
+            Read Full Guide
+            <ArrowRight size={16} />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Articles Grid -->
+    <section class="bg-forest-50/40 py-20 sm:py-24 border-t border-forest-900/5">
+      <div class="section-shell">
+        <h3 class="font-display text-2xl font-bold text-forest-950 mb-12 uppercase tracking-widest">More Guides & Tips</h3>
+        
+        <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+          {posts.map(post => (
+            <article class="group relative flex flex-col rounded-[32px] border border-forest-900/5 bg-white p-4 transition hover:border-gold-400 hover:shadow-xl">
+              <div class="aspect-[16/10] overflow-hidden rounded-[22px] bg-forest-950/5 mb-6">
+                <img src={post.image} alt={post.title} class="h-full w-full object-cover object-top transition duration-500 group-hover:scale-105" />
+              </div>
+              <div class="flex-1 space-y-4 px-2 pb-4">
+                <p class="text-[10px] font-bold uppercase tracking-widest text-gold-600">{post.category}</p>
+                <h4 class="font-display text-xl font-bold leading-tight text-forest-950 group-hover:text-gold-700 transition">
+                  {post.title}
+                </h4>
+                <p class="text-sm leading-7 text-forest-800/80 line-clamp-3">
+                  {post.description}
+                </p>
+              </div>
+              <a href={getLink(`/blog/${post.slug}`)} class="absolute inset-0 z-10" aria-label={`Read ${post.title}`}></a>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <SiteFooter />
+</BaseLayout>

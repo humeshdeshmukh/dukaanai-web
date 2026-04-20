@@ -1,14 +1,23 @@
----
-import { Menu, Smartphone, X } from "@lucide/astro";
+import { Menu, Smartphone, X, Globe } from "@lucide/astro";
 import { site } from "../data/site";
 import { Image } from "astro:assets";
 import dukaanLogo from "../assets/images/dukaan-logo.jpeg";
+import { getLangFromUrl, useTranslations } from "../i18n/utils";
+import { languages } from "../i18n/ui";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+
+const getLink = (path: string) => {
+  if (lang === 'en') return path;
+  return `/${lang}${path === '/' ? '' : path}`;
+};
 ---
 
 <header class="section-shell pt-5 sm:pt-7">
   <div class="panel px-4 py-3 sm:px-6">
     <div class="flex items-center justify-between">
-      <a href="/" class="flex items-center gap-3">
+      <a href={getLink("/")} class="flex items-center gap-3">
         <Image
           src={dukaanLogo}
           alt="Dukaan AI logo"
@@ -18,21 +27,40 @@ import dukaanLogo from "../assets/images/dukaan-logo.jpeg";
           loading="eager"
         />
         <div>
-          <p class="font-display text-2xl font-bold tracking-tight text-forest-900">Dukaan AI</p>
+          <p class="font-display text-2xl font-bold tracking-tight text-forest-900">{site.name}</p>
           <p class="text-sm text-forest-700">Smart khata, billing and business insights</p>
         </div>
       </a>
 
       <nav class="hidden items-center gap-6 text-sm font-semibold text-forest-800 md:flex">
-        <a href="/#features" class="transition hover:text-gold-600">Features</a>
-        <a href="/blog" class="transition hover:text-gold-600">Blog</a>
-        <a href="/#about" class="transition hover:text-gold-600">About</a>
-        <a href="/#benefits" class="transition hover:text-gold-600">Benefits</a>
-        <a href="/#faq" class="transition hover:text-gold-600">FAQ</a>
-        <a href="/#download" class="transition hover:text-gold-600">Download</a>
+        <a href={getLink("/#features")} class="transition hover:text-gold-600">{t("nav.features")}</a>
+        <a href={getLink("/blog")} class="transition hover:text-gold-600">{t("nav.blog")}</a>
+        <a href={getLink("/#about")} class="transition hover:text-gold-600">{t("nav.about")}</a>
+        <a href={getLink("/#benefits")} class="transition hover:text-gold-600">{t("nav.benefits")}</a>
+        <a href={getLink("/#faq")} class="transition hover:text-gold-600">{t("nav.faq")}</a>
       </nav>
 
       <div class="flex items-center gap-2">
+        <!-- Language Selector -->
+        <div class="relative group mr-2">
+          <button class="flex items-center gap-1.5 rounded-full border border-forest-900/10 bg-white/80 px-3 py-1.5 text-xs font-bold text-forest-800 transition hover:border-gold-400">
+            <Globe size={14} class="text-gold-600" />
+            <span class="uppercase">{lang}</span>
+          </button>
+          <div class="absolute right-0 top-full mt-2 hidden w-40 origin-top-right rounded-2xl border border-forest-900/10 bg-white p-2 shadow-2xl group-hover:block animate-in fade-in zoom-in-95 duration-200">
+            <div class="grid gap-1 max-h-64 overflow-y-auto custom-scrollbar">
+              {Object.entries(languages).map(([code, label]) => (
+                <a 
+                  href={code === 'en' ? '/' : `/${code}/`}
+                  class={`block rounded-xl px-3 py-2 text-xs font-medium transition hover:bg-forest-50 ${lang === code ? 'bg-gold-50 text-gold-700' : 'text-forest-800'}`}
+                >
+                  {label}
+                </a>
+              ))}
+            </div>
+          </div>
+        </div>
+
         <a
           href={site.playStoreUrl}
           target="_blank"
@@ -40,7 +68,7 @@ import dukaanLogo from "../assets/images/dukaan-logo.jpeg";
           class="hidden items-center gap-2 rounded-full bg-forest-800 px-4 py-2 text-sm font-semibold text-white shadow-glow transition hover:bg-forest-700 sm:inline-flex"
         >
           <Smartphone size={16} />
-          Get on Play Store
+          {t("cta.getApp")}
         </a>
         <button
           type="button"
@@ -62,12 +90,11 @@ import dukaanLogo from "../assets/images/dukaan-logo.jpeg";
       data-mobile-menu
     >
       <nav class="flex flex-col gap-2 text-sm font-semibold text-forest-800">
-        <a href="/#features" class="rounded-2xl px-3 py-3 transition hover:bg-forest-50" data-mobile-link>Features</a>
-        <a href="/blog" class="rounded-2xl px-3 py-3 transition hover:bg-forest-50" data-mobile-link>Blog</a>
-        <a href="/#about" class="rounded-2xl px-3 py-3 transition hover:bg-forest-50" data-mobile-link>About</a>
-        <a href="/#benefits" class="rounded-2xl px-3 py-3 transition hover:bg-forest-50" data-mobile-link>Benefits</a>
-        <a href="/#faq" class="rounded-2xl px-3 py-3 transition hover:bg-forest-50" data-mobile-link>FAQ</a>
-        <a href="/#download" class="rounded-2xl px-3 py-3 transition hover:bg-forest-50" data-mobile-link>Download</a>
+        <a href={getLink("/#features")} class="rounded-2xl px-3 py-3 transition hover:bg-forest-50" data-mobile-link>{t("nav.features")}</a>
+        <a href={getLink("/blog")} class="rounded-2xl px-3 py-3 transition hover:bg-forest-50" data-mobile-link>{t("nav.blog")}</a>
+        <a href={getLink("/#about")} class="rounded-2xl px-3 py-3 transition hover:bg-forest-50" data-mobile-link>{t("nav.about")}</a>
+        <a href={getLink("/#benefits")} class="rounded-2xl px-3 py-3 transition hover:bg-forest-50" data-mobile-link>{t("nav.benefits")}</a>
+        <a href={getLink("/#faq")} class="rounded-2xl px-3 py-3 transition hover:bg-forest-50" data-mobile-link>{t("nav.faq")}</a>
       </nav>
 
       <a
@@ -78,7 +105,7 @@ import dukaanLogo from "../assets/images/dukaan-logo.jpeg";
         data-mobile-link
       >
         <Smartphone size={16} />
-        Get on Play Store
+        {t("cta.getApp")}
       </a>
     </div>
   </div>

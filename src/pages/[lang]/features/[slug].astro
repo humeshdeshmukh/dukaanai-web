@@ -1,0 +1,51 @@
+---
+import FeatureLayout from "../../../layouts/FeatureLayout.astro";
+import { getFeatures, site } from "../../../data/site";
+import { ui } from "../../../i18n/ui";
+
+export function getStaticPaths() {
+  const supportedLangs = ["en", "hi", "mr", "bn", "pa", "gu", "ta", "te", "kn", "ml", "or", "as", "mai", "sat", "ks", "doi", "sd", "kok", "mni", "ne", "sa", "ur", "hinglish"];
+  const slugs = ["bookkeeping", "smart-khata", "voice-billing", "bill-verification", "orders-management", "scan-list"];
+  
+  const paths = [];
+  
+  supportedLangs.forEach(lang => {
+    slugs.forEach(slug => {
+      paths.push({ params: { lang, slug } });
+    });
+  });
+  
+  return paths;
+}
+
+const { lang, slug } = Astro.params;
+
+// Get the specific feature data for this lang
+const localizedFeatures = getFeatures(lang as string);
+const feature = localizedFeatures.find(f => f.slug === slug) || getFeatures("en").find(f => f.slug === slug);
+
+if (!feature) {
+  return Astro.redirect("/404");
+}
+
+// In a real app, you'd have more granular benefits/faqs per lang.
+// For now, we'll use placeholers or shared context if not explicitly in site.ts features.
+const title = `${feature.title} | ${site.name}`;
+const description = feature.description;
+---
+
+<FeatureLayout
+  title={title}
+  description={description}
+  featureTitle={feature.title}
+  featureDescription={feature.description}
+  imagePath={feature.image}
+  badge={feature.badge}
+  benefits={[
+    { title: "Easy to use", text: "Designed for Indian shopkeepers with simple interfaces." },
+    { title: "24 Languages", text: "Works in your local language seamlessly." }
+  ]}
+  faqs={[
+    { question: `How does ${feature.title} work?`, answer: `You can use ${feature.title} directly from the Dukaan AI mobile app.` }
+  ]}
+/>
