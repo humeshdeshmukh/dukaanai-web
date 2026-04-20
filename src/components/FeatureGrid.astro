@@ -63,7 +63,7 @@ const images = import.meta.glob<{ default: ImageMetadata }>("/src/assets/images/
               ) : (
                 <img
                   src={item.image}
-                  alt={`Dukaan AI ${item.title} feature: ${item.description}`}
+                  alt={t("alt.featureCard")}
                   class="feature-image"
                 />
               )}

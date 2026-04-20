@@ -48,14 +48,8 @@ export function getFeatures(lang: string): FeatureItem[] {
     title: trans[f.slug]?.title || f.title,
     badge: trans[f.slug]?.badge || f.badge,
     description: trans[f.slug]?.description || f.description,
-    // Add default benefits/faqs from EN if not in translation object yet
-    benefits: [
-      { title: "Easy to use", text: "Designed for Indian shopkeepers with simple interfaces." },
-      { title: "24 Languages", text: "Works in your local language seamlessly." }
-    ],
-    faqs: [
-      { question: `How does it work?`, answer: `You can use this feature directly from the Dukaan AI mobile app.` }
-    ]
+    benefits: trans[f.slug]?.benefits || [],
+    faqs: trans[f.slug]?.faqs || []
   }));
 }
 
