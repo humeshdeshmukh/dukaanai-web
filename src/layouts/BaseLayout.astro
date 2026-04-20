@@ -77,6 +77,15 @@ const pageSchemas = [
 <!doctype html>
 <html lang={site.language}>
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-NML2GE0WKG"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-NML2GE0WKG');
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="google-site-verification" content="KJNICerwlN2jwmF2dnkqZCdUA8CCq5_OEp_pF2ZWR3g" />
