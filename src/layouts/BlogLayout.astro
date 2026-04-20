@@ -78,6 +78,14 @@ const extraSchemas = [articleSchema];
           <span class="h-1 w-1 rounded-full bg-forest-900/20"></span>
           <span>By {author}</span>
         </div>
+
+        {imagePath && (
+          <div class="mt-12 overflow-hidden rounded-[32px] border border-forest-900/10 shadow-xl">
+            <div class="aspect-[16/8] bg-forest-950/5">
+              <img src={imagePath} alt={title} class="h-full w-full object-cover object-top" />
+            </div>
+          </div>
+        )}
       </div>
 
       <!-- Main Content -->
