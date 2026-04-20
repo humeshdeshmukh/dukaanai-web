@@ -33,7 +33,7 @@ export const site = {
 export const features = [
   {
     slug: "bookkeeping",
-    title: "Daily Bookkeeping",
+    title: "Dukaan AI Bookkeeping",
     description:
       "Track daily sales, profits, margins, and business performance with simple charts and AI-powered insights.",
     image: "/images/bookkeeping.png",
@@ -41,7 +41,7 @@ export const features = [
   },
   {
     slug: "smart-khata",
-    title: "Smart Khata",
+    title: "Dukaan AI Smart Khata",
     description:
       "Replace your paper bahi khata with a secure digital ledger for customer credit, payments, and balance tracking.",
     image: "/images/smart-khata.png",
@@ -49,7 +49,7 @@ export const features = [
   },
   {
     slug: "voice-billing",
-    title: "Voice Billing",
+    title: "Dukaan AI Voice Billing",
     description:
       "Create bills by speaking item names and quantities in natural language across 24 Indian languages.",
     image: "/images/voice-billing.png",
@@ -57,7 +57,7 @@ export const features = [
   },
   {
     slug: "bill-verification",
-    title: "Bill Verification",
+    title: "Dukaan AI Bill Scanner",
     description:
       "Scan wholesaler bills with your camera and let AI extract items, prices, and records automatically.",
     image: "/images/bill-verification.png",
@@ -65,7 +65,7 @@ export const features = [
   },
   {
     slug: "orders-management",
-    title: "Orders Management",
+    title: "Dukaan AI Order Manager",
     description:
       "Generate professional supplier orders, manage stock smarter, and share orders on WhatsApp in one tap.",
     image: "/images/orders-management.png",
@@ -73,7 +73,7 @@ export const features = [
   },
   {
     slug: "scan-list",
-    title: "Scan List",
+    title: "Dukaan AI Scan List",
     description:
       "Convert handwritten notes into digital lists instantly so you never miss items during ordering or stock updates.",
     image: "/images/scan-list.png",
@@ -88,7 +88,7 @@ export const highlights = [
     name: "Voice-first shop management",
     type: "What makes Dukaan AI different",
     description:
-      "Use your voice to bill products, record khata entries, search sales, and ask business questions naturally."
+      "Use your voice to bill products and search sales naturally, and manage your khata ledger digitally with a few taps."
   },
   {
     name: "Made for Indian businesses",

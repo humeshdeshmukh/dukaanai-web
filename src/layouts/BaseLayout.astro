@@ -8,12 +8,14 @@ interface Props {
   title?: string;
   description?: string;
   noindex?: boolean;
+  extraSchemas?: any[];
 }
 
 const {
   title = site.title,
   description = site.description,
-  noindex = false
+  noindex = false,
+  extraSchemas = []
 } = Astro.props;
 
 
@@ -84,6 +86,10 @@ const pageSchemas = [
     }
   }
 ];
+
+if (extraSchemas.length > 0) {
+  pageSchemas.push(...extraSchemas);
+}
 
 if (breadcrumbSchema) {
   pageSchemas.push(breadcrumbSchema as any);
