@@ -42,9 +42,13 @@ const images = import.meta.glob<{ default: ImageMetadata }>("/src/assets/images/
                   src={imageAsset()}
                   alt={`Dukaan AI ${item.title} feature: ${item.description}`}
                   width={430}
-                  height={768}
+                  height={538}
                   class="feature-image"
                   loading={index < 2 ? "eager" : "lazy"}
+                  fetchpriority={index === 0 ? "high" : "auto"}
+                  widths={[430, 800, 1200]}
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 430px"
+                  decoding={index === 0 ? "sync" : "async"}
                 />
               ) : (
                 <img

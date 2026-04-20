@@ -3,6 +3,7 @@ import { site } from "../data/site";
 import "../styles/global.css";
 import { getImage } from "astro:assets";
 import heroPremium from "../assets/images/hero-premium.jpeg";
+import bookkeepingImage from "../assets/images/bookkeeping.png";
 
 interface Props {
   title?: string;
@@ -22,6 +23,14 @@ const optimizedHero = await getImage({
   format: "webp",
   width: 428,
   height: 770
+});
+
+// Preload the optimized bookkeeping feature image (LCP element)
+const optimizedBookkeeping = await getImage({
+  src: bookkeepingImage,
+  format: "webp",
+  width: 430,
+  height: 538
 });
 
 const canonical = new URL(Astro.url.pathname, site.url).toString();
@@ -118,6 +127,7 @@ const pageSchemas = [
       href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
     />
     <link rel="preload" as="image" href={optimizedHero.src} />
+    <link rel="preload" as="image" href={optimizedBookkeeping.src} fetchpriority="high" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content={site.name} />
     <meta property="og:locale" content={site.locale} />
