@@ -25,6 +25,11 @@ if (!feature) {
 // For now, we'll use placeholers or shared context if not explicitly in site.ts features.
 const title = `${feature.title} | ${site.name}`;
 const description = feature.description;
+
+// Use feature-specific content with global fallbacks
+import { getBenefits, getFaqs } from "../../../data/site";
+const featureBenefits = feature.benefits || getBenefits(lang);
+const featureFaqs = feature.faqs || getFaqs(lang);
 ---
 
 <FeatureLayout
@@ -34,11 +39,6 @@ const description = feature.description;
   featureDescription={feature.description}
   imagePath={feature.image}
   badge={feature.badge}
-  benefits={[
-    { title: "Easy to use", text: "Designed for Indian shopkeepers with simple interfaces." },
-    { title: "24 Languages", text: "Works in your local language seamlessly." }
-  ]}
-  faqs={[
-    { question: `How does ${feature.title} work?`, answer: `You can use ${feature.title} directly from the Dukaan AI mobile app.` }
-  ]}
+  benefits={featureBenefits}
+  faqs={featureFaqs}
 />

@@ -213,7 +213,7 @@ if (breadcrumbSchema) {
         // Don't redirect if we've already redirected or the user manually chose a path
         if (sessionStorage.getItem('ua-lang-redirected')) return;
         
-        const supported = ["en", "hi", "mr", "bn", "pa", "gu", "ta", "te", "kn", "ml", "or", "as", "mai", "sat", "ks", "doi", "sd", "kok", "mni", "ne", "sa", "ur", "hinglish"];
+        const supported = ["en", "hi", "mr", "bn", "pa", "gu", "ta", "te", "kn", "ml", "or", "as", "mai", "sat", "ks", "doi", "sd", "kok", "mni", "ne", "sa", "ur", "brx", "hinglish"];
         const userLang = (navigator.language || navigator.userLanguage).split('-')[0].toLowerCase();
         
         if (userLang !== 'en' && supported.includes(userLang)) {

@@ -1,0 +1,38 @@
+---
+import FeatureLayout from "../../layouts/FeatureLayout.astro";
+import { getFeatures, site, getBenefits, getFaqs } from "../../data/site";
+
+export function getStaticPaths() {
+  const slugs = ["bookkeeping", "smart-khata", "voice-billing", "bill-verification", "orders-management", "scan-list"];
+  return slugs.map(slug => ({ params: { slug } }));
+}
+
+const { slug } = Astro.params;
+const lang = "en";
+
+// Get the specific feature data
+const localizedFeatures = getFeatures(lang);
+const feature = localizedFeatures.find(f => f.slug === slug);
+
+if (!feature) {
+  return Astro.redirect("/404");
+}
+
+const title = `${feature.title} | ${site.name}`;
+const description = feature.description;
+
+// Use global benefits and faqs as a baseline if specific ones aren't in the object yet
+const featureBenefits = feature.benefits || getBenefits(lang);
+const featureFaqs = feature.faqs || getFaqs(lang);
+---
+
+<FeatureLayout
+  title={title}
+  description={description}
+  featureTitle={feature.title}
+  featureDescription={feature.description}
+  imagePath={feature.image}
+  badge={feature.badge}
+  benefits={featureBenefits}
+  faqs={featureFaqs}
+/>
