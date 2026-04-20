@@ -32,6 +32,7 @@ export const site = {
 
 export const features = [
   {
+    slug: "bookkeeping",
     title: "Daily Bookkeeping",
     description:
       "Track daily sales, profits, margins, and business performance with simple charts and AI-powered insights.",
@@ -39,6 +40,7 @@ export const features = [
     badge: "Profit Tracking"
   },
   {
+    slug: "smart-khata",
     title: "Smart Khata",
     description:
       "Replace your paper bahi khata with a secure digital ledger for customer credit, payments, and balance tracking.",
@@ -46,6 +48,7 @@ export const features = [
     badge: "Udhaar Management"
   },
   {
+    slug: "voice-billing",
     title: "Voice Billing",
     description:
       "Create bills by speaking item names and quantities in natural language across 24 Indian languages.",
@@ -53,6 +56,7 @@ export const features = [
     badge: "Voice Powered"
   },
   {
+    slug: "bill-verification",
     title: "Bill Verification",
     description:
       "Scan wholesaler bills with your camera and let AI extract items, prices, and records automatically.",
@@ -60,6 +64,7 @@ export const features = [
     badge: "AI Scanner"
   },
   {
+    slug: "orders-management",
     title: "Orders Management",
     description:
       "Generate professional supplier orders, manage stock smarter, and share orders on WhatsApp in one tap.",
@@ -67,6 +72,7 @@ export const features = [
     badge: "Stock Planning"
   },
   {
+    slug: "scan-list",
     title: "Scan List",
     description:
       "Convert handwritten notes into digital lists instantly so you never miss items during ordering or stock updates.",

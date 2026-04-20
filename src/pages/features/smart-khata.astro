@@ -1,0 +1,51 @@
+---
+import FeatureLayout from "../../layouts/FeatureLayout.astro";
+
+const title = "Digital Smart Khata for Indian Shops | Dukaan AI";
+const description = "Replace your paper register with a secure Digital Khata. Track customer credit, send WhatsApp reminders, and manage payments easily with Dukaan AI.";
+
+const benefits = [
+  {
+    title: "Secure Digital Ledger",
+    text: "Never lose your credit records. All your khata entries are backed up and secure, unlike physical paper registers."
+  },
+  {
+    title: "One-Tap WhatsApp Reminders",
+    text: "Recover your dues faster by sending professional payment reminders to customers via WhatsApp in just one tap."
+  },
+  {
+    title: "Automatic Totaling",
+    text: "Eliminate calculation errors. Every entry is automatically totaled so you always know exactly who owes you what."
+  },
+  {
+    title: "Customer-Wise History",
+    text: "Get a clear view of transaction history for every customer. Perfect for resolving disputes and building trust."
+  }
+];
+
+const faqs = [
+  {
+    question: "Is my data safe in Dukaan AI Smart Khata?",
+    answer: "Yes, we prioritize data security. Your records are stored securely and can be optionally backed up to the cloud."
+  },
+  {
+    question: "Can I manage multiple customers?",
+    answer: "Absolutely. You can add hundreds of customers and manage their individual credit (udhaar) and payments (jama) separately."
+  },
+  {
+    question: "Does it work without internet?",
+    answer: "Yes, you can add and view khata entries offline. Your data will sync when you are back online."
+  }
+];
+---
+
+<FeatureLayout
+  title={title}
+  description={description}
+  featureTitle="Smart Khata"
+  featureDescription="The modern way to manage customer credit and payments. Say goodbye to messy paper registers."
+  imagePath="/images/smart-khata.png"
+  badge="Udhaar Management"
+  benefits={benefits}
+  faqs={faqs}
+/>

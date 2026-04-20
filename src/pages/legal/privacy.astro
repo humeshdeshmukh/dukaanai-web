@@ -1,0 +1,75 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import SiteHeader from "../../components/SiteHeader.astro";
+import SiteFooter from "../../components/SiteFooter.astro";
+import { site } from "../../data/site";
+
+const title = "Privacy Policy | Dukaan AI";
+const description = "Learn how Dukaan AI protects your business data and privacy. Our commitment to secure shop management.";
+---
+
+<BaseLayout title={title} description={description}>
+  <SiteHeader />
+  
+  <main class="pt-32 pb-24">
+    <article class="section-shell max-w-4xl">
+      <header class="mb-12 border-b border-forest-100 pb-8">
+        <h1 class="font-display text-4xl font-bold text-forest-950 sm:text-5xl">Privacy Policy</h1>
+        <p class="mt-4 text-sm text-forest-600">Last Updated: April 20, 2026</p>
+      </header>
+      
+      <div class="prose prose-forest max-w-none space-y-8 text-forest-800">
+        <section>
+          <h2 class="font-display text-2xl font-bold text-forest-950">1. Introduction</h2>
+          <p class="mt-4 leading-8">
+            Dukaan AI ("we", "our", or "us") is committed to protecting the privacy of our users. This Privacy Policy explains how we collect, use, and safeguard your business data when you use the Dukaan AI mobile application and our website (<a href={site.url}>{site.url}</a>).
+          </p>
+        </section>
+
+        <section>
+          <h2 class="font-display text-2xl font-bold text-forest-950">2. Data We Collect</h2>
+          <p class="mt-4 leading-8">
+            We collect information that you voluntarily provide to us when you use Dukaan AI, including:
+          </p>
+          <ul class="mt-4 list-inside list-disc space-y-2 leading-8">
+            <li><strong>Store Information:</strong> Store name, contact details, and location.</li>
+            <li><strong>Business Records:</strong> Sales data, customer khata entries, and inventory details.</li>
+            <li><strong>Device Information:</strong> Device model, operating system, and unique device identifiers to ensure app performance.</li>
+            <li><strong>Voice Data:</strong> Temporary processing of voice commands for billing and navigation (processed locally whenever possible).</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2 class="font-display text-2xl font-bold text-forest-950">3. How We Use Informaiton</h2>
+          <p class="mt-4 leading-8">
+            We use the collected data to:
+          </p>
+          <ul class="mt-4 list-inside list-disc space-y-2 leading-8">
+            <li>Provide and maintain our shop management services.</li>
+            <li>Improve the accuracy of our AI-powered voice billing and bill scanning.</li>
+            <li>Send you important updates and business insights.</li>
+            <li>Protect your data and prevent fraudulent activities.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2 class="font-display text-2xl font-bold text-forest-950">4. Data Security</h2>
+          <p class="mt-4 leading-8">
+            We implement robust security measures to protect your business records. All data is encrypted during transmission and stored securely. We prioritize local storage on your device to ensure you maintain control over your data.
+          </p>
+        </section>
+
+        <section>
+          <h2 class="font-display text-2xl font-bold text-forest-950">5. Contact Us</h2>
+          <p class="mt-4 leading-8">
+            If you have any questions about this Privacy Policy, please contact us at:
+            <br />
+            <strong>Email:</strong> {site.businessEmail}
+          </p>
+        </section>
+      </div>
+    </article>
+  </main>
+
+  <SiteFooter />
+</BaseLayout>

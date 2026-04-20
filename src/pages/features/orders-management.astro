@@ -1,0 +1,51 @@
+---
+import FeatureLayout from "../../layouts/FeatureLayout.astro";
+
+const title = "Smart Wholesale Order Management | Dukaan AI";
+const description = "Create and manage supplier orders with ease. Generate professional order lists and share them instantly on WhatsApp with Dukaan AI.";
+
+const benefits = [
+  {
+    title: "One-Tap WhatsApp Orders",
+    text: "Convert your order list into a professional message and share it with your wholesaler on WhatsApp in just one tap."
+  },
+  {
+    title: "Never Run Out of Stock",
+    text: "Keep track of what you need to order. Create lists as you notice low stock so you never miss an item during procurement."
+  },
+  {
+    title: "Supplier-Wise Lists",
+    text: "Organize your orders by supplier. Makes the fulfillment process much faster when you go to the wholesale market."
+  },
+  {
+    title: "Order History",
+    text: "Review past orders to understand your buying patterns and negotiate better prices with your distributors."
+  }
+];
+
+const faqs = [
+  {
+    question: "Can I add custom units like 'bori' or 'carton'?",
+    answer: "Yes, Dukaan AI supports various units including kg, pieces, boxes, cartons, and more, tailored for Indian retail."
+  },
+  {
+    question: "Does the wholesaler need to have the app?",
+    answer: "No, your wholesaler receives a clean, readable text message on WhatsApp. They don't need the app to receive your orders."
+  },
+  {
+    question: "Can I manage multiple suppliers?",
+    answer: "Yes, you can create separate order lists for different wholesalers and manage them simultaneously."
+  }
+];
+---
+
+<FeatureLayout
+  title={title}
+  description={description}
+  featureTitle="Orders Management"
+  featureDescription="The professional way to manage wholesale orders. Save time and reduce mistakes while restocking your shop."
+  imagePath="/images/orders-management.png"
+  badge="Stock Planning"
+  benefits={benefits}
+  faqs={faqs}
+/>

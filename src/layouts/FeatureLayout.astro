@@ -1,0 +1,151 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+import SiteHeader from "../components/SiteHeader.astro";
+import SiteFooter from "../components/SiteFooter.astro";
+import { Image } from "astro:assets";
+import { site } from "../data/site";
+import type { ImageMetadata } from "astro";
+
+interface Props {
+  title: string;
+  description: string;
+  featureTitle: string;
+  featureDescription: string;
+  imagePath: string;
+  badge: string;
+  benefits?: { title: string; text: string }[];
+  faqs?: { question: string; answer: string }[];
+}
+
+const {
+  title,
+  description,
+  featureTitle,
+  featureDescription,
+  imagePath,
+  badge,
+  benefits = [],
+  faqs = []
+} = Astro.props;
+
+// Import all images from assets for internal processing
+const allImages = import.meta.glob<{ default: ImageMetadata }>("/src/assets/images/*.{jpeg,jpg,png,gif}");
+const assetPath = `/src/assets${imagePath}`;
+const featureImage = allImages[assetPath];
+---
+
+<BaseLayout title={title} description={description}>
+  <SiteHeader />
+  
+  <main class="pt-24 sm:pt-32">
+    <!-- Feature Hero -->
+    <section class="section-shell pb-14 sm:pb-24">
+      <div class="grid gap-12 lg:grid-cols-2 lg:items-center">
+        <div class="space-y-6">
+          <div class="inline-flex items-center gap-2 rounded-full border border-gold-300 bg-gold-50 px-4 py-2 text-xs font-bold uppercase tracking-[0.2em] text-forest-800">
+             {badge}
+          </div>
+          <h1 class="font-display text-4xl font-bold leading-[1.1] text-forest-950 sm:text-5xl lg:text-6xl">
+            {featureTitle}
+          </h1>
+          <p class="max-w-xl text-lg leading-8 text-forest-800">
+            {featureDescription}
+          </p>
+          <div class="flex flex-col gap-4 sm:flex-row">
+            <a href={site.playStoreUrl} target="_blank" rel="noreferrer" class="inline-flex items-center justify-center rounded-full bg-forest-800 px-8 py-4 text-sm font-bold text-white shadow-lg transition hover:bg-forest-700">
+              Get Started on Android
+            </a>
+          </div>
+        </div>
+        
+        <div class="relative">
+          <div class="aspect-square overflow-hidden rounded-[40px] border border-forest-900/10 bg-white shadow-2xl">
+            {featureImage ? (
+              <Image 
+                src={featureImage()} 
+                alt={`${featureTitle} - Dukaan AI feature`} 
+                width={800} 
+                height={800} 
+                class="h-full w-full object-cover" 
+                loading="eager"
+              />
+            ) : (
+              <img src={imagePath} alt={featureTitle} class="h-full w-full object-cover" />
+            )}
+          </div>
+          <!-- Decorative elements -->
+          <div class="absolute -right-6 -top-6 -z-10 h-32 w-32 rounded-full bg-gold-200/40 blur-3xl"></div>
+          <div class="absolute -bottom-10 -left-10 -z-10 h-40 w-40 rounded-full bg-forest-200/30 blur-3xl"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Detailed Benefits -->
+    {benefits.length > 0 && (
+      <section class="bg-forest-50 py-16 sm:py-24">
+        <div class="section-shell">
+          <div class="mb-12 max-w-2xl">
+            <span class="eyebrow">Why it matters</span>
+            <h2 class="mt-4 font-display text-3xl font-bold text-forest-950 sm:text-4xl">
+              Powerful tools for your business growth
+            </h2>
+          </div>
+          <div class="grid gap-8 md:grid-cols-2">
+            {benefits.map((benefit) => (
+              <div class="panel border-none bg-white p-6 shadow-sm">
+                <h3 class="font-display text-xl font-bold text-forest-950">{benefit.title}</h3>
+                <p class="mt-3 text-sm leading-7 text-forest-800">{benefit.text}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+    )}
+
+    <!-- FAQ Section -->
+    {faqs.length > 0 && (
+      <section class="section-shell py-16 sm:py-24">
+        <div class="max-w-3xl">
+          <span class="eyebrow">FAQs</span>
+          <h2 class="mt-4 font-display text-3xl font-bold text-forest-950 sm:text-4xl">
+            Questions about {featureTitle}
+          </h2>
+          <div class="mt-8 grid gap-4">
+            {faqs.map((faq) => (
+              <details class="accordion-card">
+                <summary class="accordion-summary">
+                  <h3 class="pr-4 text-lg font-bold text-forest-950">{faq.question}</h3>
+                  <span class="accordion-plus"></span>
+                </summary>
+                <div class="accordion-body">
+                  <div class="accordion-body-inner">
+                    <p class="text-sm leading-7 text-forest-800">{faq.answer}</p>
+                  </div>
+                </div>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
+    )}
+
+    <!-- Final CTA -->
+    <section class="section-shell pb-20 pt-10">
+      <div class="panel overflow-hidden bg-forest-900 px-6 py-12 text-center text-white sm:py-16">
+        <h2 class="font-display text-3xl font-bold sm:text-4xl">
+          Ready to simplify your shop management?
+        </h2>
+        <p class="mx-auto mt-4 max-w-xl text-forest-100">
+          Join thousands of Indian shopkeepers using Dukaan AI to manage their business smarter.
+        </p>
+        <div class="mt-10">
+          <a href={site.playStoreUrl} class="inline-flex items-center justify-center rounded-full bg-gold-400 px-10 py-4 text-base font-bold text-forest-950 transition hover:bg-gold-300">
+            Download Dukaan AI App
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <SiteFooter />
+</BaseLayout>

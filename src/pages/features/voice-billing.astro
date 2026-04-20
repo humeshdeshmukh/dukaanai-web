@@ -1,0 +1,52 @@
+---
+import FeatureLayout from "../../layouts/FeatureLayout.astro";
+import { site } from "../../data/site";
+
+const title = "Voice Billing for Retail Shops | Dukaan AI";
+const description = "Create bills instantly by speaking item names and quantities. Dukaan AI voice billing supports 24 Indian languages including Hindi, Marathi, and Hinglish.";
+
+const benefits = [
+  {
+    title: "10x Faster Billing",
+    text: "Stop typing and start speaking. Create complete bills in seconds, even while you are handling customers."
+  },
+  {
+    title: "Support for 24 Languages",
+    text: "Speak naturally in Hindi, English, Hinglish, Marathi, Tamil, Telugu, and more. Our AI understands local shopkeeper vocabulary."
+  },
+  {
+    title: "Hands-free Operation",
+    text: "Manage your busy shop without being tied to a keyboard. Perfect for peak hours when speed matters most."
+  },
+  {
+    title: "Offline Capability",
+    text: "Generate voice bills even without an active internet connection. Your business never stops."
+  }
+];
+
+const faqs = [
+  {
+    question: "Which languages does voice billing support?",
+    answer: "Our voice billing technology supports over 24 Indian languages, including Hindi, Marathi, Gujarati, Tamil, Bengali, Telugu, and many more regional dialects."
+  },
+  {
+    question: "Do I need a high-end phone for voice billing?",
+    answer: "No, Dukaan AI is optimized to work smoothly on most Android devices, including budget-friendly smartphones used by small shopkeepers."
+  },
+  {
+    question: "How accurate is the voice recognition?",
+    answer: "Our AI is specifically trained on Indian kirana and retail product names, ensuring high accuracy even in noisy shop environments."
+  }
+];
+---
+
+<FeatureLayout
+  title={title}
+  description={description}
+  featureTitle="Voice Billing"
+  featureDescription="The easiest way to generate bills for your shop. Just speak, and Dukaan AI handles the rest."
+  imagePath="/images/voice-billing.png"
+  badge="Voice Powered"
+  benefits={benefits}
+  faqs={faqs}
+/>
