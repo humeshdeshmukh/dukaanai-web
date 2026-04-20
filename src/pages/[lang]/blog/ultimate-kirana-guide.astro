@@ -1,7 +1,6 @@
 ---
 import BlogLayout from "../../../layouts/BlogLayout.astro";
 import { getLangFromUrl, useTranslations } from "../../../i18n/utils";
-
 import { languageCodes } from "../../../i18n/ui";
 
 export function getStaticPaths() {
@@ -10,60 +9,56 @@ export function getStaticPaths() {
 
 const { lang } = Astro.params;
 
-const title = "The Ultimate Guide to Managing your Kirana Dukaan in 2026";
-const description = "Learn how to modernize your traditional shop, handle digital payments, manage credit (udhaar), and outcompete major retail chains using AI and simple digital tools.";
-const publishDate = "2026-04-20";
-const tags = ["Store Growth", "AI Tools", "Digital India"];
+// Localized Content Matrix
+const content = {
+  en: {
+    title: "The Ultimate Guide to Managing your Kirana Dukaan in 2026",
+    description: "Learn how to modernize your traditional shop and outcompete major retail chains using AI.",
+    h1: "Why Every Dukaan Needs a Digital Brain",
+    h2: "Mastering Smart Khata",
+    p1: "In the heart of every Indian neighborhood, there is a Dukaan. It is the backbone of local communities.",
+    p2: "Modernize or get left behind. This guide explores how to use simple digital tools and AI.",
+  },
+  hi: {
+    title: "2026 में अपनी किराना दुकान को मैनेज करने का अल्टीमेट गाइड",
+    description: "जानें कि कैसे अपनी पारंपरिक दुकान को आधुनिक बनाएं और AI का उपयोग करके बड़ी रिटेल श्रृंखलाओं को मात दें।",
+    h1: "हर दुकान को डिजिटल दिमाग की आवश्यकता क्यों है",
+    h2: "स्मार्ट खाता मैनेजमेंट में महारत हासिल करना",
+    p1: "हर भारतीय पड़ोस के दिल में एक दुकान होती है। यह स्थानीय समुदायों की रीढ़ है।",
+    p2: "आधुनिक बनें या पीछे छूट जाएं। यह गाइड बताती है कि सरल डिजिटल टूल्स और AI का उपयोग कैसे करें।",
+  },
+  mr: {
+    title: "2026 मध्ये तुमची किराणा दुकान व्यवस्थापित करण्यासाठी अंतिम मार्गदर्शक",
+    description: "तुमची पारंपारिक दुकान आधुनिक कशी बनवायची आणि AI वापरून मोठ्या रिटेल साखळ्यांना मागे कसे टाकायचे ते शिका.",
+    h1: "प्रत्येक दुकानाला डिजिटल मेंदूची गरज का आहे",
+    h2: "स्मार्ट खाते व्यवस्थापनात प्रभुत्व मिळवणे",
+    p1: "प्रत्येक भारतीय शेजारच्या मध्यभागी एक दुकान असते. हा स्थानिक समुदायांचा कणा आहे.",
+    p2: "आधुनिक व्हा किंवा मागे राहा. हे मार्गदर्शक साधे डिजिटल टूल्स आणि AI कसे वापरायचे ते शोधते.",
+  },
+  hinglish: {
+    title: "Kirana Shop manage karne ka ultimate guide 2026",
+    description: "Sikho kaise apni dukaan ko modern banaye aur AI use karke market me lead kare.",
+    h1: "Har Dukaan ko Digital hona kyu zaroori hai",
+    h2: "Smart Khata ka sahi use",
+    p1: "Har neighborhood me ek dukaan hoti hai jo waha ki jaan hoti hai.",
+    p2: "Modern bano varna piche reh jaoge. Digital tools use karna sikho.",
+  }
+};
+
+const localized = (content as any)[lang as string] || content.en;
 ---
 
 <BlogLayout 
-  title={title} 
-  description={description} 
-  publishDate={publishDate} 
-  tags={tags}
+  title={localized.title} 
+  description={localized.description} 
+  publishDate="2026-04-20" 
+  tags={["Store Growth", "AI Tools", "Digital India"]}
   imagePath="/images/hero-overview.png"
 >
-  <p>In the heart of every Indian neighborhood, there is a <strong>Dukaan</strong>. It is more than just a place to buy groceries; it is a center of trust, a provider of credit, and the backbone of local communities. However, the retail landscape in India is changing faster than ever.</p>
+  <h1>{localized.h1}</h1>
+  <p>{localized.p1}</p>
+  <p>{localized.p2}</p>
   
-  <p>With the rise of quick commerce apps and large supermarkets, today’s shopkeepers face a critical choice: <strong>Modernize or get left behind.</strong> This guide explores how you can use simple digital tools and AI to turn your traditional kirana into a high-performance modern business.</p>
-
-  <h2>1. Why Every Dukaan Needs a Digital Brain</h2>
-  <p>For decades, managing a shop meant keeping track of everything in your head or in a dusty notebook (Bahi Khata). While this worked in the past, it creates "invisible losses" today:</p>
-  <ul>
-    <li><strong>Forgotten Credit:</strong> Small amounts of udhaar that are never recorded and never paid back.</li>
-    <li><strong>Miscalculated Profits:</strong> Not knowing exactly how much you earned after expenses.</li>
-    <li><strong>Out-of-Stock Items:</strong> Losing customers because you didn’t realize a product was finished.</li>
-  </ul>
-  <blockquote>
-    "AI is not here to replace the shopkeeper; it is here to give the shopkeeper superpowers."
-  </blockquote>
-
-  <h2>2. Mastering "Smart Khata" Management</h2>
-  <p>One of the biggest advantages a local dukaan has over big stores is <strong>Credit (Udhaar)</strong>. Your customers trust you, and you trust them. But paper registers are messy.</p>
-  <p>By moving to a <strong>Smart Khata</strong> system, you can:</p>
-  <ul>
-    <li>Record entries in seconds with a few taps.</li>
-    <li>Send automatic WhatsApp reminders for payments.</li>
-    <li>Keep a clear history that builds even more trust with your customers.</li>
-  </ul>
-
-  <h2>3. The Power of Voice Billing</h2>
-  <p>The biggest bottleneck in any busy shop is the checkout counter. Typing barcodes or searching for prices manually takes way too much time. This is where <strong>Voice Billing</strong> changes the game.</p>
-  <p>Imagine telling your phone: <em>"2 packets of sugar, 1 Lux soap, and 1 liter of milk"</em> and having the bill ready instantly. This "voice-first" approach allows you to focus on your customers' faces, not on a keyboard.</p>
-
-  <h2>4. Smart Ordering and Inventory</h2>
-  <p>Knowing <strong>what to buy</strong> and <strong>when to buy</strong> is the secret to high profits. Traditional shops often overstock slow-moving items and run out of popular ones. AI tools like Dukaan AI analyze your sales patterns and tell you exactly what you need to order from your wholesaler.</p>
-
-  <h2>5. How to Compete with Quick Commerce</h2>
-  <p>Big apps promise 10-minute delivery, but they lack the personal touch of a local shopkeeper. To win, you must combine your <strong>local relationship</strong> with <strong>digital speed</strong>:</p>
-  <ul>
-    <li><strong>Digital Lists:</strong> Allow customers to WhatsApp you their lists.</li>
-    <li><strong>Fast Billing:</strong> Use AI scanner tools to verify your own purchase bills from wholesalers.</li>
-    <li><strong>Home Delivery:</strong> Use your local staff or neighborhood networks to provide the same speed as big apps.</li>
-  </ul>
-
-  <h2>Final Thoughts</h2>
-  <p>Modernizing your shop doesn't require a computer or an expensive IT team. All you need is an Android phone and the right partner. <strong>Dukaan AI</strong> is built specifically for the needs of Indian retailers who want to lead the digital revolution from their own shop floor.</p>
-  
-  <p>Ready to take the first step? Start by digitizing your khata today and watch your business grow.</p>
+  <h2>{localized.h2}</h2>
+  <p>Coming soon: Detailed guides for all 24 Indian languages!</p>
 </BlogLayout>

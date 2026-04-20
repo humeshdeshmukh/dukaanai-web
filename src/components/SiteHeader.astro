@@ -29,7 +29,7 @@ const getLink = (path: string) => {
         />
         <div>
           <p class="font-display text-2xl font-bold tracking-tight text-forest-900">{site.name}</p>
-          <p class="text-sm text-forest-700">Smart khata, billing and business insights</p>
+          <p class="text-sm text-forest-700">{t("nav.tagline")}</p>
         </div>
       </a>
 
@@ -48,16 +48,19 @@ const getLink = (path: string) => {
             <Globe size={14} class="text-gold-600" />
             <span class="uppercase">{lang}</span>
           </button>
-          <div class="absolute right-0 top-full mt-2 hidden w-40 origin-top-right rounded-2xl border border-forest-900/10 bg-white p-2 shadow-2xl group-hover:block animate-in fade-in zoom-in-95 duration-200 z-50">
-            <div class="grid gap-1 max-h-64 overflow-y-auto custom-scrollbar">
-              {Object.entries(languages).map(([code, label]) => (
-                <a 
-                  href={code === 'en' ? '/' : `/${code}/`}
-                  class={`block rounded-xl px-3 py-2 text-xs font-medium transition hover:bg-forest-50 ${lang === code ? 'bg-gold-50 text-gold-700' : 'text-forest-800'}`}
-                >
-                  {label}
-                </a>
-              ))}
+          {/* Bridge padding-top to prevent immediate close on gap hover */}
+          <div class="absolute right-0 top-full pt-2 hidden w-44 origin-top-right group-hover:block z-50">
+            <div class="rounded-2xl border border-forest-900/10 bg-white p-2 shadow-2xl animate-in fade-in zoom-in-95 duration-200">
+              <div class="grid gap-1 max-h-64 overflow-y-auto custom-scrollbar">
+                {Object.entries(languages).map(([code, label]) => (
+                  <a 
+                    href={code === 'en' ? '/' : `/${code}/`}
+                    class={`block rounded-xl px-3 py-2 text-xs font-medium transition hover:bg-forest-50 ${lang === code ? 'bg-gold-50 text-gold-700' : 'text-forest-800'}`}
+                  >
+                    {label}
+                  </a>
+                ))}
+              </div>
             </div>
           </div>
         </div>

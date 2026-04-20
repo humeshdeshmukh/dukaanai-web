@@ -25,12 +25,12 @@ const images = import.meta.glob<{ default: ImageMetadata }>("/src/assets/images/
 
 <section id="features" class="section-shell py-14 sm:py-20">
   <div class="mb-8 max-w-3xl space-y-4">
-    <span class="eyebrow">Core features</span>
+    <span class="eyebrow">{t("features.eyebrow")}</span>
     <h2 class="font-display text-3xl font-bold text-forest-950 sm:text-4xl">
-      Everything your business needs in one Dukaan AI app
+      {t("features.title")}
     </h2>
     <p class="text-base leading-8 text-forest-800">
-      From voice billing to smart khata and AI bill scanning, Dukaan AI helps shop owners save time, reduce manual work, and run their business better.
+      {t("features.description")}
     </p>
   </div>
 
@@ -80,7 +80,7 @@ const images = import.meta.glob<{ default: ImageMetadata }>("/src/assets/images/
                   href={getLink(`/features/${item.slug}`)} 
                   class="inline-flex items-center gap-2 text-sm font-bold text-forest-800 transition hover:text-gold-700"
                 >
-                  Learn how it works
+                  {t("features.learnMore")}
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="transition group-hover:translate-x-1"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
                 </a>
               </div>

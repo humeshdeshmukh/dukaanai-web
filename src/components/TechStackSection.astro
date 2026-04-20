@@ -1,52 +1,55 @@
 ---
 import type { HighlightItem } from "../data/site";
 import { Building2, Languages, ShieldCheck, Wallet } from "@lucide/astro";
+import { getLangFromUrl, useTranslations } from "../i18n/utils";
 
 interface Props {
   items: HighlightItem[];
 }
 
 const { items } = Astro.props;
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 ---
 
 <section id="about" class="section-shell py-14 sm:py-20">
   <div class="grid gap-8 lg:grid-cols-[0.95fr_1.05fr]">
     <div class="space-y-5">
-      <span class="eyebrow">About Dukaan AI</span>
+      <span class="eyebrow">{t("about.eyebrow")}</span>
       <h2 class="font-display text-3xl font-bold text-forest-950 sm:text-4xl">
-        Built for Indian retailers who want a smarter way to manage their shop
+        {t("about.title")}
       </h2>
       <p class="text-base leading-8 text-forest-800">
-        Dukaan AI is more than a digital register. It is a business assistant designed to help local stores handle billing, udhaar, purchase records, orders, and decision-making through simple voice-first workflows.
+        {t("about.description")}
       </p>
 
       <div class="grid gap-3 sm:grid-cols-2">
         <div class="panel flex gap-3 px-4 py-4 reveal-up" style="--reveal-delay: 0.02s;">
           <Building2 class="mt-0.5 text-gold-600" size={18} />
           <div>
-            <p class="text-sm font-bold text-forest-950">For kirana and wholesale</p>
-            <p class="text-sm text-forest-700">Built around real daily store workflows, not generic accounting screens.</p>
+            <p class="text-sm font-bold text-forest-950">{t("about.f1.title")}</p>
+            <p class="text-sm text-forest-700">{t("about.f1.desc")}</p>
           </div>
         </div>
         <div class="panel flex gap-3 px-4 py-4 reveal-up" style="--reveal-delay: 0.08s;">
           <ShieldCheck class="mt-0.5 text-gold-600" size={18} />
           <div>
-            <p class="text-sm font-bold text-forest-950">Secure records</p>
-            <p class="text-sm text-forest-700">Business data is handled with privacy and trust in mind.</p>
+            <p class="text-sm font-bold text-forest-950">{t("about.f2.title")}</p>
+            <p class="text-sm text-forest-700">{t("about.f2.desc")}</p>
           </div>
         </div>
         <div class="panel flex gap-3 px-4 py-4 reveal-up" style="--reveal-delay: 0.14s;">
           <Languages class="mt-0.5 text-gold-600" size={18} />
           <div>
-            <p class="text-sm font-bold text-forest-950">Regional language support</p>
-            <p class="text-sm text-forest-700">Designed for Indian business owners who want to work in their own language.</p>
+            <p class="text-sm font-bold text-forest-950">{t("about.f3.title")}</p>
+            <p class="text-sm text-forest-700">{t("about.f3.desc")}</p>
           </div>
         </div>
         <div class="panel flex gap-3 px-4 py-4 reveal-up" style="--reveal-delay: 0.2s;">
           <Wallet class="mt-0.5 text-gold-600" size={18} />
           <div>
-            <p class="text-sm font-bold text-forest-950">Faster collections and billing</p>
-            <p class="text-sm text-forest-700">Save time on credit follow-up, bills, and supplier orders every day.</p>
+            <p class="text-sm font-bold text-forest-950">{t("about.f4.title")}</p>
+            <p class="text-sm text-forest-700">{t("about.f4.desc")}</p>
           </div>
         </div>
       </div>

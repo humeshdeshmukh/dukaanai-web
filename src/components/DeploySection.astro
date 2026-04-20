@@ -1,17 +1,21 @@
 ---
 import { ArrowUpRight, Globe, ServerCog } from "@lucide/astro";
 import { site } from "../data/site";
+import { getLangFromUrl, useTranslations } from "../i18n/utils";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 ---
 
 <section id="download" class="section-shell py-14 sm:py-20">
   <div class="grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
     <div class="panel px-5 py-6 sm:px-8 sm:py-8">
-      <span class="eyebrow">Download and contact</span>
+      <span class="eyebrow">{t("deploy.eyebrow")}</span>
       <h2 class="mt-4 font-display text-3xl font-bold text-forest-950 sm:text-4xl">
-        Start using Dukaan AI for smarter billing, khata, and store management
+        {t("deploy.title")}
       </h2>
       <p class="mt-4 max-w-2xl text-base leading-8 text-forest-800">
-        Dukaan AI helps local businesses digitize records, manage customer credit, scan bills, and work faster with voice-powered tools designed for India.
+        {t("deploy.description")}
       </p>
       <div class="mt-6 flex flex-col gap-3 sm:flex-row">
         <a
@@ -20,14 +24,14 @@ import { site } from "../data/site";
           rel="noreferrer"
           class="inline-flex items-center justify-center gap-2 rounded-full bg-forest-800 px-5 py-3 text-sm font-bold text-white transition hover:bg-forest-700"
         >
-          Download on Google Play
+          {t("deploy.cta.playstore")}
           <ArrowUpRight size={16} />
         </a>
         <a
           href="mailto:dukaanai.business@gmail.com"
           class="inline-flex items-center justify-center gap-2 rounded-full border border-forest-900/10 bg-white/80 px-5 py-3 text-sm font-bold text-forest-900 transition hover:border-gold-400 hover:text-gold-700"
         >
-          Contact Dukaan AI
+          {t("deploy.cta.contact")}
           <ArrowUpRight size={16} />
         </a>
       </div>
@@ -37,18 +41,18 @@ import { site } from "../data/site";
       <div class="panel flex gap-4 px-5 py-5">
         <ServerCog class="mt-1 text-gold-600" size={18} />
         <div>
-          <h3 class="font-display text-xl font-bold text-forest-950">Works the way shop owners work</h3>
+          <h3 class="font-display text-xl font-bold text-forest-950">{t("deploy.f1.title")}</h3>
           <p class="mt-2 text-sm leading-7 text-forest-800">
-            Speak items, record dues, scan purchase bills, and manage supplier orders without complex software training.
+            {t("deploy.f1.desc")}
           </p>
         </div>
       </div>
       <div class="panel flex gap-4 px-5 py-5">
         <Globe class="mt-1 text-gold-600" size={18} />
         <div>
-          <h3 class="font-display text-xl font-bold text-forest-950">Made for India</h3>
+          <h3 class="font-display text-xl font-bold text-forest-950">{t("deploy.f2.title")}</h3>
           <p class="mt-2 text-sm leading-7 text-forest-800">
-            Voice support in 24 Indian languages, offline-ready usage, and WhatsApp-friendly workflows make Dukaan AI practical for real businesses.
+            {t("deploy.f2.desc")}
           </p>
         </div>
       </div>
