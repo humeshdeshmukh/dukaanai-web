@@ -1,7 +1,7 @@
 ---
 import { site } from "../data/site";
 import "../styles/global.css";
-import { getImage } from "astro:assets";
+
 import heroPremium from "../assets/images/hero-premium.jpeg";
 
 interface Props {
@@ -16,14 +16,6 @@ const {
   noindex = false
 } = Astro.props;
 
-// Preload the optimized hero image (sole high-priority LCP element)
-const optimizedHero = await getImage({
-  src: heroPremium,
-  format: "webp",
-  width: 428,
-  height: 770,
-  quality: 75
-});
 
 const canonical = new URL(Astro.url.pathname, site.url).toString();
 const robotsContent = noindex
@@ -109,10 +101,7 @@ const pageSchemas = [
     <link rel="manifest" href="/site.webmanifest" />
     <link rel="preload" as="font" type="font/woff2" href="/fonts/cormorant-700.woff2" crossorigin fetchpriority="high" />
     <link rel="preload" as="font" type="font/woff2" href="/fonts/manrope-400.woff2" crossorigin />
-    <link rel="preload" as="font" type="font/woff2" href="/fonts/manrope-500.woff2" crossorigin />
-    <link rel="preload" as="font" type="font/woff2" href="/fonts/manrope-600.woff2" crossorigin />
     <link rel="preload" as="font" type="font/woff2" href="/fonts/manrope-700.woff2" crossorigin />
-    <link rel="preload" as="font" type="font/woff2" href="/fonts/cormorant-600.woff2" crossorigin />
 
     <style is:global>
       /* Manrope Font Family */
@@ -121,35 +110,35 @@ const pageSchemas = [
         src: url("/fonts/manrope-400.woff2") format("woff2");
         font-weight: 400;
         font-style: normal;
-        font-display: swap;
+        font-display: optional;
       }
       @font-face {
         font-family: "Manrope";
         src: url("/fonts/manrope-500.woff2") format("woff2");
         font-weight: 500;
         font-style: normal;
-        font-display: swap;
+        font-display: optional;
       }
       @font-face {
         font-family: "Manrope";
         src: url("/fonts/manrope-600.woff2") format("woff2");
         font-weight: 600;
         font-style: normal;
-        font-display: swap;
+        font-display: optional;
       }
       @font-face {
         font-family: "Manrope";
         src: url("/fonts/manrope-700.woff2") format("woff2");
         font-weight: 700;
         font-style: normal;
-        font-display: swap;
+        font-display: optional;
       }
       @font-face {
         font-family: "Manrope";
         src: url("/fonts/manrope-800.woff2") format("woff2");
         font-weight: 800;
         font-style: normal;
-        font-display: swap;
+        font-display: optional;
       }
 
       /* Cormorant Garamond Font Family */
@@ -158,17 +147,17 @@ const pageSchemas = [
         src: url("/fonts/cormorant-600.woff2") format("woff2");
         font-weight: 600;
         font-style: normal;
-        font-display: swap;
+        font-display: optional;
       }
       @font-face {
         font-family: "Cormorant Garamond";
         src: url("/fonts/cormorant-700.woff2") format("woff2");
         font-weight: 700;
         font-style: normal;
-        font-display: swap;
+        font-display: optional;
       }
     </style>
-    <link rel="preload" as="image" href={optimizedHero.src} fetchpriority="high" />
+
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content={site.name} />
     <meta property="og:locale" content={site.locale} />
