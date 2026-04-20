@@ -2,149 +2,78 @@ export const hinglish = {
   // Navigation & Taglines
   "nav.features": "Features",
   "nav.blog": "Blog",
-  "nav.about": "हमारे बारे में",
-  "nav.benefits": "लाभ",
-  "nav.faq": "सवाल-जवाब",
-  "nav.download": "डाउनलोड",
-  "nav.tagline": "स्मार्ट खाता, बिलिंग और बिज़नेस अंतर्दृष्टि",
+  "nav.about": "About Us",
+  "nav.benefits": "Benefits",
+  "nav.faq": "Sawal-Jawab",
+  "nav.download": "Download",
+  "nav.tagline": "Smart Khata, Billing aur Business Insights",
   
   // CTAs
-  "cta.getApp": "ऐप प्राप्त करें",
-  "cta.downloadAndroid": "एंड्रॉयड पर डाउनलोड करें",
-  "cta.learnMore": "जानें कैसे काम करता है",
+  "cta.getApp": "App Get Karo",
+  "cta.downloadAndroid": "Android par Download karein",
+  "cta.learnMore": "Jaanein kaise kaam karta hai",
   
   // Hero Section
-  "hero.badge": "रिटेल स्टोर्स के लिए बिज़नेस सॉफ्टवेयर",
+  "hero.badge": "Retail Stores ke liye Business Software",
   "hero.title1": "Smart Khata, Voice Billing",
-  "hero.title2": "और बिज़नेस AI",
-  "hero.title3": "भारतीय दुकानों के लिए।",
-  "hero.description": "Dukaan AI दुकानों को एक ही मोबाइल ऐप से बिलिंग, बुककीपिंग, बिल सत्यापन, कस्टमर क्रेडिट और ऑर्डर वर्कफ़्लो मैनेज करने में मदद करता है।",
-  "hero.cta.playstore": "प्ले स्टोर से डाउनलोड करें",
-  "hero.cta.features": "विशेषताएं देखें",
-  "hero.f1.title": "वॉयस बिलिंग",
-  "hero.f1.desc": "आइटम बोलें और सेकंडों में बिल बनाएं।",
-  "hero.f2.title": "24 भाषाएँ",
-  "hero.f2.desc": "हिंदी, हिंग्लिश, मराठी, तमिल और अन्य का उपयोग करें।",
-  "hero.f3.title": "स्मार्ट शॉप कंट्रोल",
-  "hero.f3.desc": "एक ही जगह बकाया, बिल, ऑर्डर और रिकॉर्ड ट्रैक करें।",
-  "hero.mockup.title": "स्मार्ट खाता और बिल",
-  "hero.mockup.badge": "एंड्रॉयड ऐप",
-  "hero.extra.lang": "बहुभाषी",
-  "hero.extra.langDesc": "24 भारतीय भाषाओं में बिज़नेस वर्कफ़्लो का समर्थन करता है।",
-  "hero.extra.business": "बिज़नेस के लिए तैयार",
-  "hero.extra.businessDesc": "बिलिंग, क्रेडिट ट्रैकिंग और ऑर्डर के लिए बनाया गया है।",
+  "hero.title2": "aur Business AI",
+  "hero.title3": "Bhartiya Dukaanon ke liye.",
+  "hero.description": "Dukaan AI shopkeepers ko ek hi mobile app se billing, bookkeeping, bill verification aur orders manage karne mein madad karta hai.",
+  "hero.cta.playstore": "Play Store se Download karein",
+  "hero.cta.features": "Features dekhein",
+  "hero.f1.title": "Voice Billing",
+  "hero.f1.desc": "Items boliye aur seconds mein bill banaiye.",
+  "hero.f2.title": "24 Languages",
+  "hero.f2.desc": "Hinglish, Hindi, Marathi, Tamil aur baaki languages use karein.",
+  "hero.f3.title": "Smart Shop Control",
+  "hero.f3.desc": "Bakaya, bills, orders aur records ek jagah track karein.",
 
   // Features Section
-  "features.eyebrow": "मुख्य विशेषताएं",
-  "features.title": "आपके बिज़नेस की हर ज़रूरत, एक ही Dukaan AI ऐप में",
-  "features.description": "वॉयस बिलिंग से लेकर स्मार्ट खाता और AI बिल स्कैनिंग तक, Dukaan AI दुकानदारों को समय बचाने और बिज़नेस को बेहतर ढंग से चलाने में मदद करता है।",
-  "features.learnMore": "जानें यह कैसे काम करता है",
-  "feature.howItHelps": "यह कैसे मदद करता है",
-  "feature.faqTitle": "सामान्य प्रश्न",
-  "feature.faqEyebrow": "विशेषज्ञों के उत्तर",
-  "feature.ctaEyebrow": "आज ही शुरू करें",
-  "feature.ctaTitle": "क्या आप अपनी दुकान का मैनेजमेंट आसान बनाना चाहते हैं?",
-  "feature.ctaDesc": "उन हजारों भारतीय दुकानदारों से जुड़ें जो अपने व्यवसाय को स्मार्ट बनाने के लिए Dukaan AI का उपयोग कर रहे हैं।",
-  "feature.stepsTitle": "इस सुविधा का उपयोग कैसे करें",
+  "features.eyebrow": "Main Features",
+  "features.title": "Aapke Business ki har zaroorat, ek hi Dukaan AI app mein",
+  "features.description": "Voice billing se lekar smart khata tak, Dukaan AI dukaandaaron ka time bachata hai.",
+  "feature.stepsTitle": "Kaise use karein",
 
-  // About Section
-  "about.eyebrow": "Dukaan AI के बारे में",
-  "about.title": "उन भारतीय खुदरा विक्रेताओं के लिए निर्मित जो अपनी दुकान को मैनेज करने का स्मार्ट तरीका चाहते हैं",
-  "about.description": "Dukaan AI सिर्फ एक डिजिटल रजिस्टर नहीं है। यह एक बिज़नेस सहायक है जिसे स्थानीय दुकानों की बिलिंग, उधार, खरीद रिकॉर्ड, ऑर्डर और निर्णय लेने में मदद करने के लिए सरल वॉयस-फर्स्ट वर्कफ़्लो के माध्यम से डिज़ाइन किया गया है।",
-  "about.f1.title": "किराना और होलसेल के लिए",
-  "about.f1.desc": "वास्तविक दैनिक स्टोर वर्कफ़्लो के आसपास बनाया गया है, न कि जेनेरिक अकाउंटिंग स्क्रीन पर।",
-  "about.f2.title": "सुरक्षित रिकॉर्ड",
-  "about.f2.desc": "बिज़नेस डेटा को गोपनीयता और भरोसे को ध्यान में रखकर हैंडल किया जाता है।",
-  "about.f3.title": "क्षेत्रीय भाषा समर्थन",
-  "about.f3.desc": "उन भारतीय बिज़नेस मालिकों के लिए डिज़ाइन किया गया है जो अपनी भाषा में काम करना चाहते हैं।",
-  "about.f4.title": "तेज़ कलेक्शन और बिलिंग",
-  "about.f4.desc": "क्रेडिट फॉलो-अप, बिल और सप्लायर ऑर्डर पर हर दिन समय बचाएं।",
-
-  // Download Section
-  "deploy.eyebrow": "डाउनलोड और संपर्क",
-  "deploy.title": "स्मार्ट बिलिंग और खाता मैनेजमेंट के लिए आज ही Dukaan AI शुरू करें",
-  "deploy.description": "Dukaan AI स्थानीय बिज़नेस को रिकॉर्ड डिजिटाइज़ करने, कस्टमर क्रेडिट मैनेज करने, बिल स्कैन करने और भारत के लिए डिज़ाइन किए गए वॉयस-पावर्ड टूल्स के साथ तेज़ी से काम करने में मदद करता है।",
-  "deploy.cta.playstore": "गूगल प्ले पर डाउनलोड करें",
-  "deploy.cta.contact": "Dukaan AI से संपर्क करें",
-  "deploy.f1.title": "दुकान मालिकों के काम करने के तरीके पर आधारित",
-  "deploy.f1.desc": "बिना किसी जटिल सॉफ्टवेयर ट्रेनिंग के आइटम बोलें, बकाया रिकॉर्ड करें, खरीद बिल स्कैन करें और सप्लायर ऑर्डर मैनेज करें।",
-  "deploy.f2.title": "भारत के लिए निर्मित",
-  "deploy.f2.desc": "24 भारतीय भाषाओं में वॉयस सपोर्ट, ऑफ़लाइन उपयोग और व्हाट्सएप-फ्रेंडली वर्कफ़्लो Dukaan AI को वास्तविक बिज़नेस के लिए व्यावहारिक बनाते हैं।",
-
-  // Footer Section
-  "footer.madeForBharat": "भारत के लिए निर्मित",
-  "footer.tagline": "भारतीय दुकानदारों के लिए AI-संचालित बिज़नेस सहायक। बिलिंग, खाता और इन्वेंट्री को आसानी से मैनेज करें।",
-  "footer.resources": "संसाधन",
-  "footer.company": "कंपनी",
-  "footer.getApp": "ऐप प्राप्त करें",
-  "footer.playstore": "प्ले स्टोर ऐप देखें",
-  "footer.contact": "Dukaan AI से संपर्क करें",
-  "footer.privacy": "गोपनीयता नीति",
-  "footer.terms": "सेवा की शर्तें",
-  "footer.kiranaGuide": "किराना गाइड",
-
-  // Image Alts & A11y
-  "alt.logo": "Dukaan AI पॉकेट लोगो",
-  "alt.heroPoster": "किराना दुकान प्रबंधन सुविधाओं को दिखाते हुए Dukaan AI प्रीमियम हीरो पोस्टर",
-  "alt.featureCard": "मोबाइल प्रबंधन दिखाते हुए Dukaan AI फीचर शोकेस",
-  "alt.menu": "मेन्यू खोलें",
+  // Image Alts
+  "alt.logo": "Dukaan AI Logo",
+  "alt.heroPoster": "Dukaan AI Premium Poster",
+  "alt.featureCard": "Dukaan AI Mobile Management",
+  "alt.menu": "Menu kholein",
 
   // Feature-Specific Rich Content
   features_data: {
     bookkeeping: {
-      title: "Dukaan AI डेली बुककीपिंग",
-      badge: "फाइनेंशियल कंट्रोल",
-      description: "अपनी दुकान के फाइनेंस पर नियंत्रण रखें। दैनिक बिक्री ट्रैक करें, लाभ की गणना करें, और AI अंतर्दृष्टि के साथ अपने बिज़नेस की निगरानी करें।",
+      title: "Dukaan AI Daily Bookkeeping",
+      badge: "Financial Control",
+      description: "Apni dukaan ke finance par control rakhein. Daily sales aur profit track karein.",
       benefits: [
-        { title: "रियल-टाइम सेल्स लॉग", text: "लेन-देन होते ही उसे रिकॉर्ड करें और अपना दैनिक कुल तुरंत देखें।" },
-        { title: "प्रॉफिट मार्जिन एनालिटिक्स", text: "हर आइटम के लिए लाभ की गणना करें और अपनी सबसे ज्यादा बिकने वाली वस्तुओं की पहचान करें।" },
-        { title: "स्मार्ट खर्च ट्रैकर", text: "एक ही ऐप में किराया, बिजली और वेतन जैसे दुकान के खर्चों को दर्ज करें।" },
-        { title: "GST और टैक्स रेडी", text: "सरल सारांश जनरेट करें जो आपको टैक्स फाइलिंग आसानी से तैयार करने में मदद करते हैं।" },
-        { title: "मल्टी-डिवाइस सिंक", text: "सुरक्षित रूप से रीयल-टाइम में कई फोन से अपने स्टोर रिकॉर्ड एक्सेस करें।" },
-        { title: "ऑटोमेटेड डेली बैकअप", text: "एक भी रिकॉर्ड कभी न खोएं; आपका डेटा हर दिन क्लाउड पर बैकअप होता है।" },
-        { title: "कैश-इन बनाम कैश-आउट", text: "दिन के अंत में बिना किसी मैन्युअल गणना गलती के अपना ड्रावर बैलेंस करें।" },
-        { title: "आइटम-वार बिक्री", text: "देखें कि कौन से उत्पाद बिक रहे हैं और कौन से अलमारियों पर रखे हुए हैं।" },
-        { title: "वार्षिक ग्रोथ इनसाइट्स", text: "अपनी दुकान के विकास को ट्रैक करने के लिए पिछले साल के साथ इस महीने के प्रदर्शन की तुलना करें।" },
-        { title: "डिजिटल रसीद स्टोरेज", text: "ऑडिट सुरक्षा के लिए किसी भी महत्वपूर्ण मैन्युअल रसीद की डिजिटल प्रतियां सहेजें।" }
-      ],
-      faqs: [
-        { question: "क्या मैं UPI, नकद और कार्ड को अलग से रिकॉर्ड कर सकता हूँ?", answer: "हाँ, आप सटीक मिलान के लिए भुगतान मोड द्वारा बिक्री को वर्गीकृत कर सकते हैं।" },
-        { question: "AI लाभ की गणना कैसे करता है?", answer: "AI आपके खरीद मूल्य और बिक्री मूल्य का उपयोग करके आपको सटीक मार्जिन अंतर्दृष्टि देता है।" },
-        { question: "क्या मैं मासिक रिपोर्ट जनरेट कर सकता हूँ?", answer: "हाँ, आप किसी भी अवधि के लिए प्रोफेशनल PDF या एक्सेल रिपोर्ट जनरेट और एक्सपोर्ट कर सकते हैं।" },
-        { question: "क्या मेरा डेटा सुरक्षित है?", answer: "बिल्कुल। हम यह सुनिश्चित करने के लिए बैंक-ग्रेड एन्क्रिप्शन का उपयोग करते हैं कि केवल आप ही अपने रिकॉर्ड एक्सेस कर सकें।" },
-        { question: "क्या मैं कई दुकानें मैनेज कर सकता हूँ?", answer: "हाँ, Dukaan AI आपको कई बिज़नेस प्रोफाइल के बीच आसानी से स्विच करने की अनुमति देता है।" },
-        { question: "क्या यह बिना इंटरनेट के काम करता है?", answer: "हाँ, ऑफ़लाइन बिक्री रिकॉर्ड करें; ऑनलाइन होने पर वे अपने आप सिंक हो जाएंगे।" },
-        { question: "क्या मैं अपने CA के लिए डेटा एक्सपोर्ट कर सकता हूँ?", answer: "हाँ, PDF रिपोर्ट आसान अकाउंटिंग और टैक्स फाइलिंग के लिए संरचित हैं।" },
-        { question: "क्या लेन-देन पर कोई सीमा है?", answer: "नहीं, आप बिना किसी अतिरिक्त शुल्क के हर दिन असीमित बिक्री रिकॉर्ड कर सकते हैं।" }
+        { title: "Real-time Sales Log", text: "Transaction hote hi record karein." },
+        { title: "Profit Analysis", text: "Har item ka profit jaanein." }
       ],
       steps: [
-        { title: "सेल्स लॉग खोलें", text: "होम स्क्रीन पर 'डेली बुककीपिंग' आइकन पर टैप करें।" },
-        { title: "राशि दर्ज करें", text: "बिक्री का कुल योग इनपुट करें या वॉयस आइकन का उपयोग करके उसे बोलें।" },
-        { title: "मोड चुनें", text: "इसे नकद, UPI, या उधार के रूप में मार्क करें और सेव पर टैप करें।" }
+        { title: "Log kholein", text: "Home screen par icon par tap karein." },
+        { title: "Amount daalein", text: "Voice ya type karke details dein." },
+        { title: "Save karein", text: "Transaction safely save karein." }
       ]
-    },
-    // ... remaining features
+    }
   },
 
   // Global Site-wide Content
   site_benefits: [
-    { title: "स्मार्ट खाता ट्रैकिंग", text: "उधार और भुगतान तुरंत रिकॉर्ड करें।" },
-    { title: "AI बिल स्कैनर", text: "खरीद बिल स्वचालित रूप से कैप्चर करें।्" },
-    { title: "बिज़नेस अंतर्दृष्टि", text: "कमाई को स्पष्ट रूप से समझें।" },
-    { title: "प्रोफेशनल ऑर्डर", text: "व्हाट्सएप पर सप्लायर ऑर्डर तैयार करें।" }
+    { title: "Smart Khata Tracking", text: "Udhaar aur payment turant record karein." },
+    { title: "AI Bill Scanner", text: "Purchase bills automatically scan karein." },
+    { title: "Business Insights", text: "Apni kamayi clear samajhye." },
+    { title: "Professional Orders", text: "WhatsApp par supplier orders banaiye." }
   ],
   site_faqs: [
-    { question: "Dukaan AI क्या है?", answer: "Dukaan AI बिलिंग, खाता और ऑर्डर के लिए एक दुकान सहायक है।" },
-    { question: "कितनी भाषाएं?", answer: "हम 24 भारतीय भाषाओं का समर्थन करते हैं।" },
-    { question: "क्या यह सुरक्षित है?", answer: "हां, आपका डेटा पूरी तरह सुरक्षित है।" },
-    { question: "इंटरनेट चाहिए?", answer: "नहीं, अधिकांश काम बिना इंटरनेट के हो जाता है।" }
+    { question: "Dukaan AI kya hai?", answer: "Ye billing aur khata manage karne ke liye ek digital assistant hai." },
+    { question: "Kitni languages hain?", answer: "Hum Hinglish samet 24 Indian languages support karte hain." },
+    { question: "Data safe hai?", answer: "Haan, aapka data fully encrypted aur safe hai." },
+    { question: "Offline chalta hai?", answer: "Haan, bina internet ke bhi kaam karta hai." }
   ],
   site_highlights: [
-    { name: "वॉयस-फर्स्ट शॉप मैनेजमेंट", type: "Dukaan AI को क्या अलग बनाता है", description: "उत्पादों का बिल बनाने और बिक्री को स्वाभाविक रूप से खोजने के लिए अपनी आवाज़ का उपयोग करें।" },
-    { name: "भारतीय व्यवसायों के लिए निर्मित", type: "स्थानीय खुदरा विक्रेताओं के लिए निर्मित", description: "किराना स्टोर के लिए सरल प्रवाह और बड़े कार्यों के साथ डिज़ाइन किया गया।" },
-    { name: "24 भारतीय भाषाएं", type: "भाषा समर्थन", description: "हिंदी, मराठी, बंगाली, तमिल, तेलुगु, हिंग्लिश और अन्य के लिए समर्थन।" },
-    { name: "ऑफ़लाइन तैयार", type: "विश्वसनीय दैनिक उपयोग", description: "इंटरनेट कनेक्टिविटी कमजोर या अनुपलब्ध होने पर भी काम करता है।" },
-    { name: "व्हाट्सएप-सक्षम", type: "तेज़ संग्रह", description: "व्हाट्सएप पर रिमाइंडर और ऑर्डर तुरंत साझा करें।" },
-    { name: "सुरक्षित डेटा", type: "गोपनीयता और विश्वास", description: "आपके स्टोर रिकॉर्ड सुरक्षित हैंडलिंग के साथ सुरक्षित रहते हैं।" }
+    { name: "Voice Management", type: "Kyu Dukaan AI?", description: "Bol kar bill banaiye aur items dhoondiye." },
+    { name: "Indian Business ke liye", type: "Local dukaandaaron ke liye", description: "Kirana shops ke liye simple design." },
+    { name: "24 Languages", type: "Language Support", description: "Apni language mein available." }
   ]
 };
