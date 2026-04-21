@@ -10,7 +10,7 @@ export default defineConfig({
     defaultLocale: "en",
     locales: [
       "en", "hi", "mr", "bn", "pa", "gu", "ta", "te", "kn", "ml", 
-      "or", "as", "mai", "sat", "ks", "doi", "sd", "kok", "mni", "ne", "sa", "ur", "brx", "hinglish"
+      "or", "as", "mai", "doi", "sd", "kok", "ne", "sa", "ur", "hinglish"
     ],
     routing: {
       prefixDefaultLocale: false,

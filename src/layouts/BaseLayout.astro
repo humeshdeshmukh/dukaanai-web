@@ -95,6 +95,31 @@ if (extraSchemas.length > 0) {
 if (breadcrumbSchema) {
   pageSchemas.push(breadcrumbSchema as any);
 }
+
+import { ui, languageCodes } from "../i18n/ui";
+
+const supportedLangs = languageCodes;
+
+const getAlternateUrl = (l: string) => {
+  const pathname = Astro.url.pathname;
+  const currentLang = getLangFromUrl(Astro.url);
+  
+  let pathWithoutLang = pathname;
+  if (currentLang !== 'en') {
+    pathWithoutLang = pathname.substring(currentLang.length + 1) || "/";
+  }
+  
+  const baseUrl = site.url.endsWith("/") ? site.url.slice(0, -1) : site.url;
+  const cleanPath = pathWithoutLang.startsWith("/") ? pathWithoutLang : `/${pathWithoutLang}`;
+  
+  if (l === "en") return `${baseUrl}${cleanPath}`;
+  return `${baseUrl}/${l}${cleanPath}`;
+};
+
+const alternates = supportedLangs.map(l => ({
+  lang: l,
+  url: getAlternateUrl(l)
+}));
 ---
 
 <!doctype html>
@@ -118,6 +143,11 @@ if (breadcrumbSchema) {
     <meta name="keywords" content={site.keywords.join(", ")} />
     <meta name="robots" content={robotsContent} />
     <meta name="googlebot" content={robotsContent} />
+    
+    {alternates.map(alt => (
+      <link rel="alternate" hreflang={alt.lang} href={alt.url} />
+    ))}
+    <link rel="alternate" hreflang="x-default" href={getAlternateUrl("en")} />
     <meta name="application-name" content={site.name} />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-title" content={site.shortName} />
@@ -204,7 +234,7 @@ if (breadcrumbSchema) {
     <meta name="twitter:image" content={`${site.url}${site.socialImage}`} />
     <script is:inline type="application/ld+json" set:html={JSON.stringify(pageSchemas)} />
     
-    <script is:inline>
+    <script is:inline define:vars={{ languageCodes }}>
       // Smart Language Detection & Redirection
       (function() {
         // Only redirect on the root path
@@ -213,7 +243,7 @@ if (breadcrumbSchema) {
         // Don't redirect if we've already redirected or the user manually chose a path
         if (sessionStorage.getItem('ua-lang-redirected')) return;
         
-        const supported = ["en", "hi", "mr", "bn", "pa", "gu", "ta", "te", "kn", "ml", "or", "as", "mai", "sat", "ks", "doi", "sd", "kok", "mni", "ne", "sa", "ur", "brx", "hinglish"];
+        const supported = languageCodes;
         const userLang = (navigator.language || navigator.userLanguage).split('-')[0].toLowerCase();
         
         if (userLang !== 'en' && supported.includes(userLang)) {
