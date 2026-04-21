@@ -1,0 +1,8 @@
+# Mark binary files to prevent line-ending corruption
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.webp binary
+*.pdf binary
