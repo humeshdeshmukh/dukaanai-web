@@ -57,8 +57,8 @@ export const hinglish = {
   "deploy.cta.contact": "Dukaan AI Se Sampark Karein",
   "deploy.f1.title": "Dukaan maalik jaise kaam karte hain",
   "deploy.f1.desc": "Bina kisi kathin software training ke cheezein bolein, udhaar record karein, khareed ke bills scan karein, aur supplier orders manage karein.",
-  "deploy.pmodulest.f2.title": "India ke liye banaya gaya",
-  "pmodulest.f2.desc": "24 Bhartiya bhashaon mein voice support, offline-ready upyog, aur WhatsApp-friendly workflows Dukaan AI ko asli vyavasaayon ke liye practical banate hain.",
+  "deploy.f2.title": "India ke liye banaya gaya",
+  "deploy.f2.desc": "24 Bhartiya bhashaon mein voice support, offline-ready upyog, aur WhatsApp-friendly workflows Dukaan AI ko asli vyavasaayon ke liye practical banate hain.",
   "footer.madeForBharat": "Bharat ke liye banaya gaya",
   "footer.tagline": "AI-powered business assistant Bhartiya dukaan maalikon ke liye. Billing, khata, aur inventory aasaani se manage karein.",
   "footer.resources": "Resources",
@@ -284,7 +284,7 @@ export const hinglish = {
     { "name": "Made for Indian businesses", "type": "Local retailers ke liye banaya gaya", "description": "Kirana dukaanon ke liye simple flows aur bade actions ke saath design kiya gaya hai." },
     { "name": "24 Indian languages", "type": "Language support", "description": "Hindi, Marathi, Bengali, Tamil, Telugu, Hinglish, aur bhi bahut kuch ke liye support." },
     { "name": "Offline ready", "type": "Reliable daily use", "description": "Internet connectivity kamzor ya upalabdh na hone par bhi kaam karta hai." },
-    { "name": "WhatsApp-enabled", "text": "Faster collections", "description": "WhatsApp par reminders aur orders jaldi share karein." },
+    { "name": "WhatsApp-enabled", "type": "Faster collections", "description": "WhatsApp par reminders aur orders jaldi share karein." },
     { "name": "Secure data", "type": "Privacy and trust", "description": "Aapke store records secure handling ke saath surakshit rehte hain." }
   ]
 };
