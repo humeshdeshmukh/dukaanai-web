@@ -10,6 +10,9 @@ lang: "en"
 
 In the heart of every Indian neighborhood, there is a **Dukaan**. It is more than just a place to buy groceries; it is a center of trust, a provider of credit, and the backbone of local communities. However, the retail landscape in India is changing faster than ever.
 
+
+![Dukaan AI Overview](../../../assets/images/hero-overview.png)
+
 With the rise of quick commerce apps and large supermarkets, today’s shopkeepers face a critical choice: **Modernize or get left behind.** This guide explores how you can use simple digital tools and AI to turn your traditional kirana into a high-performance modern business.
 
 ## 1. Why Every Dukaan Needs a Digital Brain

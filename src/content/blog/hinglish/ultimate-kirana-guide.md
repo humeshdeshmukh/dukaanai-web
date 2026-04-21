@@ -10,6 +10,9 @@ lang: "hinglish"
 
 India ke har mohalle ke dil mein ek **Dukaan** hoti hai. Ye sirf grocery kharidne ki jagah nahi hai; ye bharose ka center hai, udhaar dene wala hai aur local communities ki backbone hai. Lekin, India mein retail ka mahol pehle se kaafi fast badal raha hai.
 
+
+![Dukaan AI Overview](../../../assets/images/hero-overview.png)
+
 Quick commerce apps aur bade supermarkets ke aane ke saath, aaj ke shopkeepers ke paas ek important choice hai: **Modern bano ya peeche chhoot jao.** Ye guide bataati hai ki kaise aap simple digital tools aur AI ka use karke apni traditional kirana dukaan ko ek high-performance modern business mein badal sakte hain.
 
 ## 1. Har Dukaan ko Digital 'Brain' ki zaroorat kyun hai
@@ -43,6 +46,9 @@ Bade apps 10 minute mein delivery ka vaada karte hain, lekin unmein ek local sho
 - **Digital List:** Customers ko WhatsApp par apni list bhejne ke liye kahein.
 - **Fast Billing:** Wholesaler se apne purchase bills ko verify karne ke liye AI scanner tools ka use karein.
 - **Home Delivery:** Bade apps jitni hi speed dene ke liye apne local staff ka use karein.
+
+
+![Daily Bookkeeping Preview](../../../assets/images/bookkeeping.png)
 
 ## Conclusion
 Apni shop ko modern banane ke liye computer ya mehengi IT team ki zaroorat nahi hai. Aapko bas ek Android phone aur sahi partner ki zaroorat hai. **Dukaan AI** khaas taur par un Indian retailers ke liye banaya gaya hai jo apni dukaan se digital revolution lead karna chahte hain.

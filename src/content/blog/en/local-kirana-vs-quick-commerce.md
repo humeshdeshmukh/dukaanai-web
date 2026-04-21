@@ -10,6 +10,9 @@ lang: "en"
 
 The Indian retail landscape is buzzing with talk of "Quick Commerce"—apps that promise to deliver groceries in 10 minutes or less. For many traditional kirana shop owners, this feels like a direct threat. 
 
+
+![Orders Management Preview](../../../assets/images/orders-management.png)
+
 But here is a secret: **The local shopkeeper has advantages that big tech companies can nunca match.** 
 
 To win in 2026, you don't need to build your own multi-billion dollar app. You just need to combine your **existing strengths** with **simple digital speed**.

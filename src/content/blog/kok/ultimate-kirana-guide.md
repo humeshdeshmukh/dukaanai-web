@@ -10,6 +10,9 @@ lang: "kok"
 
 Bharota ieka Indian neighborhood-a modem, ek **Dukaan** asta. So i chodd ek ghari ashi gozti ghevnchi jagha na; to ek trust-acho kendr, credit denari ani local communities-cho backbone. Pan, India-tlo retail landscape kallakun chodd vegala bodolta.
 
+
+![Dukaan AI Overview](../../../assets/images/hero-overview.png)
+
 Quick commerce apps ani mothya supermarket-a-cha ugam sobat, ajchya dukandarank ek critical choice asa: **Modernize kinva magi urakachka.** Hi guide explore korta, tumi kase simple digital tools ani AI vaporun tumcho traditional kirana ek high-performance modern business korun takta.
 
 ## 1. Kharech dukaan-ak digital brain kitem ani kasko lagta

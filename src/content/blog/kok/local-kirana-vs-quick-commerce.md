@@ -10,6 +10,9 @@ lang: "kok"
 
 Bhāratāntalī riṭēla bhāgā'ta "Quick Commerce"—kôṇāṅgī 10 miṭiṭa kôṇāṅgī ētēṁ grocarī dilivar karāṅgī—hē ābhāsa māyēṁ gōṣṭī māyēṁ bolōta āhēta. Kôṇāṅgī parampārāgata kirānā dukānadārāṅgī, hē kôṇāṅgī tīvrā dhayōṅgī mālūmā ho'ta.
 
+
+![Orders Management Preview](../../../assets/images/orders-management.png)
+
 Punē hē kôṇāṅgī rāja: **Sāṅgācī dukāna mōṭhyā taknōlajī companiēṅgī kôṇāṅgī kabōlī nakō kôṇāṅgī lā.''**
 
 2026 vîṁ jītvôṅgī, tumhālāṁ kôṇāṅgī kôṇāṅgī kōṭī ḍōlārāṅgī ॲp banavāṅgī garaja nāhī. Tumhālāṁ sipa tumacī **asāṅgī śakti** āṇi **sāṅgī ḍijiṭala gatī** ēkatāṁ karāṅgī garaja āhē.

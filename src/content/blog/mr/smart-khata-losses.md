@@ -10,6 +10,9 @@ lang: "mr"
 
 Every small shopkeeper knows the phrase: *"Aaj cash, kal udhaar"*. But in reality, **Udhaar** (Credit) is the lifeblood of the neighborhood kirana store. It builds trust and ensures customers return to you instead of a supermarket.
 
+
+![Digital Khata Preview](../../../assets/images/smart-khata.png)
+
 However, the traditional way of managing this credit is silently draining your profits.
 
 ## The Hidden Costs of Paper Registers

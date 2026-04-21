@@ -10,6 +10,9 @@ lang: "en"
 
 Every small shopkeeper in India knows the phrase: *"Aaj cash, kal udhaar"* (Cash today, credit tomorrow). But in reality, **Udhaar** (Credit) is the lifeblood of the neighborhood kirana store. It builds trust and ensures customers return to you instead of a supermarket.
 
+
+![Digital Khata Preview](../../../assets/images/smart-khata.png)
+
 However, the traditional way of managing this credit—using a notebook or "Bahi Khata"—is silently draining your profits.
 
 ## The Hidden Costs of Paper Registers
@@ -30,6 +33,9 @@ Instead of asking for money in person, the app sends a polite, professional paym
 
 ### 3. Clear History & Trust
 When a customer asks *"Ye ₹450 kab ka hai?"*, you don't have to flip through 50 pages of a notebook. You show them a clear, timestamped list on your phone. This transparency builds massive trust and reduces disputes.
+
+
+![Udhaar Reminder Preview](../../../assets/images/bill-verification.png)
 
 ## The Bottom Line
 A digital khata doesn't just "save time"—it **recovers money** that was previously disappearing into thin air. If you want to increase your shop's monthly profit without increasing your prices, digitizing your credit management is the single most effective step you can take.
