@@ -15,10 +15,10 @@ export const en = {
   
   // Hero Section
   "hero.badge": "Business software for retail stores",
-  "hero.title1": "AI Billing &",
-  "hero.title2": "Khata App",
-  "hero.title3": "for Indian shops.",
-  "hero.description": "Dukaan AI is the perfect Smart Khata and Voice Billing solution for Indian shops, providing powerful Business AI to manage billing, bookkeeping, and customer credit from one app.",
+  "hero.title1": "Voice Billing App",
+  "hero.title2": "& Smart Khata",
+  "hero.title3": "for Kirana Store",
+  "hero.description": "Dukaan AI is the #1 voice billing app for kirana stores in India. Use the smartest AI billing app for small shop management — handle udhaar, bookkeeping, and GST from one free app.",
   "hero.cta.playstore": "Download on Play Store",
   "hero.cta.features": "Explore Features",
   "hero.f1.title": "Voice Billing",
@@ -36,8 +36,8 @@ export const en = {
 
   // Features Section
   "features.eyebrow": "Core features",
-  "features.title": "Everything your business needs in one Dukaan AI app",
-  "features.description": "From voice billing to smart khata and AI bill scanning, Dukaan AI helps shop owners save time, reduce manual work, and run their business better.",
+  "features.title": "Everything your shop needs in one kirana store billing software",
+  "features.description": "From GST billing app kirana store free to smart inventory management, Dukaan AI helps shop owners save time, reduce manual work, and grow their business with voice power.",
   "features.learnMore": "Learn how it works",
   "feature.howItHelps": "How it helps",
   "feature.faqTitle": "Frequently asked questions",
@@ -49,8 +49,8 @@ export const en = {
 
   // About Section
   "about.eyebrow": "About Dukaan AI",
-  "about.title": "Built for Indian retailers who want a smarter way to manage their shop",
-  "about.description": "Dukaan AI is more than a digital register. It is a business assistant designed to help local stores handle billing, udhaar, purchase records, orders, and decision-making through simple voice-first workflows.",
+  "about.title": "The Best Khata App India 2025: Built for Kirana Retailers",
+  "about.description": "Dukaan AI is your digital bahi khata app India, designed to help local stores handle voice billing, udhaar, and inventory with ease. It is the only offline khata app kirana owners need to manage their daily business on Android.",
   "about.f1.title": "For kirana and wholesale",
   "about.f1.desc": "Built around real daily store workflows, not generic accounting screens.",
   "about.f2.title": "Secure records",
@@ -63,7 +63,7 @@ export const en = {
   // Download Section
   "deploy.eyebrow": "Download and contact",
   "deploy.title": "Start using Dukaan AI for smarter billing, khata, and store management",
-  "deploy.description": "Dukaan AI helps local businesses digitize records, manage customer credit, scan bills, and work faster with voice-powered tools designed for India.",
+  "deploy.description": "Dukaan AI is the free udhaar khata app Android users love. Digitize records, manage customer credit, scan bills, and work faster with voice-powered tools designed for Bharat.",
   "deploy.cta.playstore": "Download on Google Play",
   "deploy.cta.contact": "Contact Dukaan AI",
   "deploy.f1.title": "Works the way shop owners work",
