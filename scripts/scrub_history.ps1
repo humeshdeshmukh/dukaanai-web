@@ -1,5 +1,5 @@
 # Git History Scrubbing Script
-$key = "AIzaSyBW0-Hun9YmuyfQzc2mKjCchPsM1AMK_EM"
+$key = ""
 $replacement = "YOUR_GEMINI_API_KEY_HERE"
 
 Get-ChildItem -Recurse -File | ForEach-Object {
@@ -10,7 +10,8 @@ Get-ChildItem -Recurse -File | ForEach-Object {
             $newContent | Set-Content -Path $_.FullName -Encoding utf8 -NoNewline
             Write-Host "Scrubbed: $($_.FullName)"
         }
-    } catch {
+    }
+    catch {
         # Skip files that can't be read (binaries etc)
     }
 }
