@@ -2,7 +2,7 @@
 title: "स्मार्ट खाता तुमकां तुमकां हजार रुपयां वाचपाक कशी मदत करू शकता"
 description: "सोमज तुमकां किडयां कागदाची नोंदवही कशें जास्त पैसे खर्च करता आनी डिजिटल उधार प्रणालीक बदलून तुमकां कशें गमायल्लो पैसा परत मेळयता."
 pubDate: "2026-04-21"
-image: "/images/smart-khata.png"
+image: "../_assets/smart-khata.png"
 author: "Dukaan AI Team"
 tags: ["खात्याचें व्यवस्थापन", "नफ्याचो वाड", "उधार वसुली"]
 lang: "kok"
@@ -10,8 +10,7 @@ lang: "kok"
 
 भारतांतल्या सगळ्या छोटे दुकानदारांक ही म्हण माहीत आसा: *"आज रोकड, उद्या उधार"*. पूण खरें सांगचें जाल्यार, **उधार** हे घराघरांतल्या किरियाना दुकानचे जिवीत आसा. ताका लागून विश्वास वाडतो आनी ग्राहक सुपरमार्केट वांगडा तुमच्या लागी परत येतात.
 
-
-![Digital Khata Preview](../../../assets/images/smart-khata.png)
+![Digital Khata Preview](../_assets/smart-khata.png)
 
  the paper "Bahi Khata" is silently draining your profits.
 

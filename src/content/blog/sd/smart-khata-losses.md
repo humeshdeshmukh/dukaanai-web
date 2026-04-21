@@ -2,7 +2,7 @@
 title: "اسمارٽ کاتا توهان جي ڪِرانا ڪاروبار کي ساليانو هزارين بچائي سگهي ٿو"
 description: " descoberta why traditional paper registers are costing you more than you think and how switching to a digital credit system can recover lost revenue."
 pubDate: "2026-04-21"
-image: "/images/smart-khata.png"
+image: "../_assets/smart-khata.png"
 author: "Dukaan AI Team"
 tags: ["کاتا انتظام", "منافعي جي واڌ", "ادھار وصولي"]
 lang: "sd"
@@ -10,8 +10,7 @@ lang: "sd"
 
 هندستان ۾ هر ننڍي دڪاندار کي هي جملو ياد آهي: *"اڄ نقد، سڀاڻي ادھار"*. پر حقيقت ۾، **ادھار** گهٽي جي ڪِرانا دڪان جي زندگي آهي. اهو اعتماد پيدا ڪري ٿو ۽ يقيني بڻائي ٿو ته گراهڪ سپر مارڪيٽ جي بدران توهان ڏانهن واپس اچن.
 
-
-![Digital Khata Preview](../../../assets/images/smart-khata.png)
+![Digital Khata Preview](../_assets/smart-khata.png)
 
 پر، هن ادھار جو انتظام ڪرڻ جو روايتي طريقو - هڪ نوٽ بڪ يا "باهي کاتا" استعمال ڪرڻ - خاموشيءَ سان توهان جي منافعي کي گهٽائي رهيو آهي.
 

@@ -2,7 +2,7 @@
 title: "The Ultimate Guide to Managing your Kirana Dukaan in 2026"
 description: "Learn how to modernize your traditional shop, handle digital payments, manage credit (udhaar), and outcompete major retail chains using AI and simple digital tools."
 pubDate: "2026-04-20"
-image: "/images/hero-overview.png"
+image: "../_assets/hero-overview.png"
 author: "Dukaan AI Team"
 tags: ["Store Growth", "AI Tools", "Digital India"]
 lang: "doi"
@@ -10,8 +10,7 @@ lang: "doi"
 
 हर भारतीय मोहल्ले दे दिल विच, इक **दुकान** है। ईं ते खाली सामान लैण दी जगाह नीं; ईं भरोसा दा मरकज़, उधारी दा देनवाला, ते मोहल्लेया री रीढ़ दी हड्डी है। पर, भारत विच रिटेल दा माहौल अग्गों धीं दे नाळ अग्गों दे नाळ बदल र्या है।
 
-
-![Dukaan AI Overview](../../../assets/images/hero-overview.png)
+![Dukaan AI Overview](../_assets/hero-overview.png)
 
 क्विक कॉमर्स ऐप्स ते बड्डे सुपरमार्केट दे उभार नाळ, आज दे दुकानदार एक अहम फैसलै नू सैम्हे खलोते न: **आधुनिक बनो या पिछे र्हो।** ईं गाइड विच ईं दी पड़ताल कीती गई है कि तुसीं कीं अपनी पारंपरिक किराना नू इक हाई-परफॉरमेंस आधुनिक व्यापार विच बदल सकदे ओ, खाली डिजिटल औज़ार ते AI दा इस्तेमाल कर के।
 

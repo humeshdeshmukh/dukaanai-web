@@ -10,7 +10,7 @@ interface Props {
   description: string;
   publishDate: string;
   author?: string;
-  imagePath?: string;
+  imagePath?: ImageMetadata;
   tags?: string[];
 }
 
@@ -82,7 +82,13 @@ const extraSchemas = [articleSchema];
         {imagePath && (
           <div class="mt-12 overflow-hidden rounded-[32px] border border-forest-900/10 shadow-xl">
             <div class="aspect-[21/9] bg-forest-950/5">
-              <img src={imagePath} alt={title} class="h-full w-full object-cover object-top" />
+              <Image 
+                src={imagePath} 
+                alt={title} 
+                width={1200}
+                height={514}
+                class="h-full w-full object-cover object-top" 
+              />
             </div>
           </div>
         )}
@@ -136,5 +142,8 @@ const extraSchemas = [articleSchema];
   }
   .prose blockquote {
     @apply border-l-4 border-gold-400 bg-forest-50/50 px-6 py-4 italic text-forest-900 my-10 rounded-r-2xl;
+  }
+  .prose img {
+    @apply rounded-[32px] border border-forest-900/10 shadow-lg my-12 mx-auto;
   }
 </style>

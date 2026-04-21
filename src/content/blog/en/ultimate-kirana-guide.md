@@ -2,7 +2,7 @@
 title: "The Ultimate Guide to Managing your Kirana Dukaan in 2026"
 description: "Learn how to modernize your traditional shop, handle digital payments, manage credit (udhaar), and outcompete major retail chains using AI and simple digital tools."
 pubDate: "2026-04-20"
-image: "/images/hero-overview.png"
+image: "../_assets/hero-overview.png"
 author: "Dukaan AI Team"
 tags: ["Store Growth", "AI Tools", "Digital India"]
 lang: "en"
@@ -10,8 +10,7 @@ lang: "en"
 
 In the heart of every Indian neighborhood, there is a **Dukaan**. It is more than just a place to buy groceries; it is a center of trust, a provider of credit, and the backbone of local communities. However, the retail landscape in India is changing faster than ever.
 
-
-![Dukaan AI Overview](../../../assets/images/hero-overview.png)
+![Dukaan AI Overview](../_assets/hero-overview.png)
 
 With the rise of quick commerce apps and large supermarkets, today’s shopkeepers face a critical choice: **Modernize or get left behind.** This guide explores how you can use simple digital tools and AI to turn your traditional kirana into a high-performance modern business.
 

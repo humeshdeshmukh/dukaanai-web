@@ -2,7 +2,7 @@
 title: "How Smart Khata Can Save Your Kirana Business Thousands Annually"
 description: "Discover why traditional paper registers are costing you more than you think and how switching to a digital credit system can recover lost revenue."
 pubDate: "2026-04-21"
-image: "/images/smart-khata.png"
+image: "../_assets/smart-khata.png"
 author: "Dukaan AI Team"
 tags: ["Khata Management", "Profit Growth", "Udhaar Recovery"]
 lang: "hinglish"
@@ -10,8 +10,7 @@ lang: "hinglish"
 
 Every small shopkeeper knows the phrase: *"Aaj cash, kal udhaar"*. But in reality, **Udhaar** (Credit) is the lifeblood of the neighborhood kirana store. It builds trust and ensures customers return to you instead of a supermarket.
 
-
-![Digital Khata Preview](../../../assets/images/smart-khata.png)
+![Digital Khata Preview](../_assets/smart-khata.png)
 
 However, the traditional way of managing this credit is silently draining your profits.
 

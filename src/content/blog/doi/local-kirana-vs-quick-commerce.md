@@ -2,7 +2,7 @@
 title: "Local Kirana vs Quick Commerce: How to Win in 2026"
 description: "Big apps promise 10-minute delivery, but they lack the personal touch and trust of a neighborhood store. Here's how to modernize and stay ahead."
 pubDate: "2026-04-21"
-image: "/images/hero-premium.jpeg"
+image: "../_assets/hero-premium.jpeg"
 author: "Dukaan AI Team"
 tags: ["Business Strategy", "Quick Commerce", "Shop Modernization"]
 lang: "doi"
@@ -10,8 +10,7 @@ lang: "doi"
 
 भारतीय खुदरा बाज़ार "क्विक कॉमर्स" – जदी 10 मिनट या उससे कम समे डिलीवरी दी गॉरंटी दंदे ओदे वांग गूंज रिहा है। बोहते पारंपरिक किराना मालिकें लेई, ये इक सीधी धमकी वंग लगदा है।
 
-
-![Orders Management Preview](../../../assets/images/orders-management.png)
+![Orders Management Preview](../_assets/orders-management.png)
 
 पर एथे इक राज़ है: **स्थानीय दुकानदारें कोल एेदे फायदे न जेड़े बड़ी टेक कंपनियाँ कदे भी हासिल नी कर सकदीं।**
 

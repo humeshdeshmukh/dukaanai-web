@@ -2,7 +2,7 @@
 title: "Local Kirana vs Quick Commerce: 2026 vîṁ kôṇ jītvô?"
 description: "Moṭhyā ॲpsāṅnī 10-miṭiṭa dilivarīcī galatī ditāt, pun sāṅgācī nēmaṭhācī dukāna jēvḍī bāndhōṭāḷī āṇi biśvāsa tyāṅnnā nāhī. Hē kôṇāṅgī āṇi puḍhē kôṇāṅgī kôṇāṅgī?"
 pubDate: "2026-04-21"
-image: "/images/hero-premium.jpeg"
+image: "../_assets/hero-premium.jpeg"
 author: "Dukaan AI Team"
 tags: ["Business Strategy", "Quick Commerce", "Shop Modernization"]
 lang: "kok"
@@ -10,8 +10,7 @@ lang: "kok"
 
 Bhāratāntalī riṭēla bhāgā'ta "Quick Commerce"—kôṇāṅgī 10 miṭiṭa kôṇāṅgī ētēṁ grocarī dilivar karāṅgī—hē ābhāsa māyēṁ gōṣṭī māyēṁ bolōta āhēta. Kôṇāṅgī parampārāgata kirānā dukānadārāṅgī, hē kôṇāṅgī tīvrā dhayōṅgī mālūmā ho'ta.
 
-
-![Orders Management Preview](../../../assets/images/orders-management.png)
+![Orders Management Preview](../_assets/orders-management.png)
 
 Punē hē kôṇāṅgī rāja: **Sāṅgācī dukāna mōṭhyā taknōlajī companiēṅgī kôṇāṅgī kabōlī nakō kôṇāṅgī lā.''**
 

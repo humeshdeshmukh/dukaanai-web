@@ -2,7 +2,7 @@
 title: "Local Kirana vs Quick Commerce: How to Win in 2026"
 description: "Big apps promise 10-minute delivery, but they lack the personal touch and trust of a neighborhood store. Here's how to modernize and stay ahead."
 pubDate: "2026-04-21"
-image: "/images/hero-premium.jpeg"
+image: "../_assets/hero-premium.jpeg"
 author: "Dukaan AI Team"
 tags: ["Business Strategy", "Quick Commerce", "Shop Modernization"]
 lang: "en"
@@ -10,8 +10,7 @@ lang: "en"
 
 The Indian retail landscape is buzzing with talk of "Quick Commerce"—apps that promise to deliver groceries in 10 minutes or less. For many traditional kirana shop owners, this feels like a direct threat. 
 
-
-![Orders Management Preview](../../../assets/images/orders-management.png)
+![Orders Management Preview](../_assets/orders-management.png)
 
 But here is a secret: **The local shopkeeper has advantages that big tech companies can nunca match.** 
 

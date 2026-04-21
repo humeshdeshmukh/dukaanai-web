@@ -2,7 +2,7 @@
 title: "સ્થાનિક કિરાણા vs. ક્વિક કોમર્સ: 2026 માં કેવી રીતે જીતવું"
 description: "મોટી એપ્સ 10-મિનિટની ડિલિવરીનું વચન આપે છે, પરંતુ તેમાં વ્યક્તિગત સ્પર્શ અને પડોશના સ્ટોરનો વિશ્વાસ નથી. અહીં આધુનિક બનવાની અને આગળ રહેવાની રીતો છે."
 pubDate: "2026-04-21"
-image: "/images/hero-premium.jpeg"
+image: "../_assets/hero-premium.jpeg"
 author: "Dukaan AI Team"
 tags: ["Business Strategy", "Quick Commerce", "Shop Modernization"]
 lang: "gu"
@@ -10,8 +10,7 @@ lang: "gu"
 
 ભારતીય રિટેલ ક્ષેત્ર "ક્વિક કોમર્સ" ની ચર્ચાથી ગુંજી રહ્યું છે - એવી એપ્સ જે 10 મિનિટ કે તેથી ઓછા સમયમાં કરિયાણું પહોંચાડવાનું વચન આપે છે. ઘણા પરંપરાગત કિરાણા દુકાનદારો માટે, આ સીધો ખતરો લાગે છે.
 
-
-![Orders Management Preview](../../../assets/images/orders-management.png)
+![Orders Management Preview](../_assets/orders-management.png)
 
 પરંતુ અહીં એક રહસ્ય છે: **સ્થાનિક દુકાનદાર પાસે એવી શક્તિઓ છે જે મોટી ટેક કંપનીઓ ક્યારેય મેળવી શકતી નથી.**
 

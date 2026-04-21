@@ -2,7 +2,7 @@
 title: "The Ultimate Guide to Managing your Kirana Dukaan in 2026"
 description: "Learn how to modernize your traditional shop, handle digital payments, manage credit (udhaar), and outcompete major retail chains using AI and simple digital tools."
 pubDate: "2026-04-20"
-image: "/images/hero-overview.png"
+image: "../_assets/hero-overview.png"
 author: "Dukaan AI Team"
 tags: ["Store Growth", "AI Tools", "Digital India"]
 lang: "kok"
@@ -10,8 +10,7 @@ lang: "kok"
 
 Bharota ieka Indian neighborhood-a modem, ek **Dukaan** asta. So i chodd ek ghari ashi gozti ghevnchi jagha na; to ek trust-acho kendr, credit denari ani local communities-cho backbone. Pan, India-tlo retail landscape kallakun chodd vegala bodolta.
 
-
-![Dukaan AI Overview](../../../assets/images/hero-overview.png)
+![Dukaan AI Overview](../_assets/hero-overview.png)
 
 Quick commerce apps ani mothya supermarket-a-cha ugam sobat, ajchya dukandarank ek critical choice asa: **Modernize kinva magi urakachka.** Hi guide explore korta, tumi kase simple digital tools ani AI vaporun tumcho traditional kirana ek high-performance modern business korun takta.
 
