@@ -14,15 +14,15 @@ const currentYear = new Date().getFullYear();
 const activeFeatures = getFeatures(lang);
 
 const supportLinks = [
-  { name: t("nav.blog"), href: getLink("/blog") },
-  { name: t("footer.kiranaGuide"), href: getLink("/blog/ultimate-kirana-guide") },
-  { name: t("nav.faq"), href: getLink("/#faq") }
+  { name: t("nav.features"), href: getLink("/#features") },
+  { name: t("nav.howItWorks"), href: getLink("/#how-it-works") },
+  { name: t("nav.faq"), href: getLink("/#faq") },
+  { name: t("nav.contact"), href: "mailto:hello@dukaanai.co.in" },
 ];
 
 const legalLinks = [
-  { name: t("footer.privacy"), href: "/legal/privacy" },
-  { name: t("footer.terms"), href: "/legal/terms" },
-  { name: t("deploy.cta.contact"), href: `mailto:${site.businessEmail}` }
+  { name: t("footer.privacy"), href: getLink("/legal/privacy") },
+  { name: t("footer.terms"), href: getLink("/legal/terms") },
 ];
 ---
 
