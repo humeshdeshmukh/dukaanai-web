@@ -3,3 +3,9 @@ dist
 .astro
 .vercel
 .netlify
+
+# API Key security
+.env
+scripts/translate_locales.py
+scripts/retranslate_failed.py
+*.py
