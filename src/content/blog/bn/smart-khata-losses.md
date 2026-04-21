@@ -1,25 +1,37 @@
 ---
-title: "How Smart Khata Can Save Your Kirana Business Thousands Annually"
-description: "Discover why traditional paper registers are costing you more than you think and how switching to a digital credit system can recover lost revenue."
+title: "স্মার্ট খাতা যেভাবে আপনার মুদি দোকানের বার্ষিক হাজার হাজার টাকা বাঁচাতে পারে"
+description: "আবিষ্কার করুন কেন ঐতিহ্যবাহী কাগজের খাতা আপনার প্রত্যাশার চেয়ে বেশি ব্যয়বহুল এবং কিভাবে একটি ডিজিটাল ক্রেডিট সিস্টেমে রূপান্তর করলে হারানো আয় পুনরুদ্ধার করা যায়।"
 pubDate: "2026-04-21"
 image: "/images/smart-khata.png"
 author: "Dukaan AI Team"
-tags: ["Khata Management", "Profit Growth", "Udhaar Recovery"]
+tags: ["খাতা ব্যবস্থাপনা", "লাভ বৃদ্ধি", "বকেয়া পুনরুদ্ধার"]
 lang: "bn"
 ---
 
-Every small shopkeeper knows the phrase: *"Aaj cash, kal udhaar"*. But in reality, **Udhaar** (Credit) is the lifeblood of the neighborhood kirana store. It builds trust and ensures customers return to you instead of a supermarket.
+ভারতের প্রত্যেক ক্ষুদ্র দোকানদার এই কথাটির সাথে পরিচিত: *"আজ ক্যাশ, কাল বাকী"*। কিন্তু বাস্তবে, **বাকী** (ক্রেডিট) হল পাড়ার মুদি দোকানের জীবনের ধমনী। এটি বিশ্বাস তৈরি করে এবং গ্রাহকদের একটি সুপারমার্কেটের পরিবর্তে আপনার কাছে ফিরে আসতে উৎসাহিত করে।
 
-However, the traditional way of managing this credit is silently draining your profits.
+তবে, এই ক্রেডিট পরিচালনা করার ঐতিহ্যবাহী উপায়—একটি নোটবুক বা "খাতা"—নীরবে আপনার লাভ কমিয়ে দিচ্ছে।
 
-## The Hidden Costs of Paper Registers
-1. **Forgotten Entries:** In a rush, it’s easy to forget to write down a ₹20 packet of milk. Over a month, these small misses add up.
-2. **The "Awkward" Collection:** Reminding a regular customer to pay their debt can feel uncomfortable. Many shopkeepers avoid it, leading to old debts that never get settled.
+## কাগজের খাতার লুকানো খরচ
 
-## Why "Smart Khata" is the Solution
-By switching to a digital **Smart Khata** like the one in **Dukaan AI**, you transform your shop's financial health instantly.
+১. **ভুলে যাওয়া এন্ট্রি:** তাড়াহুড়োর মধ্যে, ₹২০ টাকার দুধের প্যাকেট বা ₹৫০ টাকার চালের বস্তা লিখতে ভুলে যাওয়া সহজ। এক মাসে, এই ছোট ভুলগুলি হাজার হাজার টাকার হারানো আয়ে পরিণত হতে পারে।
+২. **"অস্বস্তিকর" সংগ্রহ:** নিয়মিত গ্রাহককে তাদের বকেয়া পরিশোধ করার কথা মনে করিয়ে দেওয়াটা অস্বস্তিকর হতে পারে। অনেক দোকানদার এটি এড়িয়ে চলেন, যার ফলে পুরানো ঋণ কখনোই নিষ্পত্তি হয় না।
+৩. **গণনার ত্রুটি:** দীর্ঘ সংখ্যার কলামগুলি ম্যানুয়ালি যোগ করলে ভুল হয়—সাধারণত গ্রাহকের পক্ষে, মালিকের নয়।
 
-### Zero-Tap Recording
-With a digital assistant, recording an entry takes seconds. You can even use **Voice Commands** to say *"Ramesh 500 baki"*.
+## কেন "স্মার্ট খাতা" সমাধান
 
-A digital khata doesn't just "save time"it **recovers money** that was previously disappearing into thin air.
+**Dukaan AI**-এর মতো একটি ডিজিটাল **স্মার্ট খাতা**-তে রূপান্তর করে, আপনি আপনার দোকানের আর্থিক স্বাস্থ্যকে তাৎক্ষণিকভাবে উন্নত করতে পারেন।
+
+### ১. জিরো-ট্যাপ রেকর্ডিং
+একটি ডিজিটাল সহকারীর সাহায্যে, একটি এন্ট্রি রেকর্ড করতে কয়েক সেকেন্ড সময় লাগে। আপনি **ভয়েস কমান্ড** ব্যবহার করে বলতে পারেন *"রমেশ ৫০০ বাকী"* এবং আপনি যে পণ্যটি ধরে রেখেছেন তা না নামিয়েই এন্ট্রি সম্পন্ন হয়ে যাবে।
+
+### ২. স্বয়ংক্রিয় হোয়াটসঅ্যাপ রিমাইন্ডার
+ব্যক্তিগতভাবে টাকা চাওয়ার পরিবর্তে, অ্যাপটি হোয়াটসঅ্যাপের মাধ্যমে একটি বিনয়ী, পেশাদার পেমেন্ট রিমাইন্ডার পাঠায়। এতে ব্যালেন্সের একটি স্পষ্ট সারসংক্ষেপ অন্তর্ভুক্ত থাকে, যা কোনো অস্বস্তিকর কথোপকথন ছাড়াই গ্রাহকের পক্ষে অর্থ পরিশোধ করা সহজ করে তোলে।
+
+### ৩. স্পষ্ট ইতিহাস ও বিশ্বাস
+যখন একজন গ্রাহক জিজ্ঞাসা করেন *"এটা ₹৪৫০ কবেকার?"*, তখন আপনাকে একটি নোটবুকের ৫০ পৃষ্ঠা উল্টাতে হবে না। আপনি আপনার ফোনে একটি স্পষ্ট, টাইমস্ট্যাম্প সহ তালিকা দেখান। এই স্বচ্ছতা বিশাল বিশ্বাস তৈরি করে এবং বিরোধ কমায়।
+
+## মূল কথা
+একটি ডিজিটাল খাতা কেবল "সময় বাঁচায়" না—এটি **টাকা পুনরুদ্ধার করে** যা আগে বাতাসে অদৃশ্য হয়ে যাচ্ছিল। আপনি যদি আপনার দাম না বাড়িয়ে আপনার দোকানের মাসিক লাভ বাড়াতে চান, তবে আপনার ক্রেডিট ম্যানেজমেন্টকে ডিজিটালাইজ করাই হল আপনি নিতে পারেন এমন সবচেয়ে কার্যকর পদক্ষেপ।
+
+**Dukaan AI-এর সাথে আজই আপনার স্মার্ট খাতা যাত্রা শুরু করুন।**
