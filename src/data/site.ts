@@ -4,11 +4,11 @@ export const site = {
   name: "Dukaan AI",
   shortName: "Dukaan AI",
   alternateName: "Dukaan AI App",
-  title: "Dukaan AI | Smart Khata & Voice Billing for Indian Shops",
+  title: "Best Khata App for Kirana Stores in India | Dukaan AI Billing App",
   description:
-    "Dukaan AI is an AI business assistant for kirana stores. Manage smart khata, voice billing, bill scanning, and orders with ease in 24 Indian languages.",
+    "Best khata app and billing software for kirana stores in India. Manage udhaar khata, voice billing, bill scanning, and inventory in 24 languages with Dukaan AI.",
   keywords: [
-    "Dukaan AI", "kirana store management app", "smart khata app", "voice billing app", "bill scanner app", "udhaar management", "retail management software India"
+    "khata app", "udhaar khata app", "kirana billing app India", "best billing app for shop", "digital khata app India", "Dukaan AI", "smart khata", "voice billing", "kirana store management", "shop management software"
   ],
   url: "https://dukaanai.co.in",
   domain: "dukaanai.co.in",

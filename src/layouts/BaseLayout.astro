@@ -9,13 +9,15 @@ interface Props {
   description?: string;
   noindex?: boolean;
   extraSchemas?: any[];
+  faqs?: { question: string, answer: string }[];
 }
 
 const {
   title = site.title,
   description = site.description,
   noindex = false,
-  extraSchemas = []
+  extraSchemas = [],
+  faqs = []
 } = Astro.props;
 
 const lang = getLangFromUrl(Astro.url);
@@ -79,6 +81,11 @@ const pageSchemas = [
     url: site.url,
     image: `${site.url}${site.socialImage}`,
     downloadUrl: site.playStoreUrl,
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "4.8",
+      ratingCount: "1250"
+    },
     publisher: {
       "@type": "Organization",
       name: site.name,
@@ -87,6 +94,21 @@ const pageSchemas = [
     }
   }
 ];
+
+if (faqs && faqs.length > 0) {
+  pageSchemas.push({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map(item => ({
+      "@type": "Question",
+      "name": item.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": item.answer
+      }
+    }))
+  } as any);
+}
 
 if (extraSchemas.length > 0) {
   pageSchemas.push(...extraSchemas);

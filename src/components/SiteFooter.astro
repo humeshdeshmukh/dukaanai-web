@@ -1,5 +1,6 @@
 ---
 import { site, getFeatures } from "../data/site";
+import { languages } from "../i18n/ui";
 import { getLangFromUrl, useTranslations } from "../i18n/utils";
 
 const lang = getLangFromUrl(Astro.url);
@@ -84,6 +85,22 @@ const legalLinks = [
           }
         </div>
       </div>
+    </div>
+  </div>
+
+  <div class="mt-16 border-t border-forest-100 pt-12">
+    <p class="text-xs font-bold uppercase tracking-widest text-forest-950/40">Available Languages</p>
+    <div class="mt-8 grid grid-cols-2 gap-x-4 gap-y-4 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8">
+      {
+        Object.entries(languages).map(([code, name]) => (
+          <a
+            href={code === 'en' ? '/' : `/${code}/`}
+            class="text-[13px] font-medium text-forest-700 transition hover:text-gold-700"
+          >
+            {name}
+          </a>
+        ))
+      }
     </div>
   </div>
 

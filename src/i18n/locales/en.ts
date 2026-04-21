@@ -15,8 +15,8 @@ export const en = {
   
   // Hero Section
   "hero.badge": "Business software for retail stores",
-  "hero.title1": "Smart Khata, Voice Billing",
-  "hero.title2": "and Business AI",
+  "hero.title1": "AI Billing &",
+  "hero.title2": "Khata App",
   "hero.title3": "for Indian shops.",
   "hero.description": "Dukaan AI is the perfect Smart Khata and Voice Billing solution for Indian shops, providing powerful Business AI to manage billing, bookkeeping, and customer credit from one app.",
   "hero.cta.playstore": "Download on Play Store",
