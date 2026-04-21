@@ -3,12 +3,12 @@ import { featureTranslations, siteTranslations } from "./translations";
 export const site = {
   name: "Dukaan AI",
   shortName: "Dukaan AI",
-  alternateName: "Dukaan AI App",
+  alternateName: ["Dukaan AI", "Dukaan AI Billing App", "दुकान AI खाता ऐप"],
   title: "Best Khata App for Kirana Stores in India | Dukaan AI Billing App",
   description:
-    "Best khata app and billing software for kirana stores in India. Manage udhaar khata, voice billing, bill scanning, and inventory in 24 languages with Dukaan AI.",
+    "Dukaan AI is India's first voice-powered AI billing and khata app for kirana stores, wholesalers, and small businesses. Create bills using your voice in 24 Indian languages including Hindi, Marathi, Gujarati, Tamil, and Hinglish.",
   keywords: [
-    "khata app", "udhaar khata app", "kirana billing app India", "best billing app for shop", "digital khata app India", "Dukaan AI", "smart khata", "voice billing", "kirana store management", "shop management software"
+    "khata app", "kirana billing app", "udhaar app", "GST billing", "voice billing", "small business app India", "bahi khata digital", "kirana store software", "Dukaan AI", "smart khata", "shop management software"
   ],
   url: "https://dukaanai.co.in",
   domain: "dukaanai.co.in",
@@ -17,9 +17,19 @@ export const site = {
   themeColor: "#195534",
   socialImage: "/images/hero-premium.jpeg",
   category: "BusinessApplication",
+  subCategory: "Billing & Accounting",
   playStoreId: "com.dukaan.ai",
   playStoreUrl: "https://play.google.com/store/apps/details?id=com.dukaan.ai",
-  businessEmail: "dukaanai.business@gmail.com"
+  businessEmail: "dukaanai.business@gmail.com",
+  version: "2.4",
+  ratingValue: "4.5",
+  ratingCount: "1000",
+  socialLinks: {
+    playStore: "https://play.google.com/store/apps/details?id=com.dukaan.ai",
+    youtube: "https://www.youtube.com/@DukaanAi-official",
+    instagram: "https://www.instagram.com/dukaan_ai/",
+    linkedin: "https://www.linkedin.com/company/dukaan-ai/"
+  }
 };
 
 export interface FeatureItem {

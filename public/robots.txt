@@ -1,4 +1,13 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://dukaanai.co.in/sitemap-index.xml
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+Sitemap: https://dukaanai.co.in/sitemap.xml

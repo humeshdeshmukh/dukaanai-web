@@ -54,7 +54,16 @@ const pageSchemas = [
     url: site.url,
     logo: `${site.url}/images/dukaan-logo.jpeg`,
     email: site.businessEmail,
-    sameAs: [site.playStoreUrl]
+    sameAs: Object.values(site.socialLinks),
+    contactPoint: {
+      "@type": "ContactPoint",
+      "contactType": "Customer Support",
+      "availableLanguage": ["Hindi", "English", "Marathi", "Gujarati"]
+    },
+    areaServed: {
+      "@type": "Country",
+      "name": "India"
+    }
   },
   {
     "@context": "https://schema.org",
@@ -66,26 +75,49 @@ const pageSchemas = [
   },
   {
     "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
+    "@type": "MobileApplication",
     name: site.name,
     alternateName: site.alternateName,
     applicationCategory: site.category,
+    applicationSubCategory: site.subCategory,
     operatingSystem: "Android",
     description: site.description,
     applicationId: site.playStoreId,
+    softwareVersion: site.version,
     offers: {
       "@type": "Offer",
       price: "0",
-      priceCurrency: "INR"
+      priceCurrency: "INR",
+      availability: "https://schema.org/InStock"
     },
     url: site.url,
     image: `${site.url}${site.socialImage}`,
     downloadUrl: site.playStoreUrl,
+    installUrl: site.playStoreUrl,
     aggregateRating: {
       "@type": "AggregateRating",
-      ratingValue: "4.8",
-      ratingCount: "1250"
+      ratingValue: site.ratingValue,
+      ratingCount: site.ratingCount,
+      bestRating: "5",
+      worstRating: "1"
     },
+    featureList: [
+      "Voice Billing in 24 Indian Languages",
+      "Digital Khata and Udhaar Management",
+      "GST Invoice Generation",
+      "AI Bill Scanner",
+      "Offline Mode - Works without internet",
+      "WhatsApp Payment Reminders",
+      "Inventory Tracking",
+      "Business Reports and Analytics",
+      "Hindi and Regional Language Support",
+      "Bank-level Data Encryption"
+    ],
+    screenshot: [
+      `${site.url}/images/screenshot-1.png`,
+      `${site.url}/images/screenshot-2.png`,
+      `${site.url}/images/screenshot-3.png`
+    ],
     publisher: {
       "@type": "Organization",
       name: site.name,

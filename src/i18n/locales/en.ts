@@ -293,10 +293,30 @@ export const en = {
     { title: "Professional orders", text: "Prepare supplier orders on WhatsApp." }
   ],
   site_faqs: [
-    { question: "What is Dukaan AI?", answer: "Dukaan AI is a shop assistant for billing, khata, and orders." },
-    { question: "Languages supported?", answer: "We support 24 Indian languages." },
-    { question: "Is it secure?", answer: "Yes, your data is protected." },
-    { question: "Offline useful?", answer: "Yes, most features work without internet." }
+    {
+      question: "What is Dukaan AI app?",
+      answer: "Dukaan AI is India's first voice-powered khata and billing app for kirana stores and small businesses. You can create bills, manage udhaar (credit), track inventory, and generate GST invoices using just your voice in 24 Indian languages including Hindi, Marathi, Gujarati, and Tamil."
+    },
+    {
+      question: "Is Dukaan AI app free?",
+      answer: "Yes, Dukaan AI is free to download and use. It is available on Google Play Store for Android devices. Basic khata, billing, and udhaar features are free for all kirana store owners and small businesses."
+    },
+    {
+      question: "Does Dukaan AI work without internet?",
+      answer: "Yes. Dukaan AI works fully offline. Your khata data and billing records are stored securely on your phone and sync to the cloud when internet is available. It even supports voice billing for 880+ items offline."
+    },
+    {
+      question: "Which languages does Dukaan AI support?",
+      answer: "Dukaan AI supports 24 Indian languages including Hindi, Hinglish, Marathi, Gujarati, Tamil, Telugu, Bengali, Kannada, Malayalam, Punjabi, and more. You can manage your entire shop using voice in your own language."
+    },
+    {
+      question: "Is Dukaan AI better than Khatabook?",
+      answer: "Dukaan AI offers unique features not available in Khatabook, including voice billing in 24 Indian languages, an AI bill scanner for purchase invoices, and full offline voice recognition for 880+ items. It is designed specifically as an AI business partner for kirana stores."
+    },
+    {
+      question: "How to do GST billing with Dukaan AI?",
+      answer: "You can create GST and non-GST invoices instantly in Dukaan AI. Just select items, add customer details, and share the bill via WhatsApp. The app automatically calculates GST amounts and generates a professional invoice."
+    }
   ],
   site_highlights: [
     { name: "Voice-first shop management", type: "What makes Dukaan AI different", description: "Use your voice to bill products and search sales naturally." },

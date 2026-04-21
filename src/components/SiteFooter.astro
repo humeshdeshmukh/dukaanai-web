@@ -3,8 +3,16 @@ import { site, getFeatures } from "../data/site";
 import { languages } from "../i18n/ui";
 import { getLangFromUrl, useTranslations } from "../i18n/utils";
 
+import { Youtube, Instagram, Linkedin, Smartphone } from "@lucide/astro";
+
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
+
+const socialIcons = [
+  { name: "YouTube", href: site.socialLinks.youtube, icon: Youtube },
+  { name: "Instagram", href: site.socialLinks.instagram, icon: Instagram },
+  { name: "LinkedIn", href: site.socialLinks.linkedin, icon: Linkedin },
+];
 
 const getLink = (path: string) => {
   if (lang === 'en') return path;
@@ -39,10 +47,24 @@ const legalLinks = [
       <p class="mt-4 max-w-xs text-sm leading-7 text-forest-700">
         {t("footer.tagline")}
       </p>
-      <div class="mt-6">
-        <a href={site.playStoreUrl} target="_blank" rel="noreferrer" class="inline-flex items-center justify-center rounded-full bg-forest-800 px-6 py-3 text-xs font-bold uppercase tracking-widest text-white transition hover:bg-forest-700">
+      <div class="mt-6 flex flex-wrap items-center gap-4">
+        <a href={site.socialLinks.playStore} target="_blank" rel="noreferrer" class="inline-flex items-center justify-center gap-2 rounded-full bg-forest-800 px-6 py-3 text-xs font-bold uppercase tracking-widest text-white transition hover:bg-forest-700">
+          <Smartphone size={14} />
           {t("footer.getApp")}
         </a>
+        <div class="flex items-center gap-2">
+          {socialIcons.map((social) => (
+            <a 
+              href={social.href} 
+              target="_blank" 
+              rel="noreferrer" 
+              class="flex h-10 w-10 items-center justify-center rounded-full border border-forest-900/10 bg-white/80 text-forest-800 transition hover:border-gold-400 hover:text-gold-700 shadow-sm" 
+              aria-label={social.name}
+            >
+              <social.icon size={18} />
+            </a>
+          ))}
+        </div>
       </div>
     </div>
 
