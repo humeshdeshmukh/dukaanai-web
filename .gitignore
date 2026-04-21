@@ -9,3 +9,4 @@ dist
 scripts/translate_locales.py
 scripts/retranslate_failed.py
 *.py
+scripts/scrub_history.ps1

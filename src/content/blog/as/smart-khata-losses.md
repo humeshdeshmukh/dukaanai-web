@@ -1,25 +1,37 @@
 ---
-title: "How Smart Khata Can Save Your Kirana Business Thousands Annually"
-description: "Discover why traditional paper registers are costing you more than you think and how switching to a digital credit system can recover lost revenue."
+title: "স্মার্ট খাতা কেনে আপোনাৰ কিৰানা ব্যৱসায়িক হাজাৰ হাজাৰ টকা বছৰেকত বচাব পাৰে"
+description: "আবিষ্কাৰ কৰক কিয় প্ৰথাগত কাগজৰ বহীয়ে আপোনাৰ পৰা আপোনাৰ ভাবাতকৈ বেছি ধন লৈ আছে আৰু কেনেকৈ এক ডিজিটেল ঋণ ব্যৱস্থালৈ সলনি কৰিলে হেৰুওৱা উপাৰ্জন ঘূৰাই পাব পাৰে।"
 pubDate: "2026-04-21"
 image: "/images/smart-khata.png"
 author: "Dukaan AI Team"
-tags: ["Khata Management", "Profit Growth", "Udhaar Recovery"]
+tags: ["খাতা ব্যৱস্থাপনা", "মুনাফা বৃদ্ধি", "ধ sağhaaaaa"]
 lang: "as"
 ---
 
-Every small shopkeeper knows the phrase: *"Aaj cash, kal udhaar"*. But in reality, **Udhaar** (Credit) is the lifeblood of the neighborhood kirana store. It builds trust and ensures customers return to you instead of a supermarket.
+ভাৰতৰ প্ৰতিজন সৰু দোকানীক এই কথাষাৰ মনত আছে: *"আজ কেছ, কাল উধাৰ"* (আজি নগদ, কাইলৈ ধাৰ)। কিন্তু বাস্তৱত, **ধাৰ** (Udhaar) হৈছে ওচৰৰ কিৰানা দোকানৰ জীৱন ৰেখা। ই বিশ্বাস গঢ়ি তোলে আৰু গ্ৰাহকক আপোনাৰ ওচৰলৈ উভটি আহিবলৈ নিশ্চিত কৰে, কোনো চুপাৰমাৰ্কেটলৈ নহয়।
 
-However, the traditional way of managing this credit is silently draining your profits.
+কিন্তু, এই ধাৰ ব্যৱস্থাপনা কৰাৰ প্ৰথাগত পদ্ধতি—এটা বহী বা "বঢ়ী খাতা" ব্যৱহাৰ কৰি—নিমাতাকৈ আপোনাৰ মুনাফা হ্ৰাস কৰি আছে।
 
-## The Hidden Costs of Paper Registers
-1. **Forgotten Entries:** In a rush, it’s easy to forget to write down a ₹20 packet of milk. Over a month, these small misses add up.
-2. **The "Awkward" Collection:** Reminding a regular customer to pay their debt can feel uncomfortable. Many shopkeepers avoid it, leading to old debts that never get settled.
+## কাগজৰ বহীৰ গোপন ব্যয়
 
-## Why "Smart Khata" is the Solution
-By switching to a digital **Smart Khata** like the one in **Dukaan AI**, you transform your shop's financial health instantly.
+১. **পাহৰি যোৱা তথ্য:** তাড়াহুৰাত, এটা ২০ টকীয়া গাখীৰৰ পেকেট বা ৫০ টকীয়া চাউলৰ মোনা লিখিবলৈ পাহৰি যোৱা সহজ। এটা মাহৰ ভিতৰত, এই সৰু সৰু ভুলবোৰ হাজাৰ হাজাৰ টকাৰ হেৰুওৱা উপাৰ্জনলৈ পৰিণত হ'ব পাৰে।
+২. **"অসুবিধা" সংগ্ৰহ:** এজন নিয়মীয়া গ্ৰাহকক তেওঁৰ ঋণ পৰিশোধ কৰিবলৈ মনত পেলাই দিয়াটো অসুবিধাৰ সৃষ্টি কৰে। বহুতো দোকানীয়ে এইটো এৰাই চলে, যাৰ ফলত পুৰণি ঋণ কেতিয়াও পৰিশোধ নহয়।
+৩. **গণনাৰ ভুল:** দীঘল শাৰীৰ সংখ্যাবোৰ হাতেৰে যোগ কৰিলে ভুল হয়—সাধাৰণতে গ্ৰাহকৰ সপক্ষে, দোকান মালিকৰ নহয়।
 
-### Zero-Tap Recording
-With a digital assistant, recording an entry takes seconds. You can even use **Voice Commands** to say *"Ramesh 500 baki"*.
+## "স্মার্ট খাতা" কিয় সমাধান?
 
-A digital khata doesn't just "save time"it **recovers money** that was previously disappearing into thin air.
+**Dukaan AI**-ৰ দৰে এক ডিজিটেল **স্মার্ট খাতা**লৈ সলনি কৰি, আপুনি তাৎক্ষণিকভাৱে আপোনাৰ দোকানৰ আৰ্থিক স্বাস্থ্যৰ উন্নতি কৰে।
+
+### ১. শূন্য-টাপ ৰেকৰ্ডিং
+এটা ডিজিটেল সহায়কাৰীৰ সৈতে, এটা এন্ট্ৰী ৰেকৰ্ড কৰিবলৈ কেইছেকেণ্ড লাগে। আপুনি **কণ্ঠস্বৰৰ আজ্ঞা** ব্যৱহাৰ কৰি *"ৰমেশ ৫০০ বাকী"* বুলিও ক'ব পাৰে আৰু আপুনি ধৰি থকা সামগ্ৰীটো নৰখাকৈয়ে এন্ট্ৰীটো হৈ যাব।
+
+### ২. স্বয়ংচিত্ৰিত হোৱাটছএপ অনুস্মাৰক
+মুখামুখী হৈ টকা বিচৰাৰ পৰা, এপটোৱে হোৱাটছএপৰ যোগেদি এটা বিনয়ী, পেছাদাৰী পৰিশোধ অনুস্মাৰক পঠায়। ইয়াত ভাৰৰ এক স্পষ্ট সাৰাংশ অন্তৰ্ভুক্ত থাকে, যাৰ দ্বাৰা গ্ৰাহকে কোনো অস্বস্তিকৰ আলোচনাৰ অবিহনে পৰিশোধ কৰা সহজ হয়।
+
+### ৩. স্পষ্ট ইতিহাস আৰু বিশ্বাস
+যেতিয়া এজন গ্ৰাহকে সুধিব *"এই ৪৫০০ টকা কিমান দিনৰ?"*, তেতিয়া আপোনাক এটা বহীৰ ৫০ খন পৃষ্ঠা ঘূৰাই চাব নালাগে। আপুনি তেওঁক আপোনাৰ ম'বাইলত এটা স্পষ্ট, সময়-বন্ধনীৰ সৈতে তালিকা দেখুৱাব। এই স্বচ্ছতাই বিশাল বিশ্বাস গঢ়ি তোলে আৰু বিবাদ কমায়।
+
+## সিদ্ধান্ত
+এটা ডিজিটেল খাতাৰ দ্বাৰা কেৱল "সময় সাঁচয়" নহয়—ই সেই ধন **ঘূৰাই আনে** যি পূৰ্বে শূন্যলৈ হেৰাই গৈছিল। যদি আপুনি আপোনাৰ মূল্য নবঢ়াই আপোনাৰ দোকানৰ মাহিলী মুনাফা বৃদ্ধি কৰিব বিচাৰে, তেন্তে আপোনাৰ ধাৰ ব্যৱস্থাপনা ডিজিটাইজ কৰা আপুনি ল'ব পৰা একমাত্ৰ আটাইতকৈ ফলপ্ৰসূ পদক্ষেপ।
+
+**Dukaan AI-ৰ সৈতে আজিৰ পৰাই আপোনাৰ স্মার্ট খাতাৰ যাত্ৰা আৰম্ভ কৰক।**

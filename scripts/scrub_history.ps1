@@ -1,5 +1,5 @@
 # Git History Scrubbing Script
-$key = ""
+$key = "AIzaSyBW0-Hun9YmuyfQzc2mKjCchPsM1AMK_EM"
 $replacement = "YOUR_GEMINI_API_KEY_HERE"
 
 Get-ChildItem -Recurse -File | ForEach-Object {

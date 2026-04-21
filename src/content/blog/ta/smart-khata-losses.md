@@ -1,25 +1,37 @@
 ---
-title: "How Smart Khata Can Save Your Kirana Business Thousands Annually"
-description: "Discover why traditional paper registers are costing you more than you think and how switching to a digital credit system can recover lost revenue."
+title: "ஸ்மார்ட் கடையின் மூலம் உங்கள் மளிகைக் கடையின் வருமானத்தை ஆண்டுதோறும் ஆயிரக்கணக்கில் சேமிக்கலாம்"
+description: "பாரம்பரிய காகிதப் பதிவேடுகள் உங்களுக்கு எவ்வளவு செலவாகின்றன என்பதைக் கண்டறியவும், டிஜிட்டல் கடன் முறைக்கு மாறுவதன் மூலம் எவ்வாறு இழந்த வருவாயை மீட்டெடுக்கலாம் என்பதை அறியவும்."
 pubDate: "2026-04-21"
 image: "/images/smart-khata.png"
 author: "Dukaan AI Team"
-tags: ["Khata Management", "Profit Growth", "Udhaar Recovery"]
+tags: ["கடை மேலாண்மை", "லாப வளர்ச்சி", "உழார் மீட்பு"]
 lang: "ta"
 ---
 
-Every small shopkeeper knows the phrase: *"Aaj cash, kal udhaar"*. But in reality, **Udhaar** (Credit) is the lifeblood of the neighborhood kirana store. It builds trust and ensures customers return to you instead of a supermarket.
+இந்தியாவில் உள்ள ஒவ்வொரு சிறு கடைக்காரருக்கும் இந்த சொற்றொடர் தெரியும்: *"இன்று ரொக்கம், நாளை கடன்"* (Aaj cash, kal udhaar). ஆனால் உண்மையில், **கடன்** (Udhaar) என்பது அருகிலுள்ள மளிகைக் கடைக்கு உயிர்நாடியாகும். இது நம்பிக்கையை வளர்க்கிறது மற்றும் வாடிக்கையாளர்கள் உங்களை ஒரு பல்பொருள் அங்காடிக்கு பதிலாக உங்களிடம் திரும்புவதை உறுதி செய்கிறது.
 
-However, the traditional way of managing this credit is silently draining your profits.
+இருப்பினும், இந்தக் கடனை நிர்வகிக்கும் பாரம்பரிய முறை - ஒரு நோட்புக் அல்லது "பஹி கடையை" பயன்படுத்துவது - உங்கள் லாபத்தை அமைதியாகக் குறைத்து வருகிறது.
 
-## The Hidden Costs of Paper Registers
-1. **Forgotten Entries:** In a rush, it’s easy to forget to write down a ₹20 packet of milk. Over a month, these small misses add up.
-2. **The "Awkward" Collection:** Reminding a regular customer to pay their debt can feel uncomfortable. Many shopkeepers avoid it, leading to old debts that never get settled.
+## காகிதப் பதிவேடுகளின் மறைக்கப்பட்ட செலவுகள்
 
-## Why "Smart Khata" is the Solution
-By switching to a digital **Smart Khata** like the one in **Dukaan AI**, you transform your shop's financial health instantly.
+1. **மறக்கப்பட்ட பதிவுகள்:** அவசரத்தில், ₹20 பாக்கெட் பால் அல்லது ₹50 அரிசிப் பையை எழுத மறப்பது எளிது. ஒரு மாதத்தில், இந்த சிறிய தவறுகள் ஆயிரக்கணக்கான ரூபாய் வருவாய் இழப்புக்கு வழிவகுக்கும்.
+2. **"சிரமமான" வசூல்:** வழக்கமான வாடிக்கையாளருக்கு அவர்களின் கடனை நினைவூட்டுவது சங்கடமாக உணரலாம். பல கடைக்காரர்கள் அதைத் தவிர்க்கிறார்கள், இது ஒருபோதும் தீர்க்கப்படாத பழைய கடன்களுக்கு வழிவகுக்கிறது.
+3. **கணக்கீட்டுப் பிழைகள்:** நீண்ட எண்களின் நெடுவரிசைகளை கைமுறையாக கூட்டுவது பிழைகளுக்கு வழிவகுக்கிறது - வழக்கமாக வாடிக்கையாளருக்கு சாதகமாக, கடை உரிமையாளருக்கு இல்லை.
 
-### Zero-Tap Recording
-With a digital assistant, recording an entry takes seconds. You can even use **Voice Commands** to say *"Ramesh 500 baki"*.
+## "ஸ்மார்ட் கடை" ஏன் தீர்வு
 
-A digital khata doesn't just "save time"it **recovers money** that was previously disappearing into thin air.
+**Dukaan AI** போன்ற டிஜிட்டல் **ஸ்மார்ட் கடையை** மாற்றுவதன் மூலம், உங்கள் கடையின் நிதி நிலையை உடனடியாக மாற்றுகிறீர்கள்.
+
+### 1. பூஜ்ஜிய-தட்டுப் பதிவு
+ஒரு டிஜிட்டல் உதவியாளருடன், ஒரு பதிவைச் சேர்ப்பது சில நொடிகள் ஆகும். நீங்கள் கையில் வைத்திருக்கும் பொருளை கீழே வைக்காமலேயே *"ரமேஷ் 500 பாக்கி"* என்று சொல்லி **குரல் கட்டளைகளைப்** கூடப் பயன்படுத்தலாம்.
+
+### 2. தானியங்கி வாட்ஸ்அப் நினைவூட்டல்கள்
+தனிப்பட்ட முறையில் பணம் கேட்பதற்குப் பதிலாக, அந்த செயலி வாட்ஸ்அப் மூலம் ஒரு மரியாதையான, தொழில்முறை கட்டண நினைவூட்டலை அனுப்புகிறது. இதில் இருப்பின் தெளிவான சுருக்கம் உள்ளது, இது எந்த சங்கடமான உரையாடலும் இல்லாமல் வாடிக்கையாளர் பணம் செலுத்துவதை எளிதாக்குகிறது.
+
+### 3. தெளிவான வரலாறு & நம்பிக்கை
+ஒரு வாடிக்கையாளர் *"இது ₹450 எப்போதுக்கானது?"* என்று கேட்டால், நீங்கள் ஒரு நோட்புக்கில் 50 பக்கங்களை புரட்ட வேண்டியதில்லை. உங்கள் தொலைபேசியில் ஒரு தெளிவான, நேர முத்திரையிடப்பட்ட பட்டியலை அவர்களுக்குக் காட்டுகிறீர்கள். இந்த வெளிப்படைத்தன்மை மிகப்பெரிய நம்பிக்கையை உருவாக்குகிறது மற்றும் கருத்து வேறுபாடுகளைக் குறைக்கிறது.
+
+## சுருக்கம்
+ஒரு டிஜிட்டல் கடையானது "நேரத்தை மிச்சப்படுத்துவது" மட்டுமல்ல - அது முன்பு காற்றில் மறைந்து கொண்டிருந்த **பணத்தை மீட்டெடுக்கிறது**. உங்கள் விலையை உயர்த்தாமல் உங்கள் கடையின் மாத லாபத்தை அதிகரிக்க விரும்பினால், உங்கள் கடன் நிர்வாகத்தை டிஜிட்டல் மயமாக்குவதே நீங்கள் எடுக்கக்கூடிய மிகச் சிறந்த படியாகும்.
+
+**Dukaan AI உடன் இன்று உங்கள் ஸ்மார்ட் கடை பயணத்தைத் தொடங்குங்கள்.**

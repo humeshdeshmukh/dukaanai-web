@@ -1,25 +1,37 @@
 ---
-title: "How Smart Khata Can Save Your Kirana Business Thousands Annually"
-description: "Discover why traditional paper registers are costing you more than you think and how switching to a digital credit system can recover lost revenue."
+title: "اسمارٽ کاتا توهان جي ڪِرانا ڪاروبار کي ساليانو هزارين بچائي سگهي ٿو"
+description: " descoberta why traditional paper registers are costing you more than you think and how switching to a digital credit system can recover lost revenue."
 pubDate: "2026-04-21"
 image: "/images/smart-khata.png"
 author: "Dukaan AI Team"
-tags: ["Khata Management", "Profit Growth", "Udhaar Recovery"]
+tags: ["کاتا انتظام", "منافعي جي واڌ", "ادھار وصولي"]
 lang: "sd"
 ---
 
-Every small shopkeeper knows the phrase: *"Aaj cash, kal udhaar"*. But in reality, **Udhaar** (Credit) is the lifeblood of the neighborhood kirana store. It builds trust and ensures customers return to you instead of a supermarket.
+هندستان ۾ هر ننڍي دڪاندار کي هي جملو ياد آهي: *"اڄ نقد، سڀاڻي ادھار"*. پر حقيقت ۾، **ادھار** گهٽي جي ڪِرانا دڪان جي زندگي آهي. اهو اعتماد پيدا ڪري ٿو ۽ يقيني بڻائي ٿو ته گراهڪ سپر مارڪيٽ جي بدران توهان ڏانهن واپس اچن.
 
-However, the traditional way of managing this credit is silently draining your profits.
+پر، هن ادھار جو انتظام ڪرڻ جو روايتي طريقو - هڪ نوٽ بڪ يا "باهي کاتا" استعمال ڪرڻ - خاموشيءَ سان توهان جي منافعي کي گهٽائي رهيو آهي.
 
-## The Hidden Costs of Paper Registers
-1. **Forgotten Entries:** In a rush, it’s easy to forget to write down a ₹20 packet of milk. Over a month, these small misses add up.
-2. **The "Awkward" Collection:** Reminding a regular customer to pay their debt can feel uncomfortable. Many shopkeepers avoid it, leading to old debts that never get settled.
+## ڪاغذ جي رجسٽرن جي لڪيل قيمتون
 
-## Why "Smart Khata" is the Solution
-By switching to a digital **Smart Khata** like the one in **Dukaan AI**, you transform your shop's financial health instantly.
+1. ** وساريل اندراج (Entries):** جلدي ۾، ₹20 جي کير جي پيڪٽ يا ₹50 جي چانورن جي ٿيلهي جو اندراج ڪرڻ وسارڻ آسان آهي. مهيني جي آخر تائين، اهي ننڍيون غلطيون هزارين روپين جي نقصان جي صورت ۾ جمع ٿي سگهن ٿيون.
+2. **"اوکو" وصولي:** هڪ باقائده گراهڪ کي سندس قرض جي ياد ڏيارڻ غير آرامده ٿي سگهي ٿو. ڪيترائي دڪاندار ان کان بچي وڃن ٿا، جنهن جي نتيجي ۾ پراڻا قرض ڪڏهن به ادا نٿا ٿين.
+3. **حساب ۾ غلطيون:** ڊگهن انگن جي قطارن کي دستي طور تي شامل ڪرڻ غلطين جو سبب بڻجي ٿو - عام طور تي گراهڪ جي حق ۾، نه ته دڪان جي مالڪ جي.
 
-### Zero-Tap Recording
-With a digital assistant, recording an entry takes seconds. You can even use **Voice Commands** to say *"Ramesh 500 baki"*.
+## "اسمارٽ کاتا" حل ڇو آهي؟
 
-A digital khata doesn't just "save time"it **recovers money** that was previously disappearing into thin air.
+**Dukaan AI** ۾ هڪ ڊجيٽل **اسمارٽ کاتا** تي سوئچ ڪرڻ سان، توهان پنهنجي دڪان جي مالي صحت کي فوراً تبديل ڪري سگهو ٿا.
+
+### 1. صفر-ٽيپ رڪارڊنگ
+هڪ ڊجيٽل اسسٽنٽ سان، اندراج ڪرڻ ۾ سيڪنڊ لڳن ٿا. توهان **آواز جي حڪمن** (Voice Commands) کي به استعمال ڪري سگهو ٿا ته *"ر agmesh 500 باقي"* چئي سگهو ٿا ۽ اندراج بغير پنهنجي هٿ ۾ موجود پراڊڪٽ کي هيٺ رکڻ جي ٿي ويندو.
+
+### 2. خودڪار واٽس اپ ياد ڏيارڻيون
+پئسا ذاتي طور تي گهرڻ جي بدران، ايپ واٽس اپ ذريعي مهربان، پروفيشنل ادائگي جي ياد ڏيارڻ موڪلي ٿي. ان ۾ بيلنس جو واضح خلاصو شامل آهي، جنهن سان گراهڪ لاءِ بغير ڪنهن اوڪي ڳالهه ٻولهه جي آساني سان ادائگي ڪرڻ ممڪن ٿي ويندو.
+
+### 3. واضح تاريخ ۽ اعتماد
+جڏهن گراهڪ پڇي *"هي ₹450 ڪڏهن کان آهي؟"*, توهان کي نوٽ بڪ جا 50 صفرا ڦيرڻ جي ضرورت ناهي. توهان کين پنهنجي فون تي هڪ واضح، وقت جي مهر سان لسٽ ڏيکاري سگهو ٿا. هي شفافيت وڏو اعتماد پيدا ڪري ٿي ۽ تڪرار گهٽائي ٿي.
+
+## نتيجو
+هڪ ڊجيٽل کاتا صرف "وقت نٿو بچائي" - اهو پئسو **وصول ڪري ٿو** جيڪو اڳي هوائي ۾ غائب ٿي رهيو هو. جيڪڏهن توهان پنهنجي دڪان جو ماهوار منافعو پنهنجي قيمتون وڌائڻ کانسواءِ وڌائڻ چاهيو ٿا، ته پنهنجي ادھار جي انتظام کي ڊجيٽل ڪرڻ جو اهو سڀ کان مؤثر قدم آهي جيڪو توهان کڻي سگهو ٿا.
+
+**اڄ ئي Dukaan AI سان پنهنجي اسمارٽ کاتا جو سفر شروع ڪريو.**

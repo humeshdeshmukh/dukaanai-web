@@ -1,6 +1,6 @@
 ---
-title: "The Ultimate Guide to Managing your Kirana Dukaan in 2026"
-description: "Learn how to modernize your traditional shop, handle digital payments, manage credit (udhaar), and outcompete major retail chains."
+title: "২০২৬ চনত আপোনাৰ কিৰানা দুকান ব্যৱস্থাপনাৰ বাবে চূড়ান্ত গাইড"
+description: "কিৰাচিনাত আপোনাৰ পৰম্পৰাগত দোকান আধুনিক কৰা, ডিজিটেল পেমেন্ট ল'বলৈ শিকা, ধাৰ (উধাৰ) ব্যৱস্থাপনা কৰা, আৰু AI ও সহজ ডিজিটেল সঁজুলি ব্যৱহাৰ কৰি ডাঙৰ ৰিটেল চেইনবোৰক চেৰ পেলাবলৈ শিকক।"
 pubDate: "2026-04-20"
 image: "/images/hero-overview.png"
 author: "Dukaan AI Team"
@@ -8,19 +8,43 @@ tags: ["Store Growth", "AI Tools", "Digital India"]
 lang: "as"
 ---
 
-In the heart of every neighborhood, there is a **Dukaan**. It is more than just a place to buy groceries; it is a center of trust, a provider of credit, and the backbone of local communities. However, the retail landscape is changing faster than ever.
+প্ৰতিখন ভাৰতীয় অঞ্চলৰ হৃদয়ত এটা **দোকান** থাকে। ই কেৱল সা-সম্পদ ক্ৰয় কৰা এটা স্থান নহয়; ই বিশ্বাসৰ কেন্দ্ৰ, ধাৰৰ যোগানকাৰী, আৰু স্থানীয় সম্প্ৰদায়ৰ মেৰুদণ্ড। তথাপিও, ভাৰতৰ ৰিটেল জগতখন পূৰ্বৰ তুলনাত দ্ৰুতগতিত সলনি হৈছে।
 
-With the rise of quick commerce apps and large supermarkets, today’s shopkeepers face a critical choice: **Modernize or get left behind.** This guide explores how you can use simple digital tools and AI to turn your traditional kirana into a high-performance modern business.
+কুইক কমাৰ্চ এপ (quick commerce apps) আৰু ডাঙৰ চুপাৰমাৰ্কেটৰ উত্থানৰ সৈতে, আজিৰ দোকানদাৰসকলে এটা গুৰুত্বপূৰ্ণ সিদ্ধান্তৰ সন্মুখীন হৈছে: **আধুনিক হওক নহয় পিছ পৰি থাকক।** এই গাইডটোৱে আপোনাৰ পৰম্পৰাগত কিৰানা দোকানক এটা উচ্চ-ক্ষমতাসম্পন্ন আধুনিক ব্যৱসায়লৈ ৰূপান্তৰ কৰিবলৈ আপুনি কেনেদৰে সহজ ডিজিটেল সঁজুলি আৰু AI ব্যৱহাৰ কৰিব পাৰে তাৰ অন্বেষণ কৰে।
 
-## 1. Why Every Dukaan Needs a Digital Brain
-For decades, managing a shop meant keeping track of everything in your head or in a dusty notebook (Bahi Khata). While this worked in the past, it creates "invisible losses" today:
+## ১. প্ৰতিখন দুকানৰ কিয় এটা ডিজিটেল মস্তিষ্কৰ প্ৰয়োজন
+বহু বছৰ ধৰি, এটা দোকান পৰিচালনা কৰাৰ অৰ্থ হৈছিল আপোনাৰ মনত বা এটা ধূলিময় নোটবুকত (বহী খাতা) সকলো তথ্য ৰখা। যদিও ই পূৰ্বতে কাম কৰিছিল, আজি ই "অদৃশ্য লোকচান" সৃষ্টি কৰে:
 
-- **Forgotten Credit:** Small amounts of udhaar that are never recorded and never paid back.
-- **Miscalculated Profits:** Not knowing exactly how much you earned after expenses.
+- **ভুল হোৱা ধাৰ:** উধাৰৰ সৰু পৰিমাণ যিবোৰ কেতিয়াও লিপিবদ্ধ কৰা নহয় আৰু কেতিয়াও পৰিশোধ কৰা নহয়।
+- **ভুল হিচাপ কৰা লাভ:** ব্যয়ৰ পিছত আপুনি কিমান উপাৰ্জন কৰিলে সেয়া সঠিকভাৱে নজনাকৈ।
+- **ষ্টকত নথকা সামগ্ৰী:** এটা পণ্য শেষ হৈ গৈছে বুলি নজনাৰ বাবে গ্ৰাহক হেৰুওৱা।
 
-> "AI is not here to replace the shopkeeper; it is here to give the shopkeeper superpowers."
+> "AI দোকানদাৰক প্ৰতিস্থাপন কৰিবলৈ ইয়াত নাই; ই দোকানদাৰক অতিশক্তি দিবলৈ ইয়াত আছে।"
 
-## 2. Mastering "Smart Khata" Management
-Your customers trust you, and you trust them. But paper registers are messy. By moving to a **Smart Khata** system, you can record entries in seconds with a few taps and send automatic WhatsApp reminders.
+## ২. "স্মাৰ্ট খাতা" ব্যৱস্থাপনাৰ দক্ষতা
+এটা ডাঙৰ দোকানৰ ওপৰত স্থানীয় দুকানৰ এটা ডাঙৰ সুবিধা হৈছে **ধাৰ (উধাৰ)**। আপোনাৰ গ্ৰাহকে আপোনাক বিশ্বাস কৰে, আৰু আপুনি তেওঁলোকক বিশ্বাস কৰে। কিন্তু কাগজৰ বহীবোৰ জঞ্জালময়।
 
-Ready to take the first step? Start by digitizing your khata today and watch your business grow!
+এটা **স্মাৰ্ট খাতা** ব্যৱস্থালৈ যোৱাৰ দ্বাৰা, আপুনি কৰিব পাৰে:
+- কেইটামান টেপৰ সৈতে কেইছেকেণ্ডত প্ৰৱেশবোৰ লিপিবদ্ধ কৰক।
+- পৰিশোধৰ বাবে স্বয়ংক্রিয় হোৱাটছএপ (WhatsApp) স্মৃতি (reminders) পঠাওক।
+- এটা স্পষ্ট ইতিহাস ৰক্ষা কৰক যি আপোনাৰ গ্ৰাহকসকলৰ সৈতে আৰু অধিক বিশ্বাস গঢ়ি তোলে।
+
+## ৩. ভয়েচ বিলিংৰ শক্তি
+যেকোনো ব্যস্ত দোকানত আটাইতকৈ ডাঙৰ বাধা হৈছে বিলিং কাউণ্টাৰ। বাৰকোড টাইপ কৰা বা মানুহে মূল্যসমূহ সন্ধান কৰিবলৈ বহু সময় লাগে। ইয়াত **ভয়েচ বিলিং** খেলাটো সলনি কৰে।
+
+আপোনাৰ ফোনক কৈ থকাৰ কল্পনা কৰক: *"২ পেকেট চেনী, ১ লাক্স চাবোন, আৰু ১ লিটাৰ গাখীৰ"* আৰু ততালিকে বিলখন সাজু কৰক। এই "ভয়েচ-ফাৰ্ষ্ট" (voice-first) পদ্ধতিয়ে আপোনাক এটা কিবৰ্ডৰ ফালে নহয়, আপোনাৰ গ্ৰাহকৰ মুখলৈ মনোযোগ দিবলৈ সক্ষম কৰে।
+
+## ৪. স্মাৰ্ট অৰ্ডাৰিং আৰু ইনভেন্টৰী
+**কি কিনিব** আৰু **কেতিয়া কিনিব** সেয়া জনাটো উচ্চ লাভৰ গোপন কথা। পৰম্পৰাগত দোকানবোৰে প্ৰায়ে ধীৰে ধীৰে বিক্ৰী হোৱা সামগ্ৰী বেছিকৈ কিনি লয় আৰু জনপ্ৰিয় সামগ্ৰী শেষ হৈ যায়। Dukaan AI ৰ দৰে AI সঁজুলিয়ে আপোনাৰ বিক্ৰীৰ ধৰণ বিশ্লেষণ কৰে আৰু আপোনাৰ পাইকাৰী ব্যৱসায়ীৰ পৰা কি বস্তুৰ অৰ্ডাৰ দিব লাগিব সেয়া আপোনাক সঠিকভাৱে কয়।
+
+## ৫. কুইক কমাৰ্চৰ সৈতে কেনেদৰে প্ৰতিযোগিতা কৰিব
+ডাঙৰ এপবোৰে ১০ মিনিটত ডেলিভাৰীৰ প্ৰতিশ্ৰুতি দিয়ে, কিন্তু তেওঁলোকৰ স্থানীয় দোকানদাৰৰ ব্যক্তিগত স্পৰ্শৰ অভাৱ। জিকিবলৈ, আপোনাক আপোনাৰ **স্থানীয় সম্পৰ্ক** **ডিজিটেল গতিৰ** সৈতে সংযোজিত কৰিব লাগিব:
+
+- **ডিজিটেল তালিকা:** গ্ৰাহকক আপোনাক তেওঁলোকৰ তালিকা হোৱাটছএপ কৰিবলৈ দিয়ক।
+- **দ্ৰুত বিলিং:** পাইকাৰী ব্যৱসায়ীৰ পৰা আপোনাৰ ক্ৰয় বিলবোৰ যাচাই কৰিবলৈ AI স্কেনাৰ সঁজুলি ব্যৱহাৰ কৰক।
+- **ঘৰত ডেলিভাৰী:** ডাঙৰ এপবোৰৰ দৰে গতি প্ৰদান কৰিবলৈ আপোনাৰ স্থানীয় কৰ্মচাৰী বা অঞ্চলৰ নেটৱৰ্ক ব্যৱহাৰ কৰক।
+
+## অন্তিম চিন্তা
+আপোনাৰ দোকান আধুনিকীকৰণৰ বাবে এটা কম্পিউটাৰ বা ব্যয়বহুল আইটি দলৰ প্ৰয়োজন নাই। আপোনাৰ সকলো প্ৰয়োজন এটা এণ্ড্ৰয়েড ফোন আৰু সঠিক অংশীদাৰ। **Dukaan AI** বিশেষকৈ ভাৰতীয় খুচুৰা বিক্ৰেতাৰ প্ৰয়োজনীয়তাৰ বাবে নিৰ্মাণ কৰা হৈছে যিয়ে তেওঁলোকৰ নিজৰ দোকানৰ পৰাই ডিজিটেল বিপ্লৱৰ নেতৃত্ব দিব বিচাৰে।
+
+প্ৰথম পদক্ষেপ ল'বলৈ সাজু নে? আজি আপোনাৰ খাতা ডিজিটেল কৰাৰ পৰা আৰম্ভ কৰক আৰু আপোনাৰ ব্যৱসায় বঢ়া দেখক।

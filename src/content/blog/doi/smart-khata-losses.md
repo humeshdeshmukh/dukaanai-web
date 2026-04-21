@@ -1,25 +1,37 @@
 ---
-title: "How Smart Khata Can Save Your Kirana Business Thousands Annually"
-description: "Discover why traditional paper registers are costing you more than you think and how switching to a digital credit system can recover lost revenue."
+title: "स्मार्ट खता तुहां कैड़ी दूकान दा सालाना हज़ारां रुपया बचा सकदा"
+description: "डिजिटल क्रेडिट सिस्टम ते वग़्ज़ज कन्ने अपणी दुकान दा नुक्सान कीं बचाओ।"
 pubDate: "2026-04-21"
 image: "/images/smart-khata.png"
 author: "Dukaan AI Team"
-tags: ["Khata Management", "Profit Growth", "Udhaar Recovery"]
+tags: ["खता प्रबंधन", "मुनाफे दा विकास", "उधार वसूली"]
 lang: "doi"
 ---
 
-Every small shopkeeper knows the phrase: *"Aaj cash, kal udhaar"*. But in reality, **Udhaar** (Credit) is the lifeblood of the neighborhood kirana store. It builds trust and ensures customers return to you instead of a supermarket.
+भारत च हर छोटे दुकानदार लेई, ये मुहावरा आम ओ, *"आज कैश, कल उधार।"* पर असल च, **उधार** मुहल्ले दी किराना दुकान दी जान ओ। ये भरोसा बनांदा ओ ते गाहक नूं तुसाडे कोला दुबारा आवन दा यकीन दिलांदा ओ, न कि किसी बड़ी दुकान ते।
 
-However, the traditional way of managing this credit is silently draining your profits.
+पर, इस उधार दी मैनेजमेंट दा पुराना तरीका—एक कॉपी या *"बही खता"* इस्तेमाल करन दा—चुप-चाप तुहाडे मुनाफे नूं खोरदा पया ओ।
 
-## The Hidden Costs of Paper Registers
-1. **Forgotten Entries:** In a rush, it’s easy to forget to write down a ₹20 packet of milk. Over a month, these small misses add up.
-2. **The "Awkward" Collection:** Reminding a regular customer to pay their debt can feel uncomfortable. Many shopkeepers avoid it, leading to old debts that never get settled.
+## कागज़ दी रजिस्टरां दे छिपे ख़र्च
 
-## Why "Smart Khata" is the Solution
-By switching to a digital **Smart Khata** like the one in **Dukaan AI**, you transform your shop's financial health instantly.
+1. **भुल्ल दा दर्ज होणा:** जल्दबाजी च, ₹20 दा दूध दा पैकेट या ₹50 दा चावल दा बोरा दर्ज करना भुल्ल जाना आसान ओ। एक महींने च, ये छोटी-छोटी गल्लें हज़ारां रुपए दे नुक्सान दा कारण बन सकदी ओ।
+2. **"अजीब" वसूली:** किसे नियमित गाहक नूं उसदा कर्ज़ चुकावन दा याद दिलाना अजीब लग सकदा ओ। बहोत सारे दुकानदार एहदे थमां बचदे न, जिसदे नाल पुराने कर्ज़ रह जानदे न जे कभी हई न मिक्क दे।
+3. **जोड़-घटाव च गलती:** लम्बी तादाद दा मैन्युअल जोड़-घटाव करण च गलती हो सकदी ओ—ज़्यादातर गाहक दे हक़ च, न कि दुकान मालिक दे।
 
-### Zero-Tap Recording
-With a digital assistant, recording an entry takes seconds. You can even use **Voice Commands** to say *"Ramesh 500 baki"*.
+## "स्मार्ट खता" ही हल कीं ओ?
 
-A digital khata doesn't just "save time"it **recovers money** that was previously disappearing into thin air.
+**Dukaan AI** वंग **स्मार्ट खता** इस्तेमाल करन नाल, तुसी अपणी दुकान दी माली हालत नूं फौरन बदलि सकदे ओ।
+
+### 1. जीरो-टैप रिकॉर्डिंग
+डिजिटल असिस्टेंट नाल, एंट्री दर्ज करण च सकंद लगदे न। तुसी **वॉयस कमांड** वी इस्तेमाल कर सकदे ओ, *"रमेश 500 बकी"* कह सकदे ओ ते तुसी जो सामान फड़या ओ, उसनूं छड्डया बिना एंट्री हो जंदी ओ।
+
+### 2. ऑटोमैटिक व्हाट्सएप रिमाइंडर्स
+हाथों-हाथ पैंसा मंगाण दे बजाय, ऐप व्हाट्सएप ते पोलाईट, प्रोफेशनल पेमेंट रिमाइंडर भेजदी ओ। इस च बैलेंस दा साफ सारांश होंदा ओ, जिसदे नाल गाहक नूं बिना किसे अजीब बातचीत दे पैंसा देना आसान हो जंदा ओ।
+
+### 3. साफ तवारीख ते भरोसा
+जब कोई गाहक पुछदा ओ *"ये ₹450 कब दा है?"*, तुसी 50 पन्ने वाली कॉपी नूं पलटना नहीं पौंदा। तुसी अपणे फोन ते एक साफ, टाइम-स्टैम्प्ड लिस्ट वखाओ। ये पारदर्शिता बड़ा भरोसा पैदा करदी ओ ते शक-सुबहे नूं कम करदी ओ।
+
+## निचला रेखा
+एक डिजिटल खता सिर्फ "वक़्त नहीं बचांदा"—ये ओ पैंसा **वसूल करदा** ओ जे पहले हवा विच खप जंदा सी। जदों तुसी अपणी कीमत बढ़ाये बिना अपणी दुकान दा मासिक मुनाफ़ा बढ़ाना चाहुंदे ओ, तां अपणे क्रेडिट मैनेजमेंट नूं डिजिटल बनाना सब तों वड्डा प्रभावी कदम ओ जे तुसी चक्क सकदे ओ।
+
+**आज ही Dukaan AI नाल अपणा स्मार्ट खता सफर शुरू करो।**

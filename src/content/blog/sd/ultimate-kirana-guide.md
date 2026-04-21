@@ -1,26 +1,50 @@
 ---
-title: "The Ultimate Guide to Managing your Kirana Dukaan in 2026"
-description: "Learn how to modernize your traditional shop, handle digital payments, manage credit (udhaar), and outcompete major retail chains."
+title: "2026 ۾ پنهنجي ڪِرانا دڪان کي منظم ڪرڻ لاءِ الٽيميٽ گائيڊ"
+description: "سکيو ته ڪيئن پنهنجي روايتي دڪان کي جديد ڪجي، ڊجيٽل ادائيگيون سنڀالجي، ڪريڊٽ (اُڌار) جو انتظام ڪجي، ۽ AI ۽ سادي ڊجيٽل اوزارن کي استعمال ڪندي وڏين پرچون زنجيرن سان مقابلو ڪجي."
 pubDate: "2026-04-20"
 image: "/images/hero-overview.png"
 author: "Dukaan AI Team"
-tags: ["Store Growth", "AI Tools", "Digital India"]
+tags: ["اسٽور گروٿ", "AI اوزار", "ڊجيٽل انڊيا"]
 lang: "sd"
 ---
 
-In the heart of every neighborhood, there is a **Dukaan**. It is more than just a place to buy groceries; it is a center of trust, a provider of credit, and the backbone of local communities. However, the retail landscape is changing faster than ever.
+هر هندستاني پاڙي جي دل ۾، هڪ **دڪان** هوندو آهي. اهو صرف کاڌي پيتي جون شيون خريد ڪرڻ جي جاءِ کان وڌيڪ آهي؛ اهو اعتماد جو مرڪز، ڪريڊٽ جو فراهم ڪندڙ، ۽ مقامي برادرين جي ريڙهه جي هڏي آهي. پر، هندستان ۾ پرچون جو منظر هميشه کان وڌيڪ تيزيءَ سان تبديل ٿي رهيو آهي.
 
-With the rise of quick commerce apps and large supermarkets, today’s shopkeepers face a critical choice: **Modernize or get left behind.** This guide explores how you can use simple digital tools and AI to turn your traditional kirana into a high-performance modern business.
+ڪوئڪ ڪامرس ائپس ۽ وڏن سپر مارڪيٽن جي عروج سان، اڄوڪي دڪاندارن کي هڪ اهم انتخاب کي منهن ڏيڻو پئجي رهيو آهي: **جديد ٿيو يا پويان رهي وڃو.** هي گائيڊ ڳوليندو ته ڪيئن توهان سادي ڊجيٽل اوزارن ۽ AI کي استعمال ڪري سگهو ٿا ته جيئن پنهنجي روايتي ڪِرانا کي اعليٰ ڪارڪردگي واري جديد ڪاروبار ۾ تبديل ڪري سگهو.
 
-## 1. Why Every Dukaan Needs a Digital Brain
-For decades, managing a shop meant keeping track of everything in your head or in a dusty notebook (Bahi Khata). While this worked in the past, it creates "invisible losses" today:
+## 1. هر دڪان کي ڊجيٽل دماغ جي ضرورت ڇو آهي
+ڏهاڪن کان، هڪ دڪان کي منظم ڪرڻ جو مطلب هو ته سڀني شين کي پنهنجي ذهن ۾ يا مٽيءَ واري نوٽ بڪ (باهي کاتا) ۾ رکڻ. جڏهن ته اهو ماضي ۾ ڪم ڪيو، اهو اڄ "اڻ ڏٺي نقصان" پيدا ڪري ٿو:
 
-- **Forgotten Credit:** Small amounts of udhaar that are never recorded and never paid back.
-- **Miscalculated Profits:** Not knowing exactly how much you earned after expenses.
+- **اُڌار وساريل:** اُڌار جون ننڍيون رقمون جيڪي ڪڏهن به رڪارڊ نه ٿيون ۽ ڪڏهن به واپس نه آيون.
+- **غلط طور حساب ڪيل منافعو:** خرچن کانپوءِ توهان ڪيترو ڪمايو اهو صحيح ڄاڻڻ نه.
+- **اسٽاڪ کان ٻاهر شيون:** گراهڪن کي وڃائڻ ڇو ته توهان کي خبر نه هئي ته هڪ پراڊڪٽ ختم ٿي چڪي آهي.
 
-> "AI is not here to replace the shopkeeper; it is here to give the shopkeeper superpowers."
+> "AI دڪاندار کي تبديل ڪرڻ لاءِ نه آهي؛ اهو دڪاندار کي سپر پاور ڏيڻ لاءِ آهي."
 
-## 2. Mastering "Smart Khata" Management
-Your customers trust you, and you trust them. But paper registers are messy. By moving to a **Smart Khata** system, you can record entries in seconds with a few taps and send automatic WhatsApp reminders.
+## 2. "سمارٽ کاتا" انتظام ۾ ماهر ٿيڻ
+وڏن اسٽورن تي مقامي دڪان جو سڀ کان وڏو فائدو **ڪريڊٽ (اُڌار)** آهي. توهان جا گراهڪ توهان تي اعتماد ڪن ٿا، ۽ توهان انهن تي اعتماد ڪندا آهيو. پر ڪاغذي رجسٽر گندا هوندا آهن.
 
-Ready to take the first step? Start by digitizing your khata today and watch your business grow!
+**سمارٽ کاتا** نظام ڏانهن منتقل ٿيڻ سان، توهان ڪري سگهو ٿا:
+- ڪجھ ٽيپن سان سيڪنڊن ۾ اندراج رڪارڊ ڪريو.
+- ادائيگين لاءِ خودڪار واٽس ايپ ياد ڏياريندڙ موڪليو.
+- هڪ صاف تاريخ رکو جيڪا توهان جي گراهڪن سان وڌيڪ اعتماد پيدا ڪري.
+
+## 3. آواز جي بلنگ جي طاقت
+ڪنهن به مصروف دڪان ۾ سڀ کان وڏي رڪاوٽ چيڪ آئوٽ ڪائونٽر آهي. بارڪوڊ ٽائپ ڪرڻ يا دستي طور قيمتون ڳولڻ ۾ تمام گهڻو وقت لڳندو آهي. هتي ئي **آواز جي بلنگ** راند کي تبديل ڪري ٿي.
+
+پنهنجي فون کي ٻڌائڻ جو تصور ڪريو: *"2 پيڪٽ شگر، 1 لڪس صابڻ، ۽ 1 ليٽر کير"* ۽ بل فوري طور تي تيار ٿي وڃي. هي "آواز-پهرين" طريقيڪار توهان کي پنهنجي گراهڪن جي منهن تي ڌيان ڏيڻ جي اجازت ڏئي ٿو، ڪيبورڊ تي نه.
+
+## 4. سمارٽ آرڊرنگ ۽ انوینٽري
+**ڇا خريد ڪرڻو آهي** ۽ **ڪڏهن خريد ڪرڻو آهي** ڄاڻڻ اعليٰ منافعي جي ڪنجي آهي. روايتي دڪان اڪثر سست هلندڙ شين جو وڌيڪ اسٽاڪ رکندا آهن ۽ مقبول شين کان خالي ٿي ويندا آهن. Dukaan AI جهڙا AI اوزار توهان جي وڪري جي نمونن جو تجزيو ڪن ٿا ۽ توهان کي صحيح طور تي ٻڌائين ٿا ته توهان کي پنهنجي هولسيلر کان ڇا آرڊر ڪرڻ جي ضرورت آهي.
+
+## 5. ڪوئڪ ڪامرس سان مقابلو ڪيئن ڪجي
+وڏيون ائپس 10-منٽن جي ترسيل جو واعدو ڪن ٿيون، پر انهن ۾ مقامي دڪاندار جي ذاتي رابطي جي کوٽ آهي. کٽڻ لاءِ، توهان کي پنهنجو **مقامی تعلق** **ڊجيٽل رفتار** سان گڏ ڪرڻو پوندو:
+
+- **ڊجيٽل لسٽون:** گراهڪن کي توهان کي پنهنجون لسٽون واٽس ايپ ڪرڻ جي اجازت ڏيو.
+- **تيز بلنگ:** هولسيلرز کان پنهنجا خريداري بل تصديق ڪرڻ لاءِ AI اسڪينر اوزار استعمال ڪريو.
+- **گهر ترسيل:** ساڳي رفتار وڏين ائپس جيئن فراهم ڪرڻ لاءِ پنهنجي مقامي عملي يا پاڙي جي نيٽ ورڪ جو استعمال ڪريو.
+
+## آخري خيال
+پنهنجي دڪان کي جديد ڪرڻ لاءِ ڪمپيوٽر يا مهانگي آئي ٽي ٽيم جي ضرورت ناهي. توهان کي صرف هڪ Android فون ۽ صحيح پارٽنر جي ضرورت آهي. **Dukaan AI** خاص طور تي هندستاني پرچون ڪندڙن جي ضرورتن لاءِ ٺاهيو ويو آهي جيڪي پنهنجي دڪان جي منزل تان ڊجيٽل انقلاب جي اڳواڻي ڪرڻ چاهين ٿا.
+
+پهريون قدم کڻڻ لاءِ تيار آهيو؟ اڄ پنهنجو کاتا ڊجيٽل ڪرڻ سان شروع ڪريو ۽ پنهنجي ڪاروبار کي وڌندي ڏسو.
