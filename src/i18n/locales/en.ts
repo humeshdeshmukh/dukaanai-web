@@ -49,7 +49,7 @@ export const en = {
 
   // About Section
   "about.eyebrow": "About Dukaan AI",
-  "about.title": "The Best Free Khata & Billing App India 2025: Built for Kirana Retailers",
+  "about.title": "The Best Free Khata & Billing App India 2026: Built for Kirana Retailers",
   "about.description": "Dukaan AI is your digital bahi khata app India, designed to help kirana and chhoti dukaan owners handle voice billing, udhaar parchis, and inventory with ease. Unlike Khatabook or Vyapar, Dukaan AI works 100% offline, supports 24 Indian languages, and includes an AI bill scanner — all completely free on Android.",
   "about.f1.title": "For kirana and wholesale",
   "about.f1.desc": "Built around real daily store workflows, not generic accounting screens.",

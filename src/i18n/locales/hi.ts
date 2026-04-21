@@ -49,7 +49,7 @@ export const hi = {
 
   // About Section
   "about.eyebrow": "दुकान AI के बारे में",
-  "about.title": "Best Khata App India 2025: किराना स्टोर के लिए सबसे बेहतरीन ऐप",
+  "about.title": "Best Khata App India 2026: किराना स्टोर के लिए सबसे बेहतरीन ऐप",
   "about.description": "दुकान AI आपका digital bahi khata app India है, जिसे स्थानीय स्टोर को वॉयस बिलिंग, उधार और इन्वेंट्री को आसानी से संभालने में मदद करने के लिए बनाया गया है। यह अकेला offline khata app kirana है जिसकी आपको जरूरत है।",
   "about.f1.title": "किराना और थोक के लिए",
   "about.f1.desc": "सामान्य लेखा स्क्रीन के बजाय, वास्तविक दैनिक दुकान प्रक्रियाओं के इर्द-गिर्द निर्मित।",
