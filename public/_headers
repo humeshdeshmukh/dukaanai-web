@@ -13,3 +13,7 @@
 # HTML — always revalidate
 /*
   Cache-Control: public, max-age=0, must-revalidate
+  Content-Type: text/html; charset=UTF-8
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  X-XSS-Protection: 1; mode=block

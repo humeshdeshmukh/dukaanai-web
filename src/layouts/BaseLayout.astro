@@ -116,10 +116,12 @@ const getAlternateUrl = (l: string) => {
   return `${baseUrl}/${l}${cleanPath}`;
 };
 
-const alternates = supportedLangs.map(l => ({
-  lang: l,
-  url: getAlternateUrl(l)
-}));
+const alternates = supportedLangs
+  .filter(l => l !== 'hinglish')
+  .map(l => ({
+    lang: l,
+    url: getAlternateUrl(l)
+  }));
 ---
 
 <!doctype html>
