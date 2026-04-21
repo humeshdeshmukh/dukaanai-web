@@ -1,4 +1,1 @@
-# Cloudflare Pages Redirects
-# Domain-level redirects (www to non-www) should be handled via Cloudflare Dashboard (Rules > Redirect Rules).
-# Relative redirects below:
-# /old-path /new-path 301
+
