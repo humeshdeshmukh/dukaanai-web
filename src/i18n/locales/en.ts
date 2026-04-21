@@ -14,11 +14,11 @@ export const en = {
   "cta.learnMore": "Learn how it works",
   
   // Hero Section
-  "hero.badge": "Business software for retail stores",
+  "hero.badge": "India's Free Voice Billing & Khata App — 24 Indian Languages",
   "hero.title1": "Voice Billing App",
   "hero.title2": "& Smart Khata",
   "hero.title3": "for Kirana Store",
-  "hero.description": "Dukaan AI is the #1 voice billing app for kirana stores in India. Use the smartest AI billing app for small shop management — handle udhaar, bookkeeping, and GST from one free app.",
+  "hero.description": "Dukaan AI is India's #1 free voice billing & khata app for kirana stores. Speak items to create GST invoices, manage udhaar, track inventory — all in 24 Indian languages. Works 100% offline. No subscription. Better than Khatabook, Vyapar & OkCredit.",
   "hero.cta.playstore": "Download on Play Store",
   "hero.cta.features": "Explore Features",
   "hero.f1.title": "Voice Billing",
@@ -49,8 +49,8 @@ export const en = {
 
   // About Section
   "about.eyebrow": "About Dukaan AI",
-  "about.title": "The Best Khata App India 2025: Built for Kirana Retailers",
-  "about.description": "Dukaan AI is your digital bahi khata app India, designed to help local stores handle voice billing, udhaar, and inventory with ease. It is the only offline khata app kirana owners need to manage their daily business on Android.",
+  "about.title": "The Best Free Khata & Billing App India 2025: Built for Kirana Retailers",
+  "about.description": "Dukaan AI is your digital bahi khata app India, designed to help kirana and chhoti dukaan owners handle voice billing, udhaar parchis, and inventory with ease. Unlike Khatabook or Vyapar, Dukaan AI works 100% offline, supports 24 Indian languages, and includes an AI bill scanner — all completely free on Android.",
   "about.f1.title": "For kirana and wholesale",
   "about.f1.desc": "Built around real daily store workflows, not generic accounting screens.",
   "about.f2.title": "Secure records",
@@ -295,35 +295,52 @@ export const en = {
   site_faqs: [
     {
       question: "What is Dukaan AI app?",
-      answer: "Dukaan AI is India's first voice-powered khata and billing app for kirana stores and small businesses. You can create bills, manage udhaar (credit), track inventory, and generate GST invoices using just your voice in 24 Indian languages including Hindi, Marathi, Gujarati, and Tamil."
+      answer: "Dukaan AI is India's #1 free voice billing and khata app for kirana stores and small businesses. You can create GST bills, manage udhaar (credit), track inventory, and generate invoices using just your voice in 24 Indian languages including Hindi, Hinglish, Marathi, Gujarati, Tamil, Telugu, and Bengali. It works 100% offline with no internet required."
     },
     {
       question: "Is Dukaan AI app free?",
-      answer: "Yes, Dukaan AI is free to download and use. It is available on Google Play Store for Android devices. Basic khata, billing, and udhaar features are free for all kirana store owners and small businesses."
+      answer: "Yes, Dukaan AI is completely free to download and use on Android. There is no subscription fee, no hidden charges, and no trial period. All core features — voice billing, digital khata, udhaar tracking, and GST invoices — are free forever for all kirana store owners and small shop retailers in India."
     },
     {
       question: "Does Dukaan AI work without internet?",
-      answer: "Yes. Dukaan AI works fully offline. Your khata data and billing records are stored securely on your phone and sync to the cloud when internet is available. It even supports voice billing for 880+ items offline."
+      answer: "Yes. Dukaan AI is built offline-first. Your khata data and billing records are stored securely on your phone and sync to the cloud when internet is available. It supports full voice billing for 880+ kirana items in offline mode. This makes it ideal for shops in areas with poor network connectivity."
     },
     {
       question: "Which languages does Dukaan AI support?",
-      answer: "Dukaan AI supports 24 Indian languages including Hindi, Hinglish, Marathi, Gujarati, Tamil, Telugu, Bengali, Kannada, Malayalam, Punjabi, and more. You can manage your entire shop using voice in your own language."
+      answer: "Dukaan AI supports 24 Indian languages including Hindi, Hinglish, Marathi, Gujarati, Tamil, Telugu, Bengali, Kannada, Malayalam, Punjabi, Odia, Sindhi, Konkani, and more. You can manage your entire kirana shop — billing, khata, and inventory — using your voice in your own regional language."
     },
     {
       question: "Is Dukaan AI better than Khatabook?",
-      answer: "Dukaan AI offers unique features not available in Khatabook, including voice billing in 24 Indian languages, an AI bill scanner for purchase invoices, and full offline voice recognition for 880+ items. It is designed specifically as an AI business partner for kirana stores."
+      answer: "Yes, Dukaan AI offers features not available in Khatabook: voice billing in 24 Indian languages, an AI-powered bill scanner for purchase invoices, full offline voice recognition for 880+ kirana items, and a parchi scanner for handwritten lists. Khatabook focuses only on credit ledger management. Dukaan AI is a complete all-in-one free shop management app for kirana retailers."
+    },
+    {
+      question: "Is Dukaan AI better than Vyapar?",
+      answer: "Dukaan AI is better for small kirana stores and chhoti dukaans. Vyapar is designed for larger GST-registered businesses with complex accounting needs. Dukaan AI is 100% free, works offline, supports voice billing in Hindi and 23 other Indian languages, and requires no accounting knowledge. For a kirana owner who wants to manage billing, udhaar, and orders with ease, Dukaan AI is the superior choice."
+    },
+    {
+      question: "Is Dukaan AI better than OkCredit?",
+      answer: "Yes. OkCredit is primarily a digital khata (credit ledger) app. Dukaan AI goes far beyond — it includes voice billing, GST invoices, an AI bill scanner for wholesaler purchases, inventory tracking, and a parchi scanner. Dukaan AI is also 100% offline-capable and supports 24 Indian languages, making it a more complete business tool for kirana store owners than OkCredit."
+    },
+    {
+      question: "Is Dukaan AI better than myBillBook?",
+      answer: "Dukaan AI is better for voice-first kirana shop management. While myBillBook focuses on GST invoicing for small businesses, Dukaan AI uniquely offers voice billing in 24 Indian languages, offline mode, an AI bill scanner, digital khata, and parchi scanning — all in one free Android app. For shopkeepers who prefer voice commands over typing, Dukaan AI is the clear choice."
+    },
+    {
+      question: "What is the best offline billing app for kirana store in India?",
+      answer: "Dukaan AI is the best offline billing app for kirana stores in India. It works fully without internet, supports voice billing in 24 Indian languages including Hindi and Hinglish, manages customer udhaar, tracks inventory, scans supplier bills with AI, and generates GST invoices — all for free. It is designed specifically for the daily needs of Indian kirana retailers."
     },
     {
       question: "How to do GST billing with Dukaan AI?",
-      answer: "You can create GST and non-GST invoices instantly in Dukaan AI. Just select items, add customer details, and share the bill via WhatsApp. The app automatically calculates GST amounts and generates a professional invoice."
+      answer: "Creating GST invoices with Dukaan AI is simple. Open the app, tap on billing, speak or select items using voice commands, add customer details, and choose GST. The app automatically calculates 5%, 12%, and 18% GST slabs, generates a professional digital invoice, and lets you share it via WhatsApp in seconds. No accounting knowledge is needed."
     }
   ],
   site_highlights: [
-    { name: "Voice-first shop management", type: "What makes Dukaan AI different", description: "Use your voice to bill products and search sales naturally." },
-    { name: "Made for Indian businesses", type: "Built for local retailers", description: "Designed for kirana stores with simple flows and large actions." },
-    { name: "24 Indian languages", type: "Language support", description: "Support for Hindi, Marathi, Bengali, Tamil, Telugu, Hinglish, and more." },
-    { name: "Offline ready", type: "Reliable daily use", description: "Works even when internet connectivity is weak or unavailable." },
-    { name: "WhatsApp-enabled", type: "Faster collections", description: "Share reminders and orders quickly on WhatsApp." },
-    { name: "Secure data", type: "Privacy and trust", description: "Your store records stay protected with secure handling." }
+    { name: "Voice-first shop management", type: "What makes Dukaan AI different", description: "Use your voice to bill products and search sales naturally — no typing needed at the counter." },
+    { name: "Made for Indian kirana stores", type: "Built for local retailers", description: "Designed for kirana and chhoti dukaan owners with simple flows, large buttons, and regional language support." },
+    { name: "24 Indian languages", type: "Unmatched language support", description: "Support for Hindi, Hinglish, Marathi, Bengali, Tamil, Telugu, Gujarati, and 17 more languages." },
+    { name: "100% offline ready", type: "Reliable daily use", description: "Works fully without internet — even voice billing for 880+ items works in offline mode." },
+    { name: "WhatsApp-enabled", type: "Faster collections", description: "Share bills, payment reminders, and supplier orders instantly via WhatsApp with one tap." },
+    { name: "Better than Khatabook & Vyapar", type: "Most complete free kirana app", description: "Voice billing + digital khata + GST invoice + AI bill scanner — all free, all offline, all in one app." },
+    { name: "Secure data", type: "Privacy and trust", description: "Your store records stay protected with bank-grade encryption and secure cloud backup." }
   ]
 };

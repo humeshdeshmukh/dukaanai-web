@@ -1,0 +1,225 @@
+---
+import { site } from "../data/site";
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const title = "Free Kirana Billing App Download | Voice Billing & GST Invoice | Dukaan AI";
+const description = "Download India's best free kirana billing app. Dukaan AI lets you create GST bills by speaking in Hindi, manage inventory, track udhaar & print invoices — 100% offline. No subscription.";
+
+const faqs = [
+  {
+    question: "Which is the best free kirana billing app in India?",
+    answer: "Dukaan AI is the best free kirana billing app in India. It offers voice billing in 24 Indian languages, GST invoice generation, digital khata for udhaar tracking, AI bill scanner for supplier invoices, and full offline capability — all in one free Android app with no subscription fee."
+  },
+  {
+    question: "Is there a kirana billing app that works without internet?",
+    answer: "Yes, Dukaan AI works 100% offline. You can create bills, record udhaar, manage inventory, and even use voice billing for 880+ common kirana items without any internet connection. Data syncs automatically when connectivity returns."
+  },
+  {
+    question: "Can I create GST invoices with a kirana billing app?",
+    answer: "Yes, Dukaan AI auto-calculates GST at 5%, 12%, and 18% slabs on every item. You can generate professional GST invoices by voice or tap, and share them directly on WhatsApp with your customer in seconds."
+  },
+  {
+    question: "Is kirana billing app available in Hindi?",
+    answer: "Yes, Dukaan AI supports voice billing in Hindi, Hinglish, and 22 more Indian regional languages. You can speak common kirana items like 'Chini 2 kilo' or 'Sabun 1 piece' and the app builds the bill automatically."
+  },
+  {
+    question: "How do I download Dukaan AI kirana billing app?",
+    answer: "Dukaan AI is free on Google Play Store. Search 'Dukaan AI' on your Android phone, tap Install, and start managing your kirana store with voice billing, digital khata, and AI bill scanning — completely free."
+  },
+  {
+    question: "Does kirana billing app support inventory management?",
+    answer: "Yes, Dukaan AI tracks your stock in real time. When you scan a supplier bill, items are automatically added to inventory. You receive low-stock alerts for essentials like Sugar, Tea, and Soap so you never run out."
+  }
+];
+
+const features = [
+  {
+    icon: "🎤",
+    title: "Voice Billing in Hindi & 23 Languages",
+    desc: "Speak items like 'Chini 2 kilo' and the bill is built automatically. No typing, no slow barcode scanning."
+  },
+  {
+    icon: "📒",
+    title: "Digital Khata — Udhaar & Payments",
+    desc: "Record customer credit (baki) and payments (jama) digitally. Send WhatsApp reminders with one tap."
+  },
+  {
+    icon: "🧾",
+    title: "GST Invoice Generator",
+    desc: "Auto-calculate GST and generate professional invoices. Share via WhatsApp instantly — no printer needed."
+  },
+  {
+    icon: "📷",
+    title: "AI Bill Scanner",
+    desc: "Scan supplier purchase bills with your camera. AI extracts items, qty, and price — updates stock automatically."
+  },
+  {
+    icon: "📦",
+    title: "Inventory Tracking",
+    desc: "Real-time stock levels with auto low-stock alerts for every kirana item. Never over-order or stock-out again."
+  },
+  {
+    icon: "📶",
+    title: "100% Offline Mode",
+    desc: "Works fully without internet. Perfect for kirana shops in areas with poor network. All data is safe on your phone."
+  }
+];
+
+const comparison = [
+  { feature: "Voice Billing in Hindi", dukaan: true, khatabook: false, vyapar: false },
+  { feature: "24 Indian Languages", dukaan: true, khatabook: false, vyapar: false },
+  { feature: "100% Offline Mode", dukaan: true, khatabook: true, vyapar: true },
+  { feature: "AI Bill Scanner (OCR)", dukaan: true, khatabook: false, vyapar: false },
+  { feature: "Parchi / List Scanner", dukaan: true, khatabook: false, vyapar: false },
+  { feature: "GST Invoice Generation", dukaan: true, khatabook: false, vyapar: true },
+  { feature: "Udhaar / Khata Tracking", dukaan: true, khatabook: true, vyapar: true },
+  { feature: "WhatsApp Bill Sharing", dukaan: true, khatabook: true, vyapar: true },
+  { feature: "Completely Free Forever", dukaan: true, khatabook: false, vyapar: false },
+  { feature: "No Accounting Knowledge Needed", dukaan: true, khatabook: true, vyapar: false }
+];
+---
+
+<BaseLayout title={title} description={description} faqs={faqs}>
+  <header style="background: linear-gradient(135deg, #0f3d23 0%, #195534 60%, #1e6b41 100%); padding: 0;">
+    <div style="max-width: 900px; margin: 0 auto; padding: 24px 20px 16px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;">
+      <a href="/" style="display: flex; align-items: center; gap: 10px; text-decoration: none;">
+        <img src="/images/dukaan-logo.jpeg" alt="Dukaan AI logo" width="36" height="36" style="border-radius: 8px;" />
+        <span style="color: #fff; font-size: 1.1rem; font-weight: 700; letter-spacing: -0.3px;">Dukaan AI</span>
+      </a>
+      <a href={site.playStoreUrl} target="_blank" rel="noopener noreferrer"
+        style="background: #fbbf24; color: #0f3d23; padding: 10px 22px; border-radius: 50px; font-size: 0.9rem; font-weight: 700; text-decoration: none; transition: opacity 0.2s;"
+        id="header-cta-download">
+        ⬇ Download Free
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section style="background: linear-gradient(135deg, #0f3d23 0%, #195534 100%); padding: 64px 20px 72px; text-align: center; color: #fff;">
+      <div style="max-width: 760px; margin: 0 auto;">
+        <p style="display: inline-block; background: rgba(251,191,36,0.18); color: #fbbf24; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; padding: 6px 16px; border-radius: 50px; margin-bottom: 24px;">
+          India's #1 Free Kirana Billing App
+        </p>
+        <h1 style="font-size: clamp(2rem, 5vw, 3.2rem); font-weight: 800; line-height: 1.15; margin-bottom: 20px; letter-spacing: -0.03em;">
+          Free Kirana Billing App —<br />Voice Billing, Khata & GST Invoice
+        </h1>
+        <p style="font-size: 1.1rem; color: rgba(255,255,255,0.85); line-height: 1.7; max-width: 620px; margin: 0 auto 36px;">
+          Manage your kirana store without typing. Speak items in Hindi to create bills, track udhaar digitally, scan supplier bills with AI, and generate GST invoices — all <strong>100% free & offline</strong>.
+        </p>
+        <div style="display: flex; gap: 14px; flex-wrap: wrap; justify-content: center;">
+          <a href={site.playStoreUrl} target="_blank" rel="noopener noreferrer"
+            id="hero-cta-playstore"
+            style="background: #fbbf24; color: #0f3d23; padding: 16px 32px; border-radius: 50px; font-size: 1rem; font-weight: 800; text-decoration: none;">
+            ⬇ Download Free on Android
+          </a>
+          <a href="/#features"
+            style="background: rgba(255,255,255,0.12); color: #fff; padding: 16px 32px; border-radius: 50px; font-size: 1rem; font-weight: 600; text-decoration: none; border: 1px solid rgba(255,255,255,0.25);">
+            See All Features
+          </a>
+        </div>
+        <p style="margin-top: 20px; font-size: 0.82rem; color: rgba(255,255,255,0.55);">
+          4.5★ rated · 24 Indian languages · Works offline · No subscription
+        </p>
+      </div>
+    </section>
+
+    <!-- Features Grid -->
+    <section style="padding: 64px 20px; background: #f9fafb;">
+      <div style="max-width: 900px; margin: 0 auto;">
+        <p style="text-align:center; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #195534; margin-bottom: 10px;">Everything you need</p>
+        <h2 style="text-align: center; font-size: clamp(1.6rem, 3.5vw, 2.4rem); font-weight: 800; color: #0f3d23; margin-bottom: 12px; letter-spacing: -0.02em;">
+          Complete Kirana Store Billing Software — All Free
+        </h2>
+        <p style="text-align: center; color: #4b5563; max-width: 600px; margin: 0 auto 48px; line-height: 1.7;">
+          From voice billing to AI scanner, Dukaan AI replaces your paper register, Khatabook, and separate billing app — in one free app.
+        </p>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px;">
+          {features.map(f => (
+            <div style="background: #fff; border-radius: 16px; padding: 28px; border: 1px solid #e5e7eb; transition: box-shadow 0.2s;">
+              <div style="font-size: 2rem; margin-bottom: 14px;">{f.icon}</div>
+              <h3 style="font-size: 1rem; font-weight: 700; color: #0f3d23; margin-bottom: 8px;">{f.title}</h3>
+              <p style="font-size: 0.9rem; color: #4b5563; line-height: 1.6;">{f.desc}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Comparison Table -->
+    <section style="padding: 64px 20px; background: #fff;">
+      <div style="max-width: 860px; margin: 0 auto;">
+        <h2 style="text-align: center; font-size: clamp(1.5rem, 3.5vw, 2.2rem); font-weight: 800; color: #0f3d23; margin-bottom: 12px; letter-spacing: -0.02em;">
+          Dukaan AI vs Khatabook vs Vyapar — Comparison
+        </h2>
+        <p style="text-align: center; color: #4b5563; margin-bottom: 40px; line-height: 1.6;">
+          See why thousands of kirana store owners switched to Dukaan AI as their free Khatabook and Vyapar alternative.
+        </p>
+        <div style="overflow-x: auto; border-radius: 16px; border: 1px solid #e5e7eb;">
+          <table style="width: 100%; border-collapse: collapse; font-size: 0.92rem;">
+            <thead>
+              <tr style="background: #0f3d23; color: #fff;">
+                <th style="padding: 16px 20px; text-align: left; font-weight: 700;">Feature</th>
+                <th style="padding: 16px 12px; text-align: center; font-weight: 700; color: #fbbf24;">Dukaan AI 🏆</th>
+                <th style="padding: 16px 12px; text-align: center; font-weight: 600;">Khatabook</th>
+                <th style="padding: 16px 12px; text-align: center; font-weight: 600;">Vyapar</th>
+              </tr>
+            </thead>
+            <tbody>
+              {comparison.map((row, i) => (
+                <tr style={`background: ${i % 2 === 0 ? '#f9fafb' : '#fff'};`}>
+                  <td style="padding: 14px 20px; color: #374151; font-weight: 500;">{row.feature}</td>
+                  <td style="padding: 14px 12px; text-align: center; font-size: 1.2rem;">{row.dukaan ? "✅" : "❌"}</td>
+                  <td style="padding: 14px 12px; text-align: center; font-size: 1.2rem;">{row.khatabook ? "✅" : "❌"}</td>
+                  <td style="padding: 14px 12px; text-align: center; font-size: 1.2rem;">{row.vyapar ? "✅" : "❌"}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section style="padding: 64px 20px; background: #f9fafb;">
+      <div style="max-width: 720px; margin: 0 auto;">
+        <h2 style="text-align: center; font-size: clamp(1.5rem, 3vw, 2rem); font-weight: 800; color: #0f3d23; margin-bottom: 40px; letter-spacing: -0.02em;">
+          Frequently Asked Questions — Kirana Billing App
+        </h2>
+        <div style="display: flex; flex-direction: column; gap: 16px;">
+          {faqs.map(faq => (
+            <div style="background: #fff; border-radius: 14px; padding: 24px; border: 1px solid #e5e7eb;">
+              <h3 style="font-size: 1rem; font-weight: 700; color: #0f3d23; margin-bottom: 10px;">{faq.question}</h3>
+              <p style="font-size: 0.9rem; color: #4b5563; line-height: 1.7;">{faq.answer}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section style="background: linear-gradient(135deg, #0f3d23 0%, #195534 100%); padding: 64px 20px; text-align: center;">
+      <div style="max-width: 600px; margin: 0 auto; color: #fff;">
+        <h2 style="font-size: clamp(1.6rem, 4vw, 2.4rem); font-weight: 800; margin-bottom: 16px; letter-spacing: -0.02em;">
+          Download India's #1 Free Kirana Billing App
+        </h2>
+        <p style="color: rgba(255,255,255,0.8); font-size: 1rem; margin-bottom: 32px; line-height: 1.6;">
+          Join lakhs of Indian kirana store owners using Dukaan AI to manage billing, udhaar, and inventory — all free, all offline.
+        </p>
+        <a href={site.playStoreUrl} target="_blank" rel="noopener noreferrer"
+          id="footer-cta-playstore"
+          style="display: inline-block; background: #fbbf24; color: #0f3d23; padding: 18px 40px; border-radius: 50px; font-size: 1.05rem; font-weight: 800; text-decoration: none;">
+          ⬇ Free Download on Google Play
+        </a>
+        <p style="margin-top: 16px; font-size: 0.8rem; color: rgba(255,255,255,0.45);">No registration required · No credit card · 100% free</p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="background: #0a2918; padding: 24px 20px; text-align: center;">
+      <p style="color: rgba(255,255,255,0.4); font-size: 0.82rem;">
+        © {new Date().getFullYear()} Dukaan AI · <a href="/legal/privacy-policy" style="color: rgba(255,255,255,0.5); text-decoration: none;">Privacy Policy</a> · <a href="/legal/terms-of-service" style="color: rgba(255,255,255,0.5); text-decoration: none;">Terms</a> · <a href="/" style="color: rgba(255,255,255,0.5); text-decoration: none;">Home</a>
+      </p>
+    </footer>
+  </main>
+</BaseLayout>

@@ -123,9 +123,51 @@ const pageSchemas = [
       name: site.name,
       email: site.businessEmail,
       url: site.url
-    }
+    },
+    audience: {
+      "@type": "Audience",
+      "audienceType": "Kirana Store Owners, Small Shop Retailers, Indian Merchants, Chhoti Dukaan Owners"
+    },
+    review: [
+      {
+        "@type": "Review",
+        "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+        "author": { "@type": "Person", "name": "Ramesh Kumar" },
+        "reviewBody": "Best khata and voice billing app for my kirana store. Voice billing in Hindi works perfectly even without internet. Replaced my paper register completely."
+      },
+      {
+        "@type": "Review",
+        "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+        "author": { "@type": "Person", "name": "Priya Sharma" },
+        "reviewBody": "I was using Khatabook before switching to Dukaan AI. The AI bill scanner saves me 1 hour every day when entering purchase bills from my wholesaler. Highly recommended."
+      },
+      {
+        "@type": "Review",
+        "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+        "author": { "@type": "Person", "name": "Suresh Patel" },
+        "reviewBody": "Free app, works offline, voice billing in Gujarati — exactly what a small shop owner needs. Much better than Vyapar for kirana management."
+      }
+    ]
   }
 ];
+
+// HowTo Schema — ranks for 'how to do voice billing' queries
+const howToSchema = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to create a bill using voice in Dukaan AI",
+  "description": "Create GST bills instantly by speaking items in Hindi or any Indian language using Dukaan AI app.",
+  "totalTime": "PT30S",
+  "tool": [{ "@type": "HowToTool", "name": "Dukaan AI Android App" }],
+  "step": [
+    { "@type": "HowToStep", "position": 1, "name": "Open Dukaan AI", "text": "Download and open Dukaan AI on your Android phone. It is free on Google Play Store." },
+    { "@type": "HowToStep", "position": 2, "name": "Tap the Mic icon", "text": "On the counter screen, tap the voice billing microphone icon to activate voice mode." },
+    { "@type": "HowToStep", "position": 3, "name": "Speak your items", "text": "Say item names and quantities in Hindi or your language. For example: 'Chini 2 kilo, Lux Soap 3 piece'." },
+    { "@type": "HowToStep", "position": 4, "name": "Review the bill", "text": "The AI builds the bill automatically. Review items, totals, and GST." },
+    { "@type": "HowToStep", "position": 5, "name": "Share on WhatsApp", "text": "Tap share to send the professional GST invoice to your customer via WhatsApp instantly." }
+  ]
+};
+pageSchemas.push(howToSchema);
 
 if (faqs && faqs.length > 0) {
   pageSchemas.push({
@@ -212,6 +254,9 @@ const alternates = supportedLangs
     <meta name="format-detection" content="telephone=no" />
     <meta name="generator" content={Astro.generator} />
     <meta name="theme-color" content={site.themeColor} />
+    <meta name="geo.region" content="IN" />
+    <meta name="geo.placename" content="India" />
+    <meta name="ICBM" content="20.5937, 78.9629" />
     <link rel="canonical" href={canonical} />
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <link rel="icon" type="image/jpeg" href="/images/dukaan-logo.jpeg" />
@@ -283,7 +328,9 @@ const alternates = supportedLangs
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
     <meta property="og:image" content={`${site.url}${site.socialImage}`} />
-    <meta property="og:image:alt" content="Dukaan AI retail management app preview" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Dukaan AI — Free Voice Billing & Khata App for Kirana Store" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />

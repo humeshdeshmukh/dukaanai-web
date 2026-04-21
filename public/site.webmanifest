@@ -1,13 +1,30 @@
 {
-  "name": "Dukaan AI",
+  "name": "Dukaan AI — Free Voice Billing & Khata App",
   "short_name": "Dukaan AI",
-  "description": "Dukaan AI helps Indian businesses manage billing, smart khata, bill verification, and store operations.",
+  "description": "India's #1 free voice billing & khata app for kirana stores. Manage udhaar, GST invoices & inventory in 24 Indian languages. 100% offline.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
   "background_color": "#f6f4ec",
   "theme_color": "#195534",
   "lang": "en-IN",
+  "categories": ["business", "finance", "productivity", "utilities"],
+  "shortcuts": [
+    {
+      "name": "Voice Billing",
+      "short_name": "Voice Bill",
+      "description": "Create a bill by speaking items in Hindi or your language",
+      "url": "/features/voice-billing",
+      "icons": [{ "src": "/images/dukaan-logo.jpeg", "sizes": "96x96" }]
+    },
+    {
+      "name": "Smart Khata",
+      "short_name": "Khata",
+      "description": "Manage customer udhaar and payments in your digital khata",
+      "url": "/features/smart-khata",
+      "icons": [{ "src": "/images/dukaan-logo.jpeg", "sizes": "96x96" }]
+    }
+  ],
   "icons": [
     {
       "src": "/images/dukaan-logo.jpeg",
