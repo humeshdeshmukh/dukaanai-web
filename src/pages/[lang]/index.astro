@@ -13,7 +13,9 @@ import { ui, languageCodes } from "../../i18n/ui";
 import { useTranslations } from "../../i18n/utils";
 
 export function getStaticPaths() {
-  return languageCodes.map(lang => ({ params: { lang } }));
+  return languageCodes
+    .filter(l => l !== 'en')
+    .map(lang => ({ params: { lang } }));
 }
 
 const { lang } = Astro.params;

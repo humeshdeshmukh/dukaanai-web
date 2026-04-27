@@ -6,9 +6,11 @@ import { languageCodes } from "../../../i18n/ui";
 export function getStaticPaths() {
   const slugs = ["bookkeeping", "smart-khata", "voice-billing", "bill-verification", "orders-management", "scan-list"];
   
-  return languageCodes.flatMap(lang => 
-    slugs.map(slug => ({ params: { lang, slug } }))
-  );
+  return languageCodes
+    .filter(l => l !== 'en')
+    .flatMap(lang => 
+      slugs.map(slug => ({ params: { lang, slug } }))
+    );
 }
 
 const { lang, slug } = Astro.params;
