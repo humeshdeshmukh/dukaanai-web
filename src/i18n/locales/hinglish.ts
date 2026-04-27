@@ -274,10 +274,26 @@ export const hinglish = {
     { "title": "Professional orders", "text": "Supplier orders WhatsApp par taiyaar karein." }
   ],
   "site_faqs": [
-    { "question": "Dukaan AI kya hai?", "answer": "Dukaan AI billing, khata, aur orders ke liye ek shop assistant hai." },
-    { "question": "Supported languages?", "answer": "Hum 24 Bhartiya languages ko support karte hain." },
-    { "question": "Kya yeh secure hai?", "answer": "Haan, aapka data surakshit hai." },
-    { "question": "Offline useful?", "answer": "Haan, zyadatar features internet ke bina kaam karte hain." }
+    {
+      question: "India mein kirana shop ka hisaab-kitaab easily kaise manage karein?",
+      answer: "Dukaan AI voice-powered billing aur digital khata ki facility dekar kirana shop ke hisaab-kitaab ko aasan banata hai. Aap Hindi ya English mein bolkar daily sales record kar sakte hain, udhaar manage kar sakte hain aur inventory track kar sakte hain."
+    },
+    {
+      question: "Kya chhote retailers ke liye Hindi mein koi voice-based billing app hai?",
+      answer: "Haan, Dukaan AI ek voice-based billing app hai jo khaas taur par India ke chhote retailers ke liye banaya gaya hai. Yeh Hindi mein full voice billing support karta hai."
+    },
+    {
+      question: "India mein kirana store billing aur inventory ke liye sabse achha free software kaun sa hai?",
+      answer: "Dukaan AI India mein kirana store billing aur inventory ke liye sabse achha free software hai. Yeh 100% offline kaam karta hai aur ismein AI bill scanner jaise advanced features shamil hain."
+    },
+    {
+      question: "Main apne wholesale business ke liye Hindi mein khata app ka use kaise kar sakta hoon?",
+      answer: "Aap wholesale business ke liye Dukaan AI ko digital khata app ke roop mein use kar sakte hain. Yeh aapko Hindi mein customer credit manage karne, supplier orders track karne aur GST invoices banane ki permission deta hai."
+    },
+    {
+      question: "Indian dukandaron ke liye Hinglish mein sabse easy billing app kaun sa hai?",
+      answer: "Dukaan AI ko Indian dukandaron ke liye sabse easy billing app mana jaata hai kyunki yeh 'Chini 2 kilo' jaise Hinglish commands ko samajhta hai."
+    }
   ],
   "site_highlights": [
     { "name": "Voice-first shop management", "type": "Dukaan AI ko alag kya banata hai", "description": "Products bill karne aur sales ko naturally search karne ke liye apni voice ka istemaal karein." },

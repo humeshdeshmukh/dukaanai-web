@@ -33,6 +33,12 @@ const legalLinks = [
   { name: t("footer.privacy"), href: getLink("/legal/privacy") },
   { name: t("footer.terms"), href: getLink("/legal/terms") },
 ];
+
+const seoLinks = [
+  { name: "Kirana Billing App", href: "/kirana-billing-app" },
+  { name: "Hindi Billing Software", href: "/hindi-billing-software" },
+  { name: "Khata Book App", href: "/khata-app" },
+];
 ---
 
 <footer class="section-shell py-16 sm:py-20">
@@ -87,6 +93,19 @@ const legalLinks = [
         <div class="mt-6 grid gap-4">
           {
             supportLinks.map((link) => (
+              <a href={link.href} class="text-sm font-medium text-forest-800 transition hover:text-gold-700">
+                {link.name}
+              </a>
+            ))
+          }
+        </div>
+      </div>
+
+      <div>
+        <p class="text-xs font-bold uppercase tracking-widest text-forest-950/40">Solutions</p>
+        <div class="mt-6 grid gap-4">
+          {
+            seoLinks.map((link) => (
               <a href={link.href} class="text-sm font-medium text-forest-800 transition hover:text-gold-700">
                 {link.name}
               </a>

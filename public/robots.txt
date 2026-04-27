@@ -1,17 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /404
 
-User-agent: Googlebot
-Allow: /
-Crawl-delay: 1
-
-User-agent: Bingbot
-Allow: /
-Crawl-delay: 5
-
-User-agent: Slurp
-Allow: /
-Crawl-delay: 10
-
-Sitemap: https://dukaanai.co.in/sitemap.xml
+Sitemap: https://dukaanai.co.in/sitemap-index.xml

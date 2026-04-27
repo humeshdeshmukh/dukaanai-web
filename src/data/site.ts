@@ -12,6 +12,16 @@ export const site = {
   description:
     "Dukaan AI — India's #1 free voice billing app for kirana stores. Manage udhaar khata, GST invoices & inventory in 24 Indian languages. 100% offline. Better than Khatabook & Vyapar. Download free on Android.",
   keywords: [
+    "kirana shop billing software hindi",
+    "retail billing app india",
+    "dukan khata app download",
+    "voice billing for small business india",
+    "easy business accounting app hindi",
+    "best hindi billing software kirana",
+    "free retail inventory management india",
+    "shop bill book app download",
+    "wholesale billing solution india",
+    "AI billing for indian shops",
     "voice billing app kirana store",
     "AI billing app for small shop India",
     "offline khata app kirana",

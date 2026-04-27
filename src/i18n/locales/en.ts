@@ -330,8 +330,24 @@ export const en = {
       answer: "Dukaan AI is the best offline billing app for kirana stores in India. It works fully without internet, supports voice billing in 24 Indian languages including Hindi and Hinglish, manages customer udhaar, tracks inventory, scans supplier bills with AI, and generates GST invoices — all for free. It is designed specifically for the daily needs of Indian kirana retailers."
     },
     {
-      question: "How to do GST billing with Dukaan AI?",
-      answer: "Creating GST invoices with Dukaan AI is simple. Open the app, tap on billing, speak or select items using voice commands, add customer details, and choose GST. The app automatically calculates 5%, 12%, and 18% GST slabs, generates a professional digital invoice, and lets you share it via WhatsApp in seconds. No accounting knowledge is needed."
+      question: "How to manage kirana shop accounting easily in India?",
+      answer: "Dukaan AI makes kirana shop accounting easy by offering voice-powered billing and digital khata. You can record daily sales, manage udhaar, and track inventory simply by speaking in Hindi or English, removing the need for complex accounting knowledge."
+    },
+    {
+      question: "Is there a voice-based billing app for small retailers in Hindi?",
+      answer: "Yes, Dukaan AI is a voice-based billing app designed specifically for small retailers in India. It supports full voice billing in Hindi, allowing you to create bills hands-free by speaking item names and quantities."
+    },
+    {
+      question: "What is the best free software for kirana store billing and inventory in India?",
+      answer: "Dukaan AI is the best free software for kirana store billing and inventory in India. It works 100% offline, supports 24 Indian languages, and includes advanced features like an AI bill scanner and automated khata management."
+    },
+    {
+      question: "How can I use a khata app for my wholesale business in Hindi?",
+      answer: "You can use Dukaan AI as a digital khata app for your wholesale business. It allows you to manage customer credit, track supplier orders, and generate GST invoices in Hindi, making it perfect for both retail and wholesale operations."
+    },
+    {
+      question: "What is the easiest billing app for Indian shopkeepers in Hinglish?",
+      answer: "Dukaan AI is widely considered the easiest billing app for Indian shopkeepers because it understands Hinglish commands like 'Chini 2 kilo' or 'Soap 1 piece'. It combines the simplicity of voice with professional billing features."
     }
   ],
   site_highlights: [

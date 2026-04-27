@@ -1,0 +1,154 @@
+---
+import { site } from "../data/site";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import SiteHeader from "../components/SiteHeader.astro";
+import SiteFooter from "../components/SiteFooter.astro";
+import { Check, X } from "@lucide/astro";
+
+const title = "Hindi Billing Software for Shop | दुकान के लिए बिलिंग ऐप | Dukaan AI";
+const description = "दुकान के लिए सबसे अच्छा फ्री हिंदी बिलिंग ऐप। Dukaan AI use karein aur mobile se bill banayein. Voice billing, GST invoices aur digital khata tracking — 100% offline aur free.";
+
+const faqs = [
+  {
+    question: "दुकान के लिए सबसे अच्छा बिलिंग ऐप कौन सा है?",
+    answer: "Dukaan AI दुकान के लिए सबसे अच्छा और आसान बिलिंग ऐप है। इसमें आप बोलकर (Voice Billing) सामान का बिल बना सकते हैं, उधार का हिसाब रख सकते हैं और स्टॉक मैनेज कर सकते हैं।"
+  },
+  {
+    question: "Mobile se bill kaise banaye in Hindi?",
+    answer: "Mobile se bill banana Dukaan AI ke saath bahut easy hai. App open karein, voice button dabayein aur kahein 'Chini 2 kilo'. App automatically bill bana dega jise aap WhatsApp par share kar sakte hain."
+  },
+  {
+    question: "क्या यह बिलिंग सॉफ्टवेयर फ्री है?",
+    answer: "हाँ, Dukaan AI पूरी तरह से फ्री है। इसमें कोई मंथली फीस नहीं है। आप बिना इंटरनेट (Offline) के भी इसे इस्तेमाल कर सकते हैं।"
+  },
+  {
+    question: "Best Hindi billing software for small shop in India?",
+    answer: "Dukaan AI is the best choice for small shops in India. It supports 24 languages including Hindi and Hinglish, making it the perfect digital bahi khata and billing solution."
+  }
+];
+
+const features = [
+  {
+    icon: "🎤",
+    title: "वॉयस बिलिंग (Voice Billing)",
+    desc: "सामान का नाम बोलें और बिल तैयार। टाइप करने की कोई झंझट नहीं।"
+  },
+  {
+    icon: "📒",
+    title: "स्मार्ट खाता (Smart Khata)",
+    desc: "उधार (Baki) और जमा (Jama) का पूरा हिसाब मोबाइल पर। ग्राहकों को WhatsApp रिमाइंडर भेजें।"
+  },
+  {
+    icon: "🧾",
+    title: "GST इनवॉइस (GST Invoice)",
+    desc: "पक्का बिल (GST Bill) बनाएं और तुरंत शेयर करें। किसी कंप्यूटर की जरूरत नहीं।"
+  },
+  {
+    icon: "📶",
+    title: "बिना इंटरनेट (100% Offline)",
+    desc: "दुकान में नेटवर्क न हो तब भी काम करेगा। आपका डेटा आपके फोन में सुरक्षित है।"
+  }
+];
+---
+
+<BaseLayout title={title} description={description} faqs={faqs}>
+  <SiteHeader />
+  
+  <main>
+    <!-- Hero -->
+    <section class="section-shell pb-16 pt-8 sm:pb-24 sm:pt-14">
+      <div class="relative overflow-hidden rounded-[42px] border border-white/55 bg-gradient-to-br from-forest-950 via-forest-900 to-forest-800 px-5 py-12 text-center text-white shadow-2xl sm:px-7 lg:px-10">
+        <div class="relative max-w-3xl mx-auto">
+          <p class="inline-flex rounded-full border border-gold-300/30 bg-gold-300/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] text-gold-200 mb-6">
+            दुकान के लिए #1 फ्री बिलिंग ऐप
+          </p>
+          <h1 class="font-display text-[clamp(2rem,5vw,4rem)] font-bold leading-[1.1] mb-6">
+            Hindi Billing Software for Shop — <br /><span class="text-gold-200">मोबाइल से बिल बनाएं और खाता चलाएं</span>
+          </h1>
+          <p class="mx-auto max-w-2xl text-base leading-8 text-white/80 sm:text-lg mb-10">
+            Dukaan AI के साथ अपनी दुकान को डिजिटल बनाएं। बोलकर बिल बनाएं, उधार ट्रैक करें और स्टॉक मैनेज करें — सब कुछ <strong class="text-white">बिल्कुल फ्री और ऑफलाइन</strong>।
+          </p>
+          <div class="flex flex-col gap-4 sm:flex-row sm:justify-center">
+            <a
+              href={site.playStoreUrl}
+              target="_blank"
+              rel="noreferrer"
+              class="inline-flex items-center justify-center gap-2 rounded-full bg-gold-300 px-8 py-4 text-sm font-bold text-forest-950 shadow-glow transition hover:-translate-y-0.5 hover:bg-gold-200"
+            >
+              ⬇ अभी फ्री डाउनलोड करें
+            </a>
+          </div>
+          <p class="mt-6 text-sm text-white/50">
+            24 भारतीय भाषाओं का सपोर्ट · इंटरनेट की जरूरत नहीं · No Charges
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Content Section -->
+    <section class="section-shell py-14">
+      <div class="grid gap-12 lg:grid-cols-2 items-center">
+        <div>
+          <h2 class="font-display text-3xl font-bold text-forest-950 mb-6">Dukan ka Bill banane wala App</h2>
+          <p class="text-lg text-forest-800 mb-6 leading-relaxed">
+            अगर आप अपनी दुकान के लिए एक आसान <strong>Hindi billing software</strong> ढूंढ रहे हैं, तो Dukaan AI आपके लिए बेस्ट है। यह ऐप खासकर उन दुकानदारों के लिए बनाया गया है जो टाइप करने के बजाय बोलकर काम करना पसंद करते हैं।
+          </p>
+          <ul class="space-y-4">
+            <li class="flex items-start gap-3">
+              <Check class="text-forest-600 mt-1" size={20} />
+              <span><strong>Hinglish support:</strong> 'Chini 2 kilo' jaise boleinge to app samajh jayega.</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <Check class="text-forest-600 mt-1" size={20} />
+              <span><strong>WhatsApp Billing:</strong> बिल बनाकर सीधे ग्राहक के व्हाट्सएप पर भेजें।</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <Check class="text-forest-600 mt-1" size={20} />
+              <span><strong>Udhaar Khata:</strong> ग्राहकों का हिसाब-किताब डिजिटल करें।</span>
+            </li>
+          </ul>
+        </div>
+        <div class="grid grid-cols-2 gap-4">
+          {features.map(f => (
+            <div class="p-6 rounded-3xl border border-forest-900/10 bg-white shadow-sm hover:shadow-md transition">
+              <div class="text-3xl mb-3">{f.icon}</div>
+              <h3 class="font-bold text-forest-950 mb-1">{f.title}</h3>
+              <p class="text-xs text-forest-700">{f.desc}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section-shell py-14 bg-forest-50/50 rounded-[42px]">
+      <div class="max-w-3xl mx-auto">
+        <h2 class="font-display text-3xl font-bold text-center text-forest-950 mb-12">अक्सर पूछे जाने वाले सवाल (FAQ)</h2>
+        <div class="space-y-6">
+          {faqs.map(faq => (
+            <div class="bg-white p-8 rounded-3xl border border-forest-900/5 shadow-sm">
+              <h3 class="font-bold text-forest-950 text-lg mb-3">{faq.question}</h3>
+              <p class="text-forest-800 leading-relaxed">{faq.answer}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer CTA -->
+    <section class="section-shell py-20 text-center">
+      <h2 class="font-display text-3xl font-bold text-forest-950 mb-6">आज ही अपनी दुकान को स्मार्ट बनाएं</h2>
+      <p class="text-forest-700 mb-10">Dukaan AI डाउनलोड करें और बिना किसी झंझट के अपना बिजनेस चलाएं।</p>
+      <a
+        href={site.playStoreUrl}
+        target="_blank"
+        rel="noreferrer"
+        class="inline-flex items-center justify-center gap-2 rounded-full bg-forest-900 px-10 py-5 text-white font-bold hover:bg-forest-800 transition"
+      >
+        Download Dukaan AI Free
+      </a>
+    </section>
+  </main>
+
+  <SiteFooter />
+</BaseLayout>
