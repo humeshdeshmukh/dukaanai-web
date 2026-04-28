@@ -102,7 +102,13 @@ export function getFeatures(lang: string): FeatureItem[] {
   }));
 }
 
-export function getHighlights(lang: string) {
+export interface HighlightItem {
+  name: string;
+  type?: string;
+  description: string;
+}
+
+export function getHighlights(lang: string): HighlightItem[] {
   return siteTranslations[lang]?.highlights || siteTranslations.en.highlights;
 }
 
@@ -113,3 +119,4 @@ export function getBenefits(lang: string) {
 export function getFaqs(lang: string) {
   return siteTranslations[lang]?.faqs || siteTranslations.en.faqs;
 }
+

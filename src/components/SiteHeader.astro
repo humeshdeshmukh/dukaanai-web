@@ -123,7 +123,7 @@ const getLink = (path: string) => {
     const closeIcon = toggle.querySelector('[data-menu-icon="close"]');
     const links = menu.querySelectorAll("[data-mobile-link]");
 
-    const setOpen = (isOpen) => {
+    const setOpen = (isOpen: boolean) => {
       menu.classList.toggle("hidden", !isOpen);
       toggle.setAttribute("aria-expanded", String(isOpen));
       openIcon?.classList.toggle("hidden", isOpen);

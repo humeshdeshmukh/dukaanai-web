@@ -19,7 +19,8 @@ const getLink = (path: string) => {
 };
 
 // Import all images from assets
-const images = import.meta.glob<{ default: ImageMetadata }>("/src/assets/images/*.{jpeg,jpg,png,gif}");
+// Import all images from assets
+const images = import.meta.glob<{ default: ImageMetadata }>("/src/assets/images/*.{jpeg,jpg,png,gif}", { eager: true });
 
 ---
 
@@ -48,7 +49,7 @@ const images = import.meta.glob<{ default: ImageMetadata }>("/src/assets/images/
             <div class="aspect-[4/5] overflow-hidden bg-forest-950/5">
               {imageAsset ? (
                 <Image
-                  src={imageAsset()}
+                  src={imageAsset.default}
                   alt={`Dukaan AI ${item.title} dashboard preview - Smart business assistant for retail shops and kirana stores. ${item.description}`}
                   width={430}
                   height={538}

@@ -45,7 +45,7 @@ const breadcrumbSchema = Astro.url.pathname !== "/" ? {
   ]
 } : null;
 
-const pageSchemas = [
+const pageSchemas: any[] = [
   {
     "@context": "https://schema.org",
     "@type": "Organization",
@@ -196,15 +196,17 @@ import { ui, languageCodes } from "../i18n/ui";
 
 const supportedLangs = languageCodes;
 
+const pathname = Astro.url.pathname;
+const currentLang = getLangFromUrl(Astro.url);
+
+let pathWithoutLang = pathname;
+if (currentLang !== 'en') {
+  pathWithoutLang = pathname.substring(currentLang.length + 1) || "/";
+}
+
+const isLocalizedPage = pathWithoutLang === "/" || pathWithoutLang.startsWith("/features/");
+
 const getAlternateUrl = (l: string) => {
-  const pathname = Astro.url.pathname;
-  const currentLang = getLangFromUrl(Astro.url);
-  
-  let pathWithoutLang = pathname;
-  if (currentLang !== 'en') {
-    pathWithoutLang = pathname.substring(currentLang.length + 1) || "/";
-  }
-  
   const baseUrl = site.url.endsWith("/") ? site.url.slice(0, -1) : site.url;
   const cleanPath = pathWithoutLang.startsWith("/") ? pathWithoutLang : `/${pathWithoutLang}`;
   
@@ -212,12 +214,13 @@ const getAlternateUrl = (l: string) => {
   return `${baseUrl}/${l}${cleanPath}`;
 };
 
-const alternates = supportedLangs
+const alternates = isLocalizedPage ? supportedLangs
   .filter(l => l !== 'hinglish')
   .map(l => ({
     lang: l,
     url: getAlternateUrl(l)
-  }));
+  })) : [];
+
 ---
 
 <!doctype html>
